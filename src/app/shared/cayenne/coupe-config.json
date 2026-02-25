@@ -1,0 +1,281 @@
+{
+  
+    "model": "Cayenne Coupé",
+    "basePrice": 109314,
+  "exteriorColorGroups": [
+    {
+      
+      "title": "Contrasts",
+      "price": 0,
+      "colors": [
+        { "name": "White Contrast", "img": "assets/p911img/p911-carrera-configure/white color.jpg" },
+        { "name": "Black Contrast", "img": "assets/p911img/p911-carrera-configure/black color.jpg" }
+      ]
+    },
+    {
+      "title": "Shades",
+      "price": 1179,
+      "colors": [
+        { "name": "Dolomite Silver Metallic", "img": "assets/p911img/p911-carrera-configure/gt silver metallic.jpg" }
+      ]
+    },
+    {
+      "title": "Dreams",
+      "price": 1884,
+      "colors": [
+        { "name": "Carmine Red", "img": "assets/p911img/p911-carrera-configure/guards red.jpg" },
+        { "name": "Artic Grey", "img": "assets/p911img/p911-carrera-configure/artic-grey.jpg" }
+        
+        
+      ]
+    }
+  ],
+  "wheelGroups": [
+    {
+      "title": "20-inch",
+      "displayPrice": "+ EUR 0,00",
+      "wheels": [
+        { "name": "Standard 20\" Wheels", "img": "assets/cayenne-img/cayenne-configure/20-standard.jpg", "price": 0 }
+      ]
+    },
+    {
+      "title": "21-inch",
+      "displayPrice": "+ EUR varies",
+      "wheels": [
+        { "name": "21-inch Cayenne Exclusive Design Black wheels", "img": "assets/cayenne-img/coupe-configure/21-ex-black.jpg", "price": 2862 },
+        { "name": "21-inch RS Spyder Design wheels", "img": "assets/cayenne-img/cayenne-configure/21-rs.jpg", "price": 2498 }
+      ]
+    }
+  ],
+  "combinedImageMap": {
+    "White Contrast": {
+      "Standard 20\" Wheels": [
+        "assets/cayenne-img/white/coupe/Cayenne Coupé (1).jpg",
+        "assets/cayenne-img/white/coupe/Cayenne Coupé (2).jpg",
+        "assets/cayenne-img/white/coupe/Cayenne Coupé (3).jpg",
+        "assets/cayenne-img/white/coupe/Cayenne Coupé (4).jpg",
+        "assets/cayenne-img/white/coupe/Cayenne Coupé (5).jpg",
+        "assets/cayenne-img/white/coupe/Cayenne Coupé (6).jpg"
+       
+      ],
+      "21-inch Cayenne Exclusive Design Black wheels": [
+        "assets/cayenne-img/white/coupe/Cayenne Coupé 21-ex-black (1).jpg",
+        "assets/cayenne-img/white/coupe/Cayenne Coupé 21-ex-black (2).jpg",
+        "assets/cayenne-img/white/coupe/Cayenne Coupé 21-ex-black (3).jpg",
+        "assets/cayenne-img/white/coupe/Cayenne Coupé 21-ex-black (4).jpg",
+        "assets/cayenne-img/white/coupe/Cayenne Coupé (5).jpg",
+        "assets/cayenne-img/white/coupe/Cayenne Coupé (6).jpg"
+      ],
+      "21-inch RS Spyder Design wheels": [
+        "assets/cayenne-img/white/coupe/Cayenne Coupé 21-rs (1).jpg",
+        "assets/cayenne-img/white/coupe/Cayenne Coupé 21-rs (2).jpg",
+        "assets/cayenne-img/white/coupe/Cayenne Coupé 21-rs (3).jpg",
+        "assets/cayenne-img/white/coupe/Cayenne Coupé 21-rs (4).jpg",
+        "assets/cayenne-img/white/coupe/Cayenne Coupé (5).jpg",
+        "assets/cayenne-img/white/coupe/Cayenne Coupé (6).jpg"
+      ]
+ 
+      
+    },
+    "Black Contrast": {
+      "Standard 20\" Wheels": [
+        "assets/cayenne-img/black/coupe/Cayenne Coupé (1).jpg",
+        "assets/cayenne-img/black/coupe/Cayenne Coupé (2).jpg",
+        "assets/cayenne-img/black/coupe/Cayenne Coupé (3).jpg",
+        "assets/cayenne-img/black/coupe/Cayenne Coupé (4).jpg",
+        "assets/cayenne-img/black/coupe/Cayenne Coupé (5).jpg",
+        "assets/cayenne-img/black/coupe/Cayenne Coupé (6).jpg"
+       
+      ],
+      "21-inch Cayenne Exclusive Design Black wheels": [
+        "assets/cayenne-img/black/coupe/Cayenne Coupé 21-ex-black (1).jpg",
+        "assets/cayenne-img/black/coupe/Cayenne Coupé 21-ex-black (2).jpg",
+        "assets/cayenne-img/black/coupe/Cayenne Coupé 21-ex-black (3).jpg",
+        "assets/cayenne-img/black/coupe/Cayenne Coupé 21-ex-black (4).jpg",
+        "assets/cayenne-img/black/coupe/Cayenne Coupé (5).jpg",
+        "assets/cayenne-img/black/coupe/Cayenne Coupé (6).jpg"
+      ],
+      "21-inch RS Spyder Design wheels": [
+        "assets/cayenne-img/black/coupe/Cayenne Coupé 21-rs (1).jpg",
+        "assets/cayenne-img/black/coupe/Cayenne Coupé 21-rs (2).jpg",
+        "assets/cayenne-img/black/coupe/Cayenne Coupé 21-rs (3).jpg",
+        "assets/cayenne-img/black/coupe/Cayenne Coupé 21-rs (4).jpg",
+        "assets/cayenne-img/black/coupe/Cayenne Coupé (5).jpg",
+        "assets/cayenne-img/black/coupe/Cayenne Coupé (6).jpg"
+      ]
+  
+},
+  "Dolomite Silver Metallic": {
+      "Standard 20\" Wheels": [
+        "assets/cayenne-img/ds-metallic/coupe/Cayenne Coupé (1).jpg",
+        "assets/cayenne-img/ds-metallic/coupe/Cayenne Coupé (2).jpg",
+        "assets/cayenne-img/ds-metallic/coupe/Cayenne Coupé (3).jpg",
+        "assets/cayenne-img/ds-metallic/coupe/Cayenne Coupé (4).jpg",
+        "assets/cayenne-img/ds-metallic/coupe/Cayenne Coupé (5).jpg",
+        "assets/cayenne-img/ds-metallic/coupe/Cayenne Coupé (6).jpg"
+       
+      ],
+      "21-inch Cayenne Exclusive Design Black wheels": [
+        "assets/cayenne-img/ds-metallic/coupe/Cayenne Coupé 21-ex-black (1).jpg",
+        "assets/cayenne-img/ds-metallic/coupe/Cayenne Coupé 21-ex-black (2).jpg",
+        "assets/cayenne-img/ds-metallic/coupe/Cayenne Coupé 21-ex-black (3).jpg",
+        "assets/cayenne-img/ds-metallic/coupe/Cayenne Coupé 21-ex-black (4).jpg",
+        "assets/cayenne-img/ds-metallic/coupe/Cayenne Coupé (5).jpg",
+        "assets/cayenne-img/ds-metallic/coupe/Cayenne Coupé (6).jpg"
+      ],
+      "21-inch RS Spyder Design wheels": [
+        "assets/cayenne-img/ds-metallic/coupe/Cayenne Coupé 21-rs (1).jpg",
+        "assets/cayenne-img/ds-metallic/coupe/Cayenne Coupé 21-rs (2).jpg",
+        "assets/cayenne-img/ds-metallic/coupe/Cayenne Coupé 21-rs (3).jpg",
+        "assets/cayenne-img/ds-metallic/coupe/Cayenne Coupé 21-rs (4).jpg",
+        "assets/cayenne-img/ds-metallic/coupe/Cayenne Coupé (5).jpg",
+        "assets/cayenne-img/ds-metallic/coupe/Cayenne Coupé (6).jpg"
+      ]
+},
+  
+  "Carmine Red": {
+      "Standard 20\" Wheels": [
+        "assets/cayenne-img/c-red/coupe/Cayenne Coupé (1).jpg",
+        "assets/cayenne-img/c-red/coupe/Cayenne Coupé (2).jpg",
+        "assets/cayenne-img/c-red/coupe/Cayenne Coupé (3).jpg",
+        "assets/cayenne-img/c-red/coupe/Cayenne Coupé (4).jpg",
+        "assets/cayenne-img/c-red/coupe/Cayenne Coupé (5).jpg",
+        "assets/cayenne-img/c-red/coupe/Cayenne Coupé (6).jpg"
+       
+      ],
+      "21-inch Cayenne Exclusive Design Black wheels": [
+        "assets/cayenne-img/c-red/coupe/Cayenne Coupé 21-ex-black (1).jpg",
+        "assets/cayenne-img/c-red/coupe/Cayenne Coupé 21-ex-black (2).jpg",
+        "assets/cayenne-img/c-red/coupe/Cayenne Coupé 21-ex-black (3).jpg",
+        "assets/cayenne-img/c-red/coupe/Cayenne Coupé 21-ex-black (4).jpg",
+        "assets/cayenne-img/c-red/coupe/Cayenne Coupé (5).jpg",
+        "assets/cayenne-img/c-red/coupe/Cayenne Coupé (6).jpg"
+      ],
+      "21-inch RS Spyder Design wheels": [
+        "assets/cayenne-img/c-red/coupe/Cayenne Coupé 21-rs (1).jpg",
+        "assets/cayenne-img/c-red/coupe/Cayenne Coupé 21-rs (2).jpg",
+        "assets/cayenne-img/c-red/coupe/Cayenne Coupé 21-rs (3).jpg",
+        "assets/cayenne-img/c-red/coupe/Cayenne Coupé 21-rs (4).jpg",
+        "assets/cayenne-img/c-red/coupe/Cayenne Coupé (5).jpg",
+        "assets/cayenne-img/c-red/coupe/Cayenne Coupé (6).jpg"
+      ]
+},
+
+  "Artic Grey": {
+      "Standard 20\" Wheels": [
+        "assets/cayenne-img/a-grey/coupe/Cayenne Coupé (1).jpg",
+        "assets/cayenne-img/a-grey/coupe/Cayenne Coupé (2).jpg",
+        "assets/cayenne-img/a-grey/coupe/Cayenne Coupé (3).jpg",
+        "assets/cayenne-img/a-grey/coupe/Cayenne Coupé (4).jpg",
+        "assets/cayenne-img/a-grey/coupe/Cayenne Coupé (5).jpg",
+        "assets/cayenne-img/a-grey/coupe/Cayenne Coupé (6).jpg"
+       
+      ],
+      "21-inch Cayenne Exclusive Design Black wheels": [
+        "assets/cayenne-img/a-grey/coupe/Cayenne Coupé 21-ex-black (1).jpg",
+        "assets/cayenne-img/a-grey/coupe/Cayenne Coupé 21-ex-black (2).jpg",
+        "assets/cayenne-img/a-grey/coupe/Cayenne Coupé 21-ex-black (3).jpg",
+        "assets/cayenne-img/a-grey/coupe/Cayenne Coupé 21-ex-black (4).jpg",
+        "assets/cayenne-img/a-grey/coupe/Cayenne Coupé (5).jpg",
+        "assets/cayenne-img/a-grey/coupe/Cayenne Coupé (6).jpg"
+      ],
+      "21-inch RS Spyder Design wheels": [
+        "assets/cayenne-img/a-grey/coupe/Cayenne Coupé 21-rs (1).jpg",
+        "assets/cayenne-img/a-grey/coupe/Cayenne Coupé 21-rs (2).jpg",
+        "assets/cayenne-img/a-grey/coupe/Cayenne Coupé 21-rs (3).jpg",
+        "assets/cayenne-img/a-grey/coupe/Cayenne Coupé 21-rs (4).jpg",
+        "assets/cayenne-img/a-grey/coupe/Cayenne Coupé (5).jpg",
+        "assets/cayenne-img/a-grey/coupe/Cayenne Coupé (6).jpg"
+      ]
+
+}
+
+
+  
+
+
+
+
+    
+  },
+  "interiorGroups": [
+    {
+      "title": "Standard",
+      "displayPrice": "+ EUR varies",
+      "interiors": [
+        { "name": "Black", "img": "assets/p911img/interior/black.jpg", "displayPrice": "+ 0,00 EUR varies", "price": 0 }
+        
+        
+      ]
+    },
+    {
+      "title": "Leather",
+      "displayPrice": "+ EUR varies",
+      "interiors": [
+        { "name": "Black/Bordeaux Red", "img": "assets/p911img/interior/b-b-red.jpg", "price": 3974 },
+        { "name": "Black/Mojave Beige", "img": "assets/cayenne-img/cayenne-configure/interior/bm.jpg", "price": 3974 }
+      ]
+    }
+  ],
+  "seatGroups": [
+    {
+      "title": "Comfort Seats",
+      "displayPrice": "+ EUR varies",
+      "seats": [
+        { "name": "Comfort Seats", "img": "assets/panamera-img/panamera-configure/interior/c-seats.jpg", "displayPrice": "Standard equipment", "price": 0 },
+        { "name": "Comfort Seats with memory package", "img": "assets/panamera-img/panamera-configure/interior/c-seats.jpg", "price": 1269 }
+      ]
+    },
+    {
+      "title": "Sport Seats",
+      "displayPrice": "+ EUR varies",
+      "seats": [
+        { "name": "Adaptive Sports Seats", "img": "assets/panamera-img/panamera-configure/interior/s-seats.jpg", "price": 1659 }
+      ]
+    }
+  ],
+  "interiorSeatImageMap": {
+    "Black": {
+      "Comfort Seats": ["assets/cayenne-img/cayenne-configure/interior/c-seats/Cayenne (7).jpg",
+                                 "assets/cayenne-img/cayenne-configure/interior/c-seats/Cayenne (8).jpg"],
+      "Comfort Seats with memory package": ["assets/cayenne-img/cayenne-configure/interior/c-seats/Cayenne (7).jpg",
+                                 "assets/cayenne-img/cayenne-configure/interior/c-seats/Cayenne (8).jpg"],
+      "Adaptive Sports Seats": ["assets/cayenne-img/cayenne-configure/interior/c-seats/Cayenne (7).jpg",
+                                "assets/cayenne-img/cayenne-configure/interior/c-seats/black 8.jpg"]
+    },
+    "Black/Bordeaux Red": {
+      "Comfort Seats": ["assets/cayenne-img/cayenne-configure/interior/c-seats/bb red 7.jpg",
+                                 "assets/cayenne-img/cayenne-configure/interior/c-seats/bb red 8.jpg"],
+      "Comfort Seats with memory package": ["assets/cayenne-img/cayenne-configure/interior/c-seats/bb red 7.jpg",
+                                            "assets/cayenne-img/cayenne-configure/interior/c-seats/bb red 8.jpg"],
+      "Adaptive Sports Seats": ["assets/cayenne-img/cayenne-configure/interior/c-seats/bb red 7.jpg",
+                                "assets/cayenne-img/cayenne-configure/interior/s-seats/bb red 8.jpg"]
+    },
+   
+    "Black/Mojave Beige": {
+      "Comfort Seats": ["assets/cayenne-img/cayenne-configure/interior/c-seats/bm 7.jpg",
+                                 "assets/cayenne-img/cayenne-configure/interior/c-seats/bm 8.jpg"],
+      "Comfort Seats with memory package": ["assets/cayenne-img/cayenne-configure/interior/c-seats/bm 7.jpg",
+                                 "assets/cayenne-img/cayenne-configure/interior/c-seats/bm 8.jpg"],
+      "Adaptive Sports Seats": ["assets/cayenne-img/cayenne-configure/interior/c-seats/bm 7.jpg",
+                                "assets/cayenne-img/cayenne-configure/interior/s-seats/bm 8.jpg"]
+    }
+
+  },
+  "technologyGroups": [
+    {
+      "seats": [
+        { "name": "Adaptive Cruise Control", "price": 1434, "img": "assets/cayenne-img/cayenne-configure/ac-control.jpg", "imageUrl": "assets/cayenne-img/cayenne-configure/ac-control.jpg", "description": "Radar- and video-based technology that monitors and automatically regulates the distance from the vehicle in front as required – even down to a halt by means of the stop-and-go function (selectable cruising speed range: 20 km/h–210 km/h (12 – 130 mph))." },
+        { "name": "Remote ParkAssist", "price": 486, "img": "assets/cayenne-img/cayenne-configure/park-assist.jpg", "imageUrl": "assets/cayenne-img/cayenne-configure/park-assist.jpg", "description": "Remote-controlled parking allows to enter and leave the parking space via your smartphone. The system automatically detects parking spaces and measures their size. If the parking space is a suitable size, the driver can initiate the parking maneuver and then get out. The parking maneuver is carried out by continuously pressing the button of the smartphone app. At the end of the parking maneuver, the vehicle is automatically switched off and locked." },
+        { "name": "Night Vision Assist", "price": 2333, "img": "assets/cayenne-img/cayenne-configure/night-vision.jpg", "imageUrl": "assets/cayenne-img/cayenne-configure/night-vision.jpg", "description": "Infrared thermal image displayed in the instrument cluster. Provides the driver with information beyond the range of the headlights. Detected pedestrians, are highlighted in yellow.Pedestrians within critical range and deer and other large wildlife are highlighted in red and the driver receives a warning (visual and audible). " }
+      ]
+    }
+  ],
+  "accessories": [
+    { "name": "Roof transport system main support", "img": "assets/cayenne-img/cayenne-configure/roof-transport.jpg", "price": 521 },
+    { "name": "Porsche Performance roof box", "img": "assets/cayenne-img/cayenne-configure/roof-box.jpg", "price": 1100 },
+    { "name": "Ski-/Snowboard holder", "img": "assets/cayenne-img/cayenne-configure/skii-holder.jpg", "price": 385 },
+    { "name": "Rear bicycle carrier", "img": "assets/cayenne-img/cayenne-configure/bike-holder.jpg", "price": 1000 },
+    { "name": "Car Cover", "img": "assets/cayenne-img/cayenne-configure/car-cover.jpg", "price": 568 }
+  ]
+}

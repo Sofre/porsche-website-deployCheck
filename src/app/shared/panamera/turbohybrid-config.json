@@ -1,0 +1,305 @@
+{
+  
+    "model": "Panamera S E-Hybrid",
+    "basePrice": 243119,
+    "exteriorColorGroups": [
+    {
+      
+      "title": "Contrasts",
+      "price": 0,
+      "colors": [
+        { "name": "White Contrast", "img": "assets/p911img/p911-carrera-configure/white color.jpg" },
+        { "name": "Black Contrast", "img": "assets/p911img/p911-carrera-configure/black color.jpg" }
+      ]
+    },
+    {
+      "title": "Shades",
+      "price": 1263,
+      "colors": [
+        { "name": "Dolomite Silver Metallic", "img": "assets/p911img/p911-carrera-configure/gt silver metallic.jpg" }
+      ]
+    },
+    {
+      "title": "Dreams",
+      "price": 2018,
+      "colors": [
+        { "name": "Carmine Red", "img": "assets/p911img/p911-carrera-configure/guards red.jpg" },
+        { "name": "Lugano Blue", "img": "assets/p911img/p911-carrera-configure/lugano blue.jpg" },
+        { "name": "Emerald Green", "img": "assets/panamera-img/e-green/e-green.jpg" }
+        
+        
+      ]
+    }
+  ],
+  "wheelGroups": [
+    {
+      "title": "21-inch",
+      "displayPrice": "+ EUR 0,00",
+      "wheels": [
+        { "name": "21-inch Panamera Turbo S wheels", "img": "assets/panamera-img/turbo-hybrid-configure/21-ts.jpg", "price": 0 },
+        { "name": "21-inch 911 Turbo Design wheels", "img": "assets/panamera-img/panamera-configure/21 turbo.jpg", "price": 0 },
+        { "name": "21-inch Panamera SportDesign wheels", "img": "assets/panamera-img/turbo-hybrid-configure/21-sport-design.jpg", "price": 0 }
+      ]
+    }
+  
+  ],
+  "combinedImageMap": {
+    "White Contrast": {
+      "21-inch Panamera Turbo S wheels": [
+        "assets/panamera-img/white/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (1).jpg",
+        "assets/panamera-img/white/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (2).jpg",
+        "assets/panamera-img/white/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (3).jpg",
+        "assets/panamera-img/white/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (4).jpg",
+        "assets/panamera-img/white/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (5).jpg",
+        "assets/panamera-img/white/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (6).jpg"
+       
+      ],
+      "21-inch 911 Turbo Design wheels": [
+        "assets/panamera-img/white/turbo-s-e-hybrid/Panamera tseh 911 (1).jpg",
+        "assets/panamera-img/white/turbo-s-e-hybrid/Panamera tseh 911 (2).jpg",
+        "assets/panamera-img/white/turbo-s-e-hybrid/Panamera tseh 911 (3).jpg",
+        "assets/panamera-img/white/turbo-s-e-hybrid/Panamera tseh 911 (4).jpg",
+        "assets/panamera-img/white/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (5).jpg",
+        "assets/panamera-img/white/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (6).jpg"
+      ],
+      "21-inch Panamera SportDesign wheels": [
+        "assets/panamera-img/white/turbo-s-e-hybrid/Panamera tseh sd (1).jpg",
+        "assets/panamera-img/white/turbo-s-e-hybrid/Panamera tseh sd (2).jpg",
+        "assets/panamera-img/white/turbo-s-e-hybrid/Panamera tseh sd (3).jpg",
+        "assets/panamera-img/white/turbo-s-e-hybrid/Panamera tseh sd (4).jpg",
+        "assets/panamera-img/white/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (5).jpg",
+        "assets/panamera-img/white/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (6).jpg"
+      ]
+      
+    },
+    "Black Contrast": {
+      "21-inch Panamera Turbo S wheels": [
+        "assets/panamera-img/black/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (1).jpg",
+        "assets/panamera-img/black/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (2).jpg",
+        "assets/panamera-img/black/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (3).jpg",
+        "assets/panamera-img/black/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (4).jpg",
+        "assets/panamera-img/black/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (5).jpg",
+        "assets/panamera-img/black/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (6).jpg"
+       
+      ],
+      "21-inch 911 Turbo Design wheels": [
+        "assets/panamera-img/black/turbo-s-e-hybrid/Panamera tseh 911 (1).jpg",
+        "assets/panamera-img/black/turbo-s-e-hybrid/Panamera tseh 911 (2).jpg",
+        "assets/panamera-img/black/turbo-s-e-hybrid/Panamera tseh 911 (3).jpg",
+        "assets/panamera-img/black/turbo-s-e-hybrid/Panamera tseh 911 (4).jpg",
+        "assets/panamera-img/black/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (5).jpg",
+        "assets/panamera-img/black/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (6).jpg"
+      ],
+      "21-inch Panamera SportDesign wheels": [
+        "assets/panamera-img/black/turbo-s-e-hybrid/Panamera tseh sd (1).jpg",
+        "assets/panamera-img/black/turbo-s-e-hybrid/Panamera tseh sd (2).jpg",
+        "assets/panamera-img/black/turbo-s-e-hybrid/Panamera tseh sd (3).jpg",
+        "assets/panamera-img/whblackite/turbo-s-e-hybrid/Panamera tseh sd (4).jpg",
+        "assets/panamera-img/black/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (5).jpg",
+        "assets/panamera-img/black/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (6).jpg"
+      ]
+  
+},
+  "Dolomite Silver Metallic": {
+      "21-inch Panamera Turbo S wheels": [
+        "assets/panamera-img/ds-metallic/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (1).jpg",
+        "assets/panamera-img/ds-metallic/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (2).jpg",
+        "assets/panamera-img/ds-metallic/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (3).jpg",
+        "assets/panamera-img/ds-metallic/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (4).jpg",
+        "assets/panamera-img/ds-metallic/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (5).jpg",
+        "assets/panamera-img/ds-metallic/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (6).jpg"
+       
+      ],
+      "21-inch 911 Turbo Design wheels": [
+        "assets/panamera-img/ds-metallic/turbo-s-e-hybrid/Panamera tseh 911 (1).jpg",
+        "assets/panamera-img/ds-metallic/turbo-s-e-hybrid/Panamera tseh 911 (2).jpg",
+        "assets/panamera-img/ds-metallic/turbo-s-e-hybrid/Panamera tseh 911 (3).jpg",
+        "assets/panamera-img/ds-metallic/turbo-s-e-hybrid/Panamera tseh 911 (4).jpg",
+        "assets/panamera-img/ds-metallic/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (5).jpg",
+        "assets/panamera-img/ds-metallic/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (6).jpg"
+      ],
+      "21-inch Panamera SportDesign wheels": [
+        "assets/panamera-img/ds-metallic/turbo-s-e-hybrid/Panamera tseh sd (1).jpg",
+        "assets/panamera-img/ds-metallic/turbo-s-e-hybrid/Panamera tseh sd (2).jpg",
+        "assets/panamera-img/ds-metallic/turbo-s-e-hybrid/Panamera tseh sd (3).jpg",
+        "assets/panamera-img/ds-metallic/turbo-s-e-hybrid/Panamera tseh sd (4).jpg",
+        "assets/panamera-img/ds-metallic/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (5).jpg",
+        "assets/panamera-img/ds-metallic/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (6).jpg"
+      ]
+},
+  
+  "Carmine Red": {
+      "21-inch Panamera Turbo S wheels": [
+        "assets/panamera-img/c-red/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (1).jpg",
+        "assets/panamera-img/c-red/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (2).jpg",
+        "assets/panamera-img/c-red/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (3).jpg",
+        "assets/panamera-img/c-red/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (4).jpg",
+        "assets/panamera-img/c-red/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (5).jpg",
+        "assets/panamera-img/c-red/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (6).jpg"
+       
+      ],
+      "21-inch 911 Turbo Design wheels": [
+        "assets/panamera-img/c-red/turbo-s-e-hybrid/Panamera tseh 911 (1).jpg",
+        "assets/panamera-img/c-red/turbo-s-e-hybrid/Panamera tseh 911 (2).jpg",
+        "assets/panamera-img/c-red/turbo-s-e-hybrid/Panamera tseh 911 (3).jpg",
+        "assets/panamera-img/c-red/turbo-s-e-hybrid/Panamera tseh 911 (4).jpg",
+        "assets/panamera-img/c-red/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (5).jpg",
+        "assets/panamera-img/c-red/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (6).jpg"
+      ],
+      "21-inch Panamera SportDesign wheels": [
+        "assets/panamera-img/c-red/turbo-s-e-hybrid/Panamera tseh sd (1).jpg",
+        "assets/panamera-img/c-red/turbo-s-e-hybrid/Panamera tseh sd (2).jpg",
+        "assets/panamera-img/c-red/turbo-s-e-hybrid/Panamera tseh sd (3).jpg",
+        "assets/panamera-img/c-red/turbo-s-e-hybrid/Panamera tseh sd (4).jpg",
+        "assets/panamera-img/c-red/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (5).jpg",
+        "assets/panamera-img/c-red/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (6).jpg"
+      ]
+},
+
+  "Lugano Blue": {
+      "21-inch Panamera Turbo S wheels": [
+        "assets/panamera-img/l-blue/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (1).jpg",
+        "assets/panamera-img/l-blue/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (2).jpg",
+        "assets/panamera-img/l-blue/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (3).jpg",
+        "assets/panamera-img/l-blue/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (4).jpg",
+        "assets/panamera-img/l-blue/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (5).jpg",
+        "assets/panamera-img/l-blue/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (6).jpg"
+       
+      ],
+      "21-inch 911 Turbo Design wheels": [
+        "assets/panamera-img/l-blue/turbo-s-e-hybrid/Panamera tseh 911 (1).jpg",
+        "assets/panamera-img/l-blue/turbo-s-e-hybrid/Panamera tseh 911 (2).jpg",
+        "assets/panamera-img/l-blue/turbo-s-e-hybrid/Panamera tseh 911 (3).jpg",
+        "assets/panamera-img/l-blue/turbo-s-e-hybrid/Panamera tseh 911 (4).jpg",
+        "assets/panamera-img/l-blue/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (5).jpg",
+        "assets/panamera-img/l-blue/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (6).jpg"
+      ],
+      "21-inch Panamera SportDesign wheels": [
+        "assets/panamera-img/l-blue/turbo-s-e-hybrid/Panamera tseh sd (1).jpg",
+        "assets/panamera-img/l-blue/turbo-s-e-hybrid/Panamera tseh sd (2).jpg",
+        "assets/panamera-img/l-blue/turbo-s-e-hybrid/Panamera tseh sd (3).jpg",
+        "assets/panamera-img/l-blue/turbo-s-e-hybrid/Panamera tseh sd (4).jpg",
+        "assets/panamera-img/l-blue/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (5).jpg",
+        "assets/panamera-img/l-blue/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (6).jpg"
+      ]
+},
+ "Emerald Green": {
+      "21-inch Panamera Turbo S wheels": [
+        "assets/panamera-img/e-green/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (1).jpg",
+        "assets/panamera-img/e-green/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (2).jpg",
+        "assets/panamera-img/e-green/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (3).jpg",
+        "assets/panamera-img/e-green/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (4).jpg",
+        "assets/panamera-img/e-green/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (5).jpg",
+        "assets/panamera-img/e-green/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (6).jpg"
+       
+      ],
+      "21-inch 911 Turbo Design wheels": [
+        "assets/panamera-img/e-green/turbo-s-e-hybrid/Panamera tseh 911 (1).jpg",
+        "assets/panamera-img/e-green/turbo-s-e-hybrid/Panamera tseh 911 (2).jpg",
+        "assets/panamera-img/e-green/turbo-s-e-hybrid/Panamera tseh 911 (3).jpg",
+        "assets/panamera-img/e-green/turbo-s-e-hybrid/Panamera tseh 911 (4).jpg",
+        "assets/panamera-img/e-green/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (5).jpg",
+        "assets/panamera-img/e-green/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (6).jpg"
+      ],
+      "21-inch Panamera SportDesign wheels": [
+        "assets/panamera-img/e-green/turbo-s-e-hybrid/Panamera tseh sd (1).jpg",
+        "assets/panamera-img/e-green/turbo-s-e-hybrid/Panamera tseh sd (2).jpg",
+        "assets/panamera-img/e-green/turbo-s-e-hybrid/Panamera tseh sd (3).jpg",
+        "assets/panamera-img/e-green/turbo-s-e-hybrid/Panamera tseh sd (4).jpg",
+        "assets/panamera-img/e-green/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (5).jpg",
+        "assets/panamera-img/e-green/turbo-s-e-hybrid/Panamera Turbo S E-Hybrid (6).jpg"
+      ]
+}
+
+
+  
+
+
+
+
+    
+  },
+  "interiorGroups": [
+    {
+      "title": "Standard",
+      "displayPrice": "+ EUR varies",
+      "interiors": [
+        { "name": "Black", "img": "assets/p911img/interior/black.jpg", "displayPrice": "+ 0,00 EUR varies", "price": 0 }
+        
+        
+      ]
+    },
+    {
+      "title": "Leather",
+      "displayPrice": "+ EUR varies",
+      "interiors": [
+        { "name": "Black/Bordeaux Red", "img": "assets/p911img/interior/b-b-red.jpg", "price": 4368 },
+        { "name": "Black/Kalahari", "img": "assets/panamera-img/panamera-configure/interior/bk.jpg", "price": 4368 },
+        { "name": "Black/Night Green", "img": "assets/panamera-img/turbo-hybrid-configure/interior/bk.jpg", "price": 4368 }
+      ]
+    }
+  ],
+  "seatGroups": [
+    {
+      "title": "Sport Seats",  
+      "seats": [
+          { "name": "Sport Seats with memory package", "img": "assets/panamera-img/panamera-configure/interior/s-seats.jpg", "price": 0 }
+        
+      ]
+    },
+    {
+      "title": "Comfort Seats",
+      "seats": [
+      { "name": "Comfort Seats with memory package", "img": "assets/panamera-img/panamera-configure/interior/c-seats.jpg", "price": 0 }
+      ]
+    }
+  ],
+  "interiorSeatImageMap": {
+    "Black": {
+
+      "Sport Seats with memory package": ["assets/panamera-img/turbo-hybrid-configure/interior/s-seats/Panamera Turbo S E-Hybrid (7).jpg",
+                                          "assets/panamera-img/turbo-hybrid-configure/interior/s-seats/Panamera Turbo S E-Hybrid (8).jpg"],
+      "Comfort Seats with memory package": ["assets/panamera-img/turbo-hybrid-configure/interior/s-seats/Panamera Turbo S E-Hybrid (7).jpg",
+                                            "assets/panamera-img/panamera-configure/interior/c-seats/Panamera (8).jpg"]
+ 
+    },
+    "Black/Bordeaux Red": {
+   
+      "Sport Seats with memory package": ["assets/panamera-img/turbo-hybrid-configure/interior/s-seats/bb red 7.jpg",
+                                          "assets/panamera-img/turbo-hybrid-configure/interior/s-seats/bb red 8.jpg"],
+      "Comfort Seats with memory package": ["assets/panamera-img/turbo-hybrid-configure/interior/s-seats/bb red 7.jpg",
+                                            "assets/panamera-img/panamera-configure/interior/c-seats/bb red 8.jpg"]
+    },
+   
+    "Black/Kalahari": {
+
+      "Sport Seats with memory package": ["assets/panamera-img/turbo-hybrid-configure/interior/s-seats/bk 7.jpg",
+                                          "assets/panamera-img/turbo-hybrid-configure/interior/s-seats/bk 8.jpg"],
+      "Comfort Seats with memory package": ["assets/panamera-img/turbo-hybrid-configure/interior/s-seats/bk 7.jpg",
+                                            "assets/panamera-img/panamera-configure/interior/c-seats/bk 8.jpg"]
+    },
+
+    "Black/Night Green": {
+
+      "Sport Seats with memory package": ["assets/panamera-img/turbo-hybrid-configure/interior/s-seats/bg 7.jpg",
+                                          "assets/panamera-img/turbo-hybrid-configure/interior/s-seats/bg 8.jpg"],
+      "Comfort Seats with memory package": ["assets/panamera-img/turbo-hybrid-configure/interior/s-seats/bg 7.jpg",
+                                            "assets/panamera-img/turbo-hybrid-configure/interior/c-seats/bg 8.jpg"]
+    }
+
+  },
+  "technologyGroups": [
+    {
+      "seats": [
+        { "name": "Remote ParkAssist", "price": 486, "img": "assets/panamera-img/panamera-configure/park-assist.jpg", "imageUrl": "assets/panamera-img/panamera-configure/park-assist.jpg", "description": "Remote-controlled parking allows to enter and leave the parking space via your smartphone. The system automatically detects parking spaces and measures their size. If the parking space is a suitable size, the driver can initiate the parking maneuver and then get out. The parking maneuver is carried out by continuously pressing the button of the smartphone app. At the end of the parking maneuver, the vehicle is automatically switched off and locked." },
+        { "name": "Night Vision Assist", "price": 2613, "img": "assets/panamera-img/white/panamera/Panamera (5).jpg", "imageUrl": "assets/panamera-img/white/panamera/Panamera (5).jpg", "description": "Infrared thermal image displayed in the instrument cluster. Provides the driver with information beyond the range of the headlights. Detected pedestrians, are highlighted in yellow.Pedestrians within critical range and deer and other large wildlife are highlighted in red and the driver receives a warning (visual and audible). " }
+      ]
+    }
+  ],
+  "accessories": [
+    { "name": "Roof transport system main support", "img": "assets/panamera-img/panamera-configure/roof-transport.jpg", "price": 320 },
+    { "name": "Porsche Performance roof box", "img": "assets/panamera-img/panamera-configure/roof-box.jpg", "price": 980 },
+    { "name": "Ski-/Snowboard holder", "img": "assets/panamera-img/panamera-configure/skii-holder.jpg", "price": 290 },
+    { "name": "Car Cover", "img": "assets/panamera-img/panamera-configure/car-cover.jpg", "price": 190 }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  
+    "model": "718 Cayman",
+    "basePrice": 73531,
+    "exteriorColorGroups": [
+    {
+      
+      "title": "Contrasts",
+      "price": 0,
+      "colors": [
+        { "name": "White Contrast", "img": "assets/p911img/p911-carrera-configure/white color.jpg" },
+        { "name": "Black Contrast", "img": "assets/p911img/p911-carrera-configure/black color.jpg" }
+      ]
+    },
+    {
+      "title": "Shades",
+      "price": 1317.69,
+      "colors": [
+        { "name": "GT Silver Metallic", "img": "assets/p911img/p911-carrera-configure/gt silver metallic.jpg" } 
+      ]
+    },
+    {
+      "title": "Dreams",
+      "price": 2104.19,
+      "colors": [
+        { "name": "Guards Red", "img": "assets/p911img/p911-carrera-configure/guards red.jpg" },
+        { "name": "Shark Blue", "img": "assets/p718img/cayman-configure/shark-blue.jpg" } 
+      ]
+    }
+  ],
+  "wheelGroups": [
+ 
+    {
+      "title": "18-inch",
+      "wheels": [
+        { "name": "18-inch Cayman wheels", "img": "assets/p718img/cayman-configure/18-cayman.jpg", "price": 0 } 
+      ]
+    },
+     {
+      "title": "19-inch",
+      "wheels": [
+        { "name": "19-inch Boxster S wheels", "img": "assets/p718img/cayman-configure/19-boxster.jpg", "price": 1445 }
+      ]
+    },
+        {
+      "title": "20-inch",
+      "wheels": [
+        { "name": "20-inch Carrera Sport wheels", "img": "assets/p718img/cayman-configure/20-carrera-sport.jpg", "price": 2495 }
+      ]
+    }
+  ],
+  "combinedImageMap": {
+    "White Contrast": {
+      "18-inch Cayman wheels\" Wheels": [
+        "assets/p718img/white/cayman/718 Cayman (1).jpg",
+        "assets/p718img/white/cayman/718 Cayman (2).jpg",
+        "assets/p718img/white/cayman/718 Cayman (3).jpg",
+        "assets/p718img/white/cayman/718 Cayman (4).jpg",
+        "assets/p718img/white/cayman/718 Cayman (5).jpg",
+        "assets/p718img/white/cayman/718 Cayman (6).jpg"
+       
+      ],
+      "19-inch Boxster S wheels": [
+        "assets/p718img/white/cayman/718 Cayman 19b (1).jpg",
+        "assets/p718img/white/cayman/718 Cayman 19b (2).jpg",
+        "assets/p718img/white/cayman/718 Cayman 19b (3).jpg",
+        "assets/p718img/white/cayman/718 Cayman (4).jpg",
+        "assets/p718img/white/cayman/718 Cayman (5).jpg",
+        "assets/p718img/white/cayman/718 Cayman (6).jpg"
+      ],
+      "20-inch Carrera Sport wheels": [
+        "assets/p718img/white/cayman/718 Cayman 20cs (1).jpg",
+        "assets/p718img/white/cayman/718 Cayman 20cs (2).jpg",
+        "assets/p718img/white/cayman/718 Cayman 20cs (3).jpg",
+        "assets/p718img/white/cayman/718 Cayman (4).jpg",
+        "assets/p718img/white/cayman/718 Cayman (5).jpg",
+        "assets/p718img/white/cayman/718 Cayman (6).jpg"
+      ]
+      
+    },
+    "Black Contrast": {
+      "18-inch Cayman wheels\" Wheels": [
+        "assets/p718img/black/cayman/718 Cayman (1).jpg",
+        "assets/p718img/black/cayman/718 Cayman (2).jpg",
+        "assets/p718img/black/cayman/718 Cayman (3).jpg",
+        "assets/p718img/black/cayman/718 Cayman (4).jpg",
+        "assets/p718img/black/cayman/718 Cayman (5).jpg",
+        "assets/p718img/black/cayman/718 Cayman (6).jpg"
+      ],
+      "19-inch Boxster S wheels": [
+        "assets/p718img/black/cayman/718 Cayman 19b (1).jpg",
+        "assets/p718img/black/cayman/718 Cayman 19b (2).jpg",
+        "assets/p718img/black/cayman/718 Cayman 19b (3).jpg",
+        "assets/p718img/black/cayman/718 Cayman (4).jpg",
+        "assets/p718img/black/cayman/718 Cayman (5).jpg",
+        "assets/p718img/black/cayman/718 Cayman (6).jpg"
+      ],"20-inch Carrera Sport wheels": [
+        "assets/p718img/black/cayman/718 Cayman 20cs (1).jpg",
+        "assets/p718img/black/cayman/718 Cayman 20cs (2).jpg",
+        "assets/p718img/black/cayman/718 Cayman 20cs (3).jpg",
+        "assets/p718img/black/cayman/718 Cayman (4).jpg",
+        "assets/p718img/black/cayman/718 Cayman (5).jpg",
+        "assets/p718img/black/cayman/718 Cayman (6).jpg"
+      ]
+      
+  
+},
+  
+  
+  "GT Silver Metallic": {
+  "18-inch Cayman wheels\" Wheels": [
+        "assets/p718img/gt-silver-metalic/cayman/718 Cayman (1).jpg",
+        "assets/p718img/gt-silver-metalic/cayman/718 Cayman (2).jpg",
+        "assets/p718img/gt-silver-metalic/cayman/718 Cayman (3).jpg",
+        "assets/p718img/gt-silver-metalic/cayman/718 Cayman (4).jpg",
+        "assets/p718img/gt-silver-metalic/cayman/718 Cayman (5).jpg",
+        "assets/p718img/gt-silver-metalic/cayman/718 Cayman (6).jpg"
+  ],
+  "19-inch Boxster S wheels": [
+        "assets/p718img/gt-silver-metalic/cayman/718 Cayman 19b (1).jpg",
+        "assets/p718img/gt-silver-metalic/cayman/718 Cayman 19b (2).jpg",
+        "assets/p718img/gt-silver-metalic/cayman/718 Cayman 19b (3).jpg",
+        "assets/p718img/gt-silver-metalic/cayman/718 Cayman (4).jpg",
+        "assets/p718img/gt-silver-metalic/cayman/718 Cayman (5).jpg",
+        "assets/p718img/gt-silver-metalic/cayman/718 Cayman (6).jpg"
+  ],
+  "20-inch Carrera Sport wheels": [
+        "assets/p718img/gt-silver-metalic/cayman/718 Cayman 20cs (1).jpg",
+        "assets/p718img/gt-silver-metalic/cayman/718 Cayman 20cs (2).jpg",
+        "assets/p718img/gt-silver-metalic/cayman/718 Cayman 20cs (3).jpg",
+        "assets/p718img/gt-silver-metalic/cayman/718 Cayman (4).jpg",
+        "assets/p718img/gt-silver-metalic/cayman/718 Cayman (5).jpg",
+        "assets/p718img/gt-silver-metalic/cayman/718 Cayman (6).jpg"
+      ]
+},
+
+  "Guards Red": {
+  "18-inch Cayman wheels\" Wheels": [
+        "assets/p718img/guards-red/cayman/718 Cayman (1).jpg",
+        "assets/p718img/guards-red/cayman/718 Cayman (2).jpg",
+        "assets/p718img/guards-red/cayman/718 Cayman (3).jpg",
+        "assets/p718img/guards-red/cayman/718 Cayman (4).jpg",
+        "assets/p718img/guards-red/cayman/718 Cayman (5).jpg",
+        "assets/p718img/guards-red/cayman/718 Cayman (6).jpg"
+  ],
+  "19-inch Boxster S wheels": [
+        "assets/p718img/guards-red/cayman/718 Cayman 19b (1).jpg",
+        "assets/p718img/guards-red/cayman/718 Cayman 19b (2).jpg",
+        "assets/p718img/guards-red/cayman/718 Cayman 19b (3).jpg",
+        "assets/p718img/guards-red/cayman/718 Cayman (4).jpg",
+        "assets/p718img/guards-red/cayman/718 Cayman (5).jpg",
+        "assets/p718img/guards-red/cayman/718 Cayman (6).jpg"
+  ],
+  "20-inch Carrera Sport wheels": [
+        "assets/p718img/guards-red/cayman/718 Cayman 20cs (1).jpg",
+        "assets/p718img/guards-red/cayman/718 Cayman 20cs (2).jpg",
+        "assets/p718img/guards-red/cayman/718 Cayman 20cs (3).jpg",
+        "assets/p718img/guards-red/cayman/718 Cayman (4).jpg",
+        "assets/p718img/guards-red/cayman/718 Cayman (5).jpg",
+        "assets/p718img/guards-red/cayman/718 Cayman (6).jpg"
+      ]
+},
+ "Shark Blue": {
+  "18-inch Cayman wheels\" Wheels": [
+        "assets/p718img/shark-blue/cayman/718 Cayman (1).jpg",
+        "assets/p718img/shark-blue/cayman/718 Cayman (2).jpg",
+        "assets/p718img/shark-blue/cayman/718 Cayman (3).jpg",
+        "assets/p718img/shark-blue/cayman/718 Cayman (4).jpg",
+        "assets/p718img/shark-blue/cayman/718 Cayman (5).jpg",
+        "assets/p718img/shark-blue/cayman/718 Cayman (6).jpg"
+  ],
+  "19-inch Boxster S wheels": [
+        "assets/p718img/shark-blue/cayman/718 Cayman 19b (1).jpg",
+        "assets/p718img/shark-blue/cayman/718 Cayman 19b (2).jpg",
+        "assets/p718img/shark-blue/cayman/718 Cayman 19b (3).jpg",
+        "assets/p718img/shark-blue/cayman/718 Cayman (4).jpg",
+        "assets/p718img/shark-blue/cayman/718 Cayman (5).jpg",
+        "assets/p718img/shark-blue/cayman/718 Cayman (6).jpg"
+  ],
+  "20-inch Carrera Sport wheels": [
+        "assets/p718img/shark-blue/cayman/718 Cayman 20cs (1).jpg",
+        "assets/p718img/shark-blue/cayman/718 Cayman 20cs (2).jpg",
+        "assets/p718img/shark-blue/cayman/718 Cayman 20cs (3).jpg",
+        "assets/p718img/shark-blue/cayman/718 Cayman (4).jpg",
+        "assets/p718img/shark-blue/cayman/718 Cayman (5).jpg",
+        "assets/p718img/shark-blue/cayman/718 Cayman (6).jpg"
+      ]
+}
+
+
+  
+
+
+
+
+    
+  },
+  "interiorGroups": [
+    {
+      "title": "Standard",
+      "interiors": [
+        { "name": "Black", "img": "assets/p911img/interior/black.jpg", "price": 0 }
+      ]
+    },
+    {
+      "title": "Leather",
+      "interiors": [
+        { "name": "Black-Bordeaux Red", "img": "assets/p911img/interior/b-b-red.jpg", "displayPrice": "+ 0,00 EUR varies", "price": 1560 },
+        { "name": "Black-Crayon", "img": "assets/p911img/interior/b-c-beige.jpg", "price": 1560 }
+      ]
+    }
+    
+  ],
+  "seatGroups": [
+    {
+      "title": "Sport Seats",
+      "displayPrice": "+ EUR varies",
+      "seats": [
+        { "name": "Sport Seats", "img": "assets/p718img/cayman-configure/interior/sport.jpg", "displayPrice": "Standard equipment", "price": 0 },
+        { "name": "Sport Seats with memory package", "img": "assets/p718img/cayman-configure/interior/sport.jpg", "price": 2308.99 }
+      ]
+    },
+    {
+      "title": "Sport Seats Plus",
+      "displayPrice": "+ EUR varies",
+      "seats": [
+        { "name": "Sport Seats Plus", "img": "assets/p718img/cayman-configure/interior/sport-plus.jpg", "displayPrice": "Standard equipment", "price": 0 },
+        { "name": "Sport Seats Plus with memory package", "img": "assets/p718img/cayman-configure/interior/sport-plus.jpg", "price": 2308.99 }
+        
+      ]
+    }
+  ],
+  "interiorSeatImageMap": {
+    "Black": {
+      "Sport Seats": ["assets/p718img/cayman-configure/interior/sport-seats/black 7.jpg",
+                      "assets/p718img/cayman-configure/interior/sport-seats/black 8.jpg"],
+      "Sport Seats with memory package": ["assets/p718img/cayman-configure/interior/sport-seats/black 7.jpg",
+                                          "assets/p718img/cayman-configure/interior/sport-seats/black 8.jpg"],
+      "Sport Seats Plus": ["assets/p718img/cayman-configure/interior/sport-seats-plus/black 7.jpg",
+                           "assets/p718img/cayman-configure/interior/sport-seats-plus/black 8.jpg"],
+      "Sport Seats Plus with memory package": ["assets/p718img/cayman-configure/interior/sport-seats-plus/black 7.jpg",
+                                               "assets/p718img/cayman-configure/interior/sport-seats-plus/black 8.jpg"]
+    },
+    "Black-Bordeaux Red": {
+      "Sport Seats": ["assets/p718img/cayman-configure/interior/sport-seats/bb red 7.jpg",
+                      "assets/p718img/cayman-configure/interior/sport-seats/bb red 8.jpg"],
+      "Sport Seats with memory package": ["assets/p718img/cayman-configure/interior/sport-seats/bb red 7.jpg",
+                                          "assets/p718img/cayman-configure/interior/sport-seats/bb red 8.jpg"],
+      "Sport Seats Plus": ["assets/p718img/cayman-configure/interior/sport-seats/bb red 7.jpg",
+                           "assets/p718img/cayman-configure/interior/sport-seats/bb red 8.jpg"],
+      "Sport Seats Plus with memory package": ["assets/p718img/cayman-configure/interior/sport-seats/bb red 7.jpg",
+                                               "assets/p718img/cayman-configure/interior/sport-seats/bb red 8.jpg"]
+    },
+    "Black-Crayon": {
+      "Sport Seats": ["assets/p718img/cayman-configure/interior/sport-seats/bc 7.jpg",
+                      "assets/p718img/cayman-configure/interior/sport-seats/bc 8.jpg"],
+      "Sport Seats with memory package": ["assets/p718img/cayman-configure/interior/sport-seats/bc 7.jpg",
+                                          "assets/p718img/cayman-configure/interior/sport-seats/bc 8.jpg"],
+      "Sport Seats Plus": ["assets/p718img/cayman-configure/interior/sport-seats/bc 7.jpg",
+                           "assets/p718img/cayman-configure/interior/sport-seats/bc 8.jpg"],
+      "Sport Seats Plus with memory package": ["assets/p718img/cayman-configure/interior/sport-seats/bc 7.jpg",
+                                               "assets/p718img/cayman-configure/interior/sport-seats/bc 8.jpg"]
+    }
+  },
+  "technologyGroups": [
+    {
+      "seats": [
+        { "name": "Lane Change Assist", "price": 453, "img": "assets/p718img/lane-change-assist.jpg", "imageUrl": "assets/p718img/lane-change-assist.jpg", "description": "Lane Change Assist monitors the driver’s blind spots and areas to the rear of the vehicle on both sides. A visual signal in the corresponding door mirror panel informs the driver that a vehicle has been detected in the adjacent lane." },
+        { "name": "Porsche Torque Vectoring", "price": 1285, "img": "assets/p718img/ptv.jpg", "imageUrl": "assets/p718img/ptv.jpg", "description": "Variable drive torque distribution by intelligent braking of the rear wheels. Includes mechanically locking rear differential." }
+      ]
+    }
+  ],
+  "accessories": [
+    { "name": "Roof transport system main support", "img": "assets/p911img/p911-carrera-configure/roof-transport.jpg", "price": 320 },
+    { "name": "Porsche Performance roof box", "img": "assets/p911img/p911-carrera-configure/roof-box.jpg", "price": 980 },
+    { "name": "Ski-/Snowboard holder", "img": "assets/p911img/p911-carrera-configure/skii-holder.jpg", "price": 290 },
+    { "name": "Car Cover", "img": "assets/p911img/p911-carrera-configure/car-cover.jpg", "price": 190 }
+  ]
+}

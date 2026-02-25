@@ -1,0 +1,480 @@
+{
+  
+    "model": "911 Carrera",
+    "basePrice": 146949,
+    "exteriorColorGroups": [
+    {
+      
+      "title": "Contrasts",
+      "price": 0,
+      "colors": [
+        { "name": "White Contrast", "img": "assets/p911img/p911-carrera-configure/white color.jpg" },
+        { "name": "Black Contrast", "img": "assets/p911img/p911-carrera-configure/black color.jpg" }
+      ]
+    },
+    {
+      "title": "Shades",
+      "price": 1263,
+      "colors": [
+        { "name": "Vanadium Grey Metallic", "img": "assets/p911img/p911-carrera-configure/vanadium grey metallic.jpg" },
+        { "name": "GT Silver Metallic", "img": "assets/p911img/p911-carrera-configure/gt silver metallic.jpg" }
+        
+      ]
+    },
+    {
+      "title": "Dreams",
+      "price": 2018,
+      "colors": [
+        { "name": "Guards Red", "img": "assets/p911img/p911-carrera-configure/guards red.jpg" },
+        { "name": "Lugano Blue", "img": "assets/p911img/p911-carrera-configure/lugano blue.jpg" },
+        { "name": "Cartagena Yellow Metallic", "img": "assets/p911img/p911-carrera-configure/c yellow metallic.jpg" }
+        
+        
+      ]
+    }
+  ],
+  "wheelGroups": [
+    {
+      "title": "19/20-inch",
+      "displayPrice": "+ EUR 0,00",
+      "wheels": [
+        { "name": "Standard 19\" Wheels", "img": "assets/p911img/p911-carrera-configure/19 inch.jpg", "price": 0 }
+      ]
+    },
+    {
+      "title": "20/21-inch",
+      "displayPrice": "+ EUR varies",
+      "wheels": [
+        { "name": "20/21-inch Carrera classic wheels", "img": "assets/p911img/p911-carrera-configure/20 carrera classic.jpg", "price": 2261 },
+        { "name": "20/21-inch Carrera S wheels", "img": "assets/p911img/p911-carrera-configure/20 carrera s.jpg", "price": 1653 },
+        { "name": "20/21-inch Carrera Exclusive Design Wheels", "img": "assets/p911img/p911-carrera-configure/20 exclusive.jpg", "price": 3518 },
+        { "name": "20/21-inch Carrera Exclusive Design Wheels with Carbon Blades", "img": "assets/p911img/p911-carrera-configure/20 exclusive dark.jpg", "price": 7163 }
+        
+      ]
+    }
+  ],
+  "combinedImageMap": {
+    "White Contrast": {
+      "Standard 19\" Wheels": [
+        "assets/p911img/p911-carrera-configure/911 Carrera (1).jpg",
+        "assets/p911img/p911-carrera-configure/911 Carrera (2).jpg",
+        "assets/p911img/p911-carrera-configure/911 Carrera (3).jpg",
+        "assets/p911img/p911-carrera-configure/911 Carrera (4).jpg",
+        "assets/p911img/p911-carrera-configure/911 Carrera (5).jpg",
+        "assets/p911img/p911-carrera-configure/911 Carrera (6).jpg"
+       
+      ],
+      "20/21-inch Carrera classic wheels": [
+        "assets/p911img/white/wheels/911 Carrera 20 Classic (1).jpg",
+        "assets/p911img/white/wheels/911 Carrera 20 Classic (2).jpg",
+        "assets/p911img/white/wheels/911 Carrera 20 Classic (3).jpg",
+        "assets/p911img/white/wheels/911 Carrera 20 Classic (4).jpg",
+        "assets/p911img/p911-carrera-configure/911 Carrera (5).jpg",
+        "assets/p911img/p911-carrera-configure/911 Carrera (6).jpg"
+      ],
+      "20/21-inch Carrera S wheels": [
+        "assets/p911img/white/wheels/911 Carrera 20 s (1).jpg",
+        "assets/p911img/white/wheels/911 Carrera 20 s (2).jpg",
+        "assets/p911img/white/wheels/911 Carrera 20 s (3).jpg",
+        "assets/p911img/white/wheels/911 Carrera 20 s (4).jpg",
+        "assets/p911img/p911-carrera-configure/911 Carrera (5).jpg",
+        "assets/p911img/p911-carrera-configure/911 Carrera (6).jpg"
+      ],
+      "20/21-inch Carrera Exclusive Design Wheels": [
+        "assets/p911img/white/wheels/911 Carrera 20 ex (1).jpg",
+        "assets/p911img/white/wheels/911 Carrera 20 ex (2).jpg",
+        "assets/p911img/white/wheels/911 Carrera 20 ex (3).jpg",
+        "assets/p911img/white/wheels/911 Carrera 20 ex (4).jpg",
+        "assets/p911img/p911-carrera-configure/911 Carrera (5).jpg",
+        "assets/p911img/p911-carrera-configure/911 Carrera (6).jpg"
+      ],
+      "20/21-inch Carrera Exclusive Design Wheels with Carbon Blades": [
+        "assets/p911img/white/wheels/911 Carrera 20 ex dark (1).jpg",
+        "assets/p911img/white/wheels/911 Carrera 20 ex dark (2).jpg",
+        "assets/p911img/white/wheels/911 Carrera 20 ex dark (3).jpg",
+        "assets/p911img/white/wheels/911 Carrera 20 ex dark (4).jpg",
+        "assets/p911img/p911-carrera-configure/911 Carrera (5).jpg",
+        "assets/p911img/p911-carrera-configure/911 Carrera (6).jpg"
+      ]
+      
+    },
+    "Black Contrast": {
+      "Standard 19\" Wheels": [
+        "assets/p911img/black/911 Carrera Black (1).jpg",
+        "assets/p911img/black/911 Carrera Black (2).jpg",
+        "assets/p911img/black/911 Carrera Black (3).jpg",
+        "assets/p911img/black/911 Carrera Black (4).jpg",
+        "assets/p911img/black/911 Carrera Black (5).jpg",
+        "assets/p911img/black/911 Carrera Black (6).jpg"
+      ],
+      "20/21-inch Carrera classic wheels": [
+        "assets/p911img/black/wheels/911 Carrera Black 20 Classic (1).jpg",
+        "assets/p911img/black/wheels/911 Carrera Black 20 Classic (2).jpg",
+        "assets/p911img/black/wheels/911 Carrera Black 20 Classic (3).jpg",
+        "assets/p911img/black/wheels/911 Carrera Black 20 Classic (4).jpg",
+        "assets/p911img/black/911 Carrera Black (5).jpg",
+        "assets/p911img/black/911 Carrera Black (6).jpg"
+      ],
+      "20/21-inch Carrera S wheels": [
+        "assets/p911img/black/wheels/911 Carrera Black 20 s (1).jpg",
+        "assets/p911img/black/wheels/911 Carrera Black 20 s (2).jpg",
+        "assets/p911img/black/wheels/911 Carrera Black 20 s (3).jpg",
+        "assets/p911img/black/wheels/911 Carrera Black 20 s (4).jpg",
+        "assets/p911img/black/911 Carrera Black (5).jpg",
+        "assets/p911img/black/911 Carrera Black (5).jpg"
+      ],
+      "20/21-inch Carrera Exclusive Design Wheels": [
+    "assets/p911img/black/wheels/911 Carrera Black 20 ex (1).jpg",
+    "assets/p911img/black/wheels/911 Carrera Black 20 ex (2).jpg",
+    "assets/p911img/black/wheels/911 Carrera Black 20 ex (3).jpg",
+    "assets/p911img/black/wheels/911 Carrera Black 20 ex (4).jpg",
+    "assets/p911img/black/911 Carrera Black (5).jpg",
+    "assets/p911img/black/911 Carrera Black (6).jpg"
+  ],
+  "20/21-inch Carrera Exclusive Design Wheels with Carbon Blades": [
+    "assets/p911img/black/wheels/911 Carrera Black 20 ex dark (1).jpg",
+    "assets/p911img/black/wheels/911 Carrera Black 20 ex dark (2).jpg",
+    "assets/p911img/black/wheels/911 Carrera Black 20 ex dark (3).jpg",
+    "assets/p911img/black/wheels/911 Carrera Black 20 ex dark (4).jpg",
+    "assets/p911img/black/911 Carrera Black (5).jpg",
+    "assets/p911img/black/911 Carrera Black (6).jpg"
+  ]
+  
+},
+  "Vanadium Grey Metallic": {
+  "Standard 19\" Wheels": [
+    "assets/p911img/vanadium-grey-metallic/911 Carrera Vanadium Grey Metallic (1).jpg",
+    "assets/p911img/vanadium-grey-metallic/911 Carrera Vanadium Grey Metallic (2).jpg",
+    "assets/p911img/vanadium-grey-metallic/911 Carrera Vanadium Grey Metallic (3).jpg",
+    "assets/p911img/vanadium-grey-metallic/911 Carrera Vanadium Grey Metallic (4).jpg",
+    "assets/p911img/vanadium-grey-metallic/911 Carrera Vanadium Grey Metallic (5).jpg",
+    "assets/p911img/vanadium-grey-metallic/911 Carrera Vanadium Grey Metallic (6).jpg"
+  ],
+  "20/21-inch Carrera classic wheels": [
+    "assets/p911img/vanadium-grey-metallic/wheels/911 Carrera vg 20 Classic (1).jpg",
+    "assets/p911img/vanadium-grey-metallic/wheels/911 Carrera vg 20 Classic (2).jpg",
+    "assets/p911img/vanadium-grey-metallic/wheels/911 Carrera vg 20 Classic (3).jpg",
+    "assets/p911img/vanadium-grey-metallic/wheels/911 Carrera vg 20 Classic (4).jpg",
+    "assets/p911img/vanadium-grey-metallic/911 Carrera Vanadium Grey Metallic (5).jpg",
+    "assets/p911img/vanadium-grey-metallic/911 Carrera Vanadium Grey Metallic (6).jpg"
+  ],
+  "20/21-inch Carrera S wheels": [
+    "assets/p911img/vanadium-grey-metallic/wheels/911 Carrera vg 20 s (1).jpg",
+    "assets/p911img/vanadium-grey-metallic/wheels/911 Carrera vg 20 s (2).jpg",
+    "assets/p911img/vanadium-grey-metallic/wheels/911 Carrera vg 20 s (3).jpg",
+    "assets/p911img/vanadium-grey-metallic/wheels/911 Carrera vg 20 s (4).jpg",
+    "assets/p911img/vanadium-grey-metallic/911 Carrera Vanadium Grey Metallic (5).jpg",
+    "assets/p911img/vanadium-grey-metallic/911 Carrera Vanadium Grey Metallic (6).jpg"
+  ],
+  "20/21-inch Carrera Exclusive Design Wheels": [
+    "assets/p911img/vanadium-grey-metallic/wheels/911 Carrera vg 20 ex (1).jpg",
+    "assets/p911img/vanadium-grey-metallic/wheels/911 Carrera vg 20 ex (2).jpg",
+    "assets/p911img/vanadium-grey-metallic/wheels/911 Carrera vg 20 ex (3).jpg",
+    "assets/p911img/vanadium-grey-metallic/wheels/911 Carrera vg 20 ex (4).jpg",
+    "assets/p911img/vanadium-grey-metallic/911 Carrera Vanadium Grey Metallic (5).jpg",
+    "assets/p911img/vanadium-grey-metallic/911 Carrera Vanadium Grey Metallic (6).jpg"
+  ],
+  "20/21-inch Carrera Exclusive Design Wheels with Carbon Blades": [
+    "assets/p911img/vanadium-grey-metallic/wheels/911 Carrera vg 20 ex dark (1).jpg",
+    "assets/p911img/vanadium-grey-metallic/wheels/911 Carrera vg 20 ex dark (2).jpg",
+    "assets/p911img/vanadium-grey-metallic/wheels/911 Carrera vg 20 ex dark (3).jpg",
+    "assets/p911img/vanadium-grey-metallic/wheels/911 Carrera vg 20 ex dark (4).jpg",
+    "assets/p911img/vanadium-grey-metallic/911 Carrera Vanadium Grey Metallic (5).jpg",
+    "assets/p911img/vanadium-grey-metallic/911 Carrera Vanadium Grey Metallic (6).jpg"
+  ]
+},
+  
+  "GT Silver Metallic": {
+  "Standard 19\" Wheels": [
+    "assets/p911img/silver-metallic/911 Carrera Silver Metallic (1).jpg",
+    "assets/p911img/silver-metallic/911 Carrera Silver Metallic (2).jpg",
+    "assets/p911img/silver-metallic/911 Carrera Silver Metallic (3).jpg",
+    "assets/p911img/silver-metallic/911 Carrera Silver Metallic (4).jpg",
+    "assets/p911img/silver-metallic/911 Carrera Silver Metallic (5).jpg",
+    "assets/p911img/silver-metallic/911 Carrera Silver Metallic (6).jpg"
+  ],
+  "20/21-inch Carrera classic wheels": [
+    "assets/p911img/silver-metallic/wheels/911 Carrera sm 20 Classic (1).jpg",
+    "assets/p911img/silver-metallic/wheels/911 Carrera sm 20 Classic (2).jpg",
+    "assets/p911img/silver-metallic/wheels/911 Carrera sm 20 Classic (3).jpg",
+    "assets/p911img/silver-metallic/wheels/911 Carrera sm 20 Classic (4).jpg",
+    "assets/p911img/silver-metallic/911 Carrera Silver Metallic (5).jpg",
+    "assets/p911img/silver-metallic/911 Carrera Silver Metallic (6).jpg"
+  ],
+  "20/21-inch Carrera S wheels": [
+    "assets/p911img/silver-metallic/wheels/911 Carrera sm 20 s (1).jpg",
+    "assets/p911img/silver-metallic/wheels/911 Carrera sm 20 s (2).jpg",
+    "assets/p911img/silver-metallic/wheels/911 Carrera sm 20 s (3).jpg",
+    "assets/p911img/silver-metallic/wheels/911 Carrera sm 20 s (4).jpg",
+    "assets/p911img/silver-metallic/911 Carrera Silver Metallic (5).jpg",
+    "assets/p911img/silver-metallic/911 Carrera Silver Metallic (6).jpg"
+  ],
+  "20/21-inch Carrera Exclusive Design Wheels": [
+    "assets/p911img/silver-metallic/wheels/911 Carrera sm 20 ex (1).jpg",
+    "assets/p911img/silver-metallic/wheels/911 Carrera sm 20 ex (2).jpg",
+    "assets/p911img/silver-metallic/wheels/911 Carrera sm 20 ex (3).jpg",
+    "assets/p911img/silver-metallic/wheels/911 Carrera sm 20 ex (4).jpg",
+    "assets/p911img/silver-metallic/911 Carrera Silver Metallic (5).jpg",
+    "assets/p911img/silver-metallic/911 Carrera Silver Metallic (6).jpg"
+  ],
+  "20/21-inch Carrera Exclusive Design Wheels with Carbon Blades": [
+    "assets/p911img/silver-metallic/wheels/911 Carrera sm 20 ex dark (1).jpg",
+    "assets/p911img/silver-metallic/wheels/911 Carrera sm 20 ex dark (2).jpg",
+    "assets/p911img/silver-metallic/wheels/911 Carrera sm 20 ex dark (3).jpg",
+    "assets/p911img/silver-metallic/wheels/911 Carrera sm 20 ex dark (4).jpg",
+    "assets/p911img/silver-metallic/911 Carrera Silver Metallic (5).jpg",
+    "assets/p911img/silver-metallic/911 Carrera Silver Metallic (6).jpg"
+  ]
+},
+
+  "Guards Red": {
+  "Standard 19\" Wheels": [
+    "assets/p911img/guards-red/911 Carrera Guards Red (1).jpg",
+    "assets/p911img/guards-red/911 Carrera Guards Red (2).jpg",
+    "assets/p911img/guards-red/911 Carrera Guards Red (3).jpg",
+    "assets/p911img/guards-red/911 Carrera Guards Red (4).jpg",
+    "assets/p911img/guards-red/911 Carrera Guards Red (5).jpg",
+    "assets/p911img/guards-red/911 Carrera Guards Red (6).jpg"
+  ],
+  "20/21-inch Carrera classic wheels": [
+    "assets/p911img/guards-red/wheels/911 Carrera gr 20 Classic (1).jpg",
+    "assets/p911img/guards-red/wheels/911 Carrera gr 20 Classic (2).jpg",
+    "assets/p911img/guards-red/wheels/911 Carrera gr 20 Classic (3).jpg",
+    "assets/p911img/guards-red/wheels/911 Carrera gr 20 Classic (4).jpg",
+    "assets/p911img/guards-red/911 Carrera Guards Red (5).jpg",
+    "assets/p911img/guards-red/911 Carrera Guards Red (6).jpg"
+  ],
+  "20/21-inch Carrera S wheels": [
+    "assets/p911img/guards-red/wheels/911 Carrera gr 20 s (1).jpg",
+    "assets/p911img/guards-red/wheels/911 Carrera gr 20 s (2).jpg",
+    "assets/p911img/guards-red/wheels/911 Carrera gr 20 s (3).jpg",
+    "assets/p911img/guards-red/wheels/911 Carrera gr 20 s (4).jpg",
+    "assets/p911img/guards-red/911 Carrera Guards Red (5).jpg",
+    "assets/p911img/guards-red/911 Carrera Guards Red (6).jpg"
+  ],
+  "20/21-inch Carrera Exclusive Design Wheels": [
+    "assets/p911img/guards-red/wheels/911 Carrera gr 20 ex (1).jpg",
+    "assets/p911img/guards-red/wheels/911 Carrera gr 20 ex (2).jpg",
+    "assets/p911img/guards-red/wheels/911 Carrera gr 20 ex (3).jpg",
+    "assets/p911img/guards-red/wheels/911 Carrera gr 20 ex (4).jpg",
+    "assets/p911img/guards-red/911 Carrera Guards Red (5).jpg",
+    "assets/p911img/guards-red/911 Carrera Guards Red (6).jpg"
+  ],
+  "20/21-inch Carrera Exclusive Design Wheels with Carbon Blades": [
+    "assets/p911img/guards-red/wheels/911 Carrera gr 20 ex dark (1).jpg",
+    "assets/p911img/guards-red/wheels/911 Carrera gr 20 ex dark (2).jpg",
+    "assets/p911img/guards-red/wheels/911 Carrera gr 20 ex dark (3).jpg",
+    "assets/p911img/guards-red/wheels/911 Carrera gr 20 ex dark (4).jpg",
+    "assets/p911img/guards-red/911 Carrera Guards Red (5).jpg",
+    "assets/p911img/guards-red/911 Carrera Guards Red (6).jpg"
+  ]
+},
+ "Lugano Blue": {
+  "Standard 19\" Wheels": [
+    "assets/p911img/lugano-blue/911 Carrera Lugano Blue (1).jpg",
+    "assets/p911img/lugano-blue/911 Carrera Lugano Blue (2).jpg",
+    "assets/p911img/lugano-blue/911 Carrera Lugano Blue (3).jpg",
+    "assets/p911img/lugano-blue/911 Carrera Lugano Blue (4).jpg",
+    "assets/p911img/lugano-blue/911 Carrera Lugano Blue (5).jpg",
+    "assets/p911img/lugano-blue/911 Carrera Lugano Blue (6).jpg"
+  ],
+  "20/21-inch Carrera classic wheels": [
+    "assets/p911img/lugano-blue/wheels/911 Carrera lb 20 Classic (1).jpg",
+    "assets/p911img/lugano-blue/wheels/911 Carrera lb 20 Classic (2).jpg",
+    "assets/p911img/lugano-blue/wheels/911 Carrera lb 20 Classic (3).jpg",
+    "assets/p911img/lugano-blue/wheels/911 Carrera lb 20 Classic (4).jpg",
+    "assets/p911img/lugano-blue/911 Carrera Lugano Blue (5).jpg",
+    "assets/p911img/lugano-blue/911 Carrera Lugano Blue (6).jpg"
+  ],
+  "20/21-inch Carrera S wheels": [
+    "assets/p911img/lugano-blue/wheels/911 Carrera lb 20 s (1).jpg",
+    "assets/p911img/lugano-blue/wheels/911 Carrera lb 20 s (2).jpg",
+    "assets/p911img/lugano-blue/wheels/911 Carrera lb 20 s (3).jpg",
+    "assets/p911img/lugano-blue/wheels/911 Carrera lb 20 s (4).jpg",
+    "assets/p911img/lugano-blue/911 Carrera Lugano Blue (5).jpg",
+    "assets/p911img/lugano-blue/911 Carrera Lugano Blue (6).jpg"
+  ],
+  "20/21-inch Carrera Exclusive Design Wheels": [
+    "assets/p911img/lugano-blue/wheels/911 Carrera lb 20 ex (1).jpg",
+    "assets/p911img/lugano-blue/wheels/911 Carrera lb 20 ex (2).jpg",
+    "assets/p911img/lugano-blue/wheels/911 Carrera lb 20 ex (3).jpg",
+    "assets/p911img/lugano-blue/wheels/911 Carrera lb 20 ex (4).jpg",
+    "assets/p911img/lugano-blue/911 Carrera Lugano Blue (5).jpg",
+    "assets/p911img/lugano-blue/911 Carrera Lugano Blue (6).jpg"
+  ],
+  "20/21-inch Carrera Exclusive Design Wheels with Carbon Blades": [
+    "assets/p911img/lugano-blue/wheels/911 Carrera lb 20 ex dark (1).jpg",
+    "assets/p911img/lugano-blue/wheels/911 Carrera lb 20 ex dark (2).jpg",
+    "assets/p911img/lugano-blue/wheels/911 Carrera lb 20 ex dark (3).jpg",
+    "assets/p911img/lugano-blue/wheels/911 Carrera lb 20 ex dark (4).jpg",
+    "assets/p911img/lugano-blue/911 Carrera Lugano Blue (5).jpg",
+    "assets/p911img/lugano-blue/911 Carrera Lugano Blue (6).jpg"
+  ]
+},
+ "Cartagena Yellow Metallic": {
+  "Standard 19\" Wheels": [
+    "assets/p911img/c-yellow-metallic/911 Carrera C Yellow Metallic (1).jpg",
+    "assets/p911img/c-yellow-metallic/911 Carrera C Yellow Metallic (2).jpg",
+    "assets/p911img/c-yellow-metallic/911 Carrera C Yellow Metallic (3).jpg",
+    "assets/p911img/c-yellow-metallic/911 Carrera C Yellow Metallic (4).jpg",
+    "assets/p911img/c-yellow-metallic/911 Carrera C Yellow Metallic (5).jpg",
+    "assets/p911img/c-yellow-metallic/911 Carrera C Yellow Metallic (6).jpg"
+  ],
+  "20/21-inch Carrera classic wheels": [
+    "assets/p911img/c-yellow-metallic/wheels/911 Carrera cy 20 Classic (1).jpg",
+    "assets/p911img/c-yellow-metallic/wheels/911 Carrera cy 20 Classic (2).jpg",
+    "assets/p911img/c-yellow-metallic/wheels/911 Carrera cy 20 Classic (3).jpg",
+    "assets/p911img/c-yellow-metallic/wheels/911 Carrera cy 20 Classic (4).jpg",
+    "assets/p911img/c-yellow-metallic/911 Carrera C Yellow Metallic (5).jpg",
+    "assets/p911img/c-yellow-metallic/911 Carrera C Yellow Metallic (6).jpg"
+  ],
+  "20/21-inch Carrera S wheels": [
+    "assets/p911img/c-yellow-metallic/wheels/911 Carrera cy 20 s (1).jpg",
+    "assets/p911img/c-yellow-metallic/wheels/911 Carrera cy 20 s (2).jpg",
+    "assets/p911img/c-yellow-metallic/wheels/911 Carrera cy 20 s (3).jpg",
+    "assets/p911img/c-yellow-metallic/wheels/911 Carrera cy 20 s (4).jpg",
+    "assets/p911img/c-yellow-metallic/911 Carrera C Yellow Metallic (5).jpg",
+    "assets/p911img/c-yellow-metallic/911 Carrera C Yellow Metallic (6).jpg"
+  ],
+  "20/21-inch Carrera Exclusive Design Wheels": [
+    "assets/p911img/c-yellow-metallic/wheels/911 Carrera cy 20 ex (1).jpg",
+    "assets/p911img/c-yellow-metallic/wheels/911 Carrera cy 20 ex (2).jpg",
+    "assets/p911img/c-yellow-metallic/wheels/911 Carrera cy 20 ex (3).jpg",
+    "assets/p911img/c-yellow-metallic/wheels/911 Carrera cy 20 ex (4).jpg",
+    "assets/p911img/c-yellow-metallic/911 Carrera C Yellow Metallic (5).jpg",
+    "assets/p911img/c-yellow-metallic/911 Carrera C Yellow Metallic (6).jpg"
+  ],
+  "20/21-inch Carrera Exclusive Design Wheels with Carbon Blades": [
+    "assets/p911img/c-yellow-metallic/wheels/911 Carrera cy 20 ex dark (1).jpg",
+    "assets/p911img/c-yellow-metallic/wheels/911 Carrera cy 20 ex dark (2).jpg",
+    "assets/p911img/c-yellow-metallic/wheels/911 Carrera cy 20 ex dark (3).jpg",
+    "assets/p911img/c-yellow-metallic/wheels/911 Carrera cy 20 ex dark (4).jpg",
+    "assets/p911img/c-yellow-metallic/911 Carrera C Yellow Metallic (5).jpg",
+    "assets/p911img/c-yellow-metallic/911 Carrera C Yellow Metallic (6).jpg"
+  ]
+}
+
+
+  
+
+
+
+
+    
+  },
+  "interiorGroups": [
+    {
+      "title": "Leather",
+      "displayPrice": "+ EUR varies",
+      "interiors": [
+        { "name": "Black", "img": "assets/p911img/interior/black.jpg", "displayPrice": "+ 0,00 EUR varies", "price": 0 },
+        { "name": "Bordeaux Red", "img": "assets/p911img/interior/b-red.jpg", "price": 2783 },
+        { "name": "Black/Chalk Beige", "img": "assets/p911img/interior/b-c-beige.jpg", "price": 3390 },
+        { "name": "Black/Bordeaux Red", "img": "assets/p911img/interior/b-b-red.jpg", "price": 3390 }
+      ]
+    },
+    {
+      "title": "Club Leather Interior",
+      "displayPrice": "+ EUR varies",
+      "interiors": [
+        { "name": "Truffle Brown", "img": "assets/p911img/interior/t-brown.jpg", "price": 4518 },
+        { "name": "Basalt Black/Classic Cognac", "img": "assets/p911img/interior/b-c-cognac.jpg", "price": 6701 }
+      ]
+    }
+  ],
+  "seatGroups": [
+    {
+      "title": "Sport Seats",
+      "displayPrice": "+ EUR varies",
+      "seats": [
+        { "name": "Sport Seats", "img": "assets/p911img/interior/sport-seats.jpg", "displayPrice": "Standard equipment", "price": 0 },
+        { "name": "Sport Seats with memory package", "img": "assets/p911img/interior/sport-seats.jpg", "price": 2309 }
+      ]
+    },
+    {
+      "title": "Sport Seats Plus",
+      "displayPrice": "+ EUR varies",
+      "seats": [
+        { "name": "Sport Seats Plus", "img": "assets/p911img/interior/sport-seats-plus.jpg", "price": 468 },
+        { "name": "Sport Seats Plus with memory package", "img": "assets/p911img/interior/sport-seats-plus.jpg", "price": 3342 }
+      ]
+    }
+  ],
+  "interiorSeatImageMap": {
+    "Black": {
+      "Sport Seats": ["assets/p911img/p911-carrera-configure/911 Carrera (7).jpg",
+                      "assets/p911img/p911-carrera-configure/911 Carrera (8).jpg"],
+      "Sport Seats with memory package": ["assets/p911img/p911-carrera-configure/911 Carrera (7).jpg",
+                                          "assets/p911img/p911-carrera-configure/911 Carrera (8).jpg"],
+      "Sport Seats Plus": ["assets/p911img/p911-carrera-configure/911 Carrera (7).jpg",
+                           "assets/p911img/interior/sport-plus/black 8.jpg"],
+      "Sport Seats Plus with memory package": ["assets/p911img/p911-carrera-configure/911 Carrera (7).jpg",
+                                               "assets/p911img/interior/sport-plus/black 8.jpg"]
+    },
+    "Bordeaux Red": {
+      "Sport Seats": ["assets/p911img/interior/sport/b red 7.jpg",
+                      "assets/p911img/interior/sport/b red 8.jpg"],
+      "Sport Seats with memory package": ["assets/p911img/interior/sport/b red 7.jpg",
+                                          "assets/p911img/interior/sport/b red 8.jpg"],
+      "Sport Seats Plus": ["assets/p911img/interior/sport/b red 7.jpg",
+                           "assets/p911img/interior/sport-plus/b red 8.jpg"],
+      "Sport Seats Plus with memory package": ["assets/p911img/interior/sport/b red 7.jpg",
+                                               "assets/p911img/interior/sport-plus/b red 8.jpg"]
+          
+    },
+    "Black/Chalk Beige": {
+      "Sport Seats": ["assets/p911img/interior/sport/bc 7.jpg",
+                      "assets/p911img/interior/sport/bc 8.jpg"],
+      "Sport Seats with memory package": ["assets/p911img/interior/sport/bc 7.jpg",
+                                          "assets/p911img/interior/sport/bc 8.jpg"],
+      "Sport Seats Plus": ["assets/p911img/interior/sport/bc 7.jpg",
+                           "assets/p911img/interior/sport-plus/bc 8.jpg"],
+      "Sport Seats Plus with memory package": ["assets/p911img/interior/sport/bc 7.jpg",
+                                               "assets/p911img/interior/sport-plus/bc 8.jpg"]
+    },
+    "Black/Bordeaux Red": {
+      "Sport Seats": ["assets/p911img/interior/sport/bb red 7.jpg",
+                      "assets/p911img/interior/sport/bb red 8.jpg"],
+      "Sport Seats with memory package": ["assets/p911img/interior/sport/bb red 7.jpg",
+                                          "assets/p911img/interior/sport/bb red 8.jpg"],
+      "Sport Seats Plus": ["assets/p911img/interior/sport/bb red 7.jpg",
+                           "assets/p911img/interior/sport-plus/bb red 8.jpg"],
+      "Sport Seats Plus with memory package": ["assets/p911img/interior/sport/bb red 7.jpg",
+                                               "assets/p911img/interior/sport-plus/bb red 8.jpg"]
+    },
+    "Truffle Brown": {
+      "Sport Seats": ["assets/p911img/interior/sport/t brown 7.jpg",
+                      "assets/p911img/interior/sport/t brown 8.jpg"],
+      "Sport Seats with memory package": ["assets/p911img/interior/sport/t brown 7.jpg",
+                                          "assets/p911img/interior/sport/t brown 8.jpg"],
+      "Sport Seats Plus": ["assets/p911img/interior/sport/t brown 7.jpg",
+                           "assets/p911img/interior/sport-plus/t brown 8.jpg"],
+      "Sport Seats Plus with memory package": ["assets/p911img/interior/sport/t brown 7.jpg",
+                                               "assets/p911img/interior/sport-plus/t brown 8.jpg"]
+    },
+    "Basalt Black/Classic Cognac": {
+      "Sport Seats": ["assets/p911img/interior/sport/bcc 7.jpg",
+                      "assets/p911img/interior/sport/bcc 8.jpg"],
+      "Sport Seats with memory package": ["assets/p911img/interior/sport/bcc 7.jpg",
+                                          "assets/p911img/interior/sport/bcc 8.jpg"],
+      "Sport Seats Plus": ["assets/p911img/interior/sport/bcc 7.jpg",
+                           "assets/p911img/interior/sport-plus/bcc 8.jpg"],
+      "Sport Seats Plus with memory package": ["assets/p911img/interior/sport/bcc 7.jpg",
+                                               "assets/p911img/interior/sport-plus/bcc 8.jpg"]
+    }
+  },
+  "technologyGroups": [
+    {
+      "seats": [
+        { "name": "Lane Change Assist", "price": 875, "img": "assets/p911img/p911-carrera-configure/lane change assist.jpg", "videoUrl": "assets/p911img/p911-carrera-configure/lane-change-assist.mp4", "description": "Alerts the driver to vehicles rapidly approaching from behind or vehicles travelling at the same speed in potential blind spots..." },
+        { "name": "Adaptive cruise control", "price": 1737, "img": "assets/p911img/p911-carrera-configure/adaptive c control.jpg", "videoUrl": "assets/p911img/p911-carrera-configure/adaptive-c-control.mp4", "description": "Radar-based technology that automatically maintains a specified distance from the vehicle in front..." }
+      ]
+    }
+  ],
+  "accessories": [
+    { "name": "Roof transport system main support", "img": "assets/p911img/p911-carrera-configure/roof-transport.jpg", "price": 320 },
+    { "name": "Porsche Performance roof box", "img": "assets/p911img/p911-carrera-configure/roof-box.jpg", "price": 980 },
+    { "name": "Ski-/Snowboard holder", "img": "assets/p911img/p911-carrera-configure/skii-holder.jpg", "price": 290 },
+    { "name": "Car Cover", "img": "assets/p911img/p911-carrera-configure/car-cover.jpg", "price": 190 }
+  ]
+}

@@ -1,0 +1,561 @@
+{
+  
+    "model": "911 Carrera Cabriolet",
+    "basePrice": 156455,
+    "exteriorColorGroups": [
+    {
+      
+      "title": "Contrasts",
+      "price": 0,
+      "colors": [
+        { "name": "White Contrast", "img": "assets/p911img/p911-carrera-configure/white color.jpg" },
+        { "name": "Black Contrast", "img": "assets/p911img/p911-carrera-configure/black color.jpg" }
+      ]
+    },
+    {
+      "title": "Shades",
+      "price": 1263,
+      "colors": [
+        { "name": "Vanadium Grey Metallic", "img": "assets/p911img/p911-carrera-configure/vanadium grey metallic.jpg" }
+        
+        
+      ]
+    },
+    {
+      "title": "Dreams",
+      "price": 2018,
+      "colors": [
+        
+        { "name": "Cartagena Yellow Metallic", "img": "assets/p911img/p911-carrera-configure/c yellow metallic.jpg" },
+        { "name": "Rubystar", "img": "assets/p911img/p911-carrera-configure/rubystar.jpg" }
+        
+        
+      ]
+    }
+  ],
+  "wheelGroups": [
+    {
+      "title": "19/20-inch",
+      "displayPrice": "+ EUR 0,00",
+      "wheels": [
+        { "name": "Standard 19\" Wheels", "img": "assets/p911img/p911-carrera-configure/19 inch.jpg", "price": 0 }
+      ]
+    },
+    {
+      "title": "20/21-inch",
+      "displayPrice": "+ EUR varies",
+      "wheels": [
+        { "name": "20/21-inch Carrera classic wheels", "img": "assets/p911img/p911-carrera-configure/20 carrera classic.jpg", "price": 2261 },
+        
+        { "name": "20/21-inch Carrera Exclusive Design Wheels with Carbon Blades", "img": "assets/p911img/p911-carrera-configure/20 exclusive dark.jpg", "price": 7163 }
+        
+      ]
+    }
+  ],
+    "combinedImageMap": {
+    "White Contrast": {
+      "Standard 19\" Wheels": {
+        "roofClosed": [
+          "assets/p911img/white/cabrio/roof-closed/911 Carrera Cabriolet (1).jpg",
+          "assets/p911img/white/cabrio/roof-closed/911 Carrera Cabriolet (2).jpg",
+          "assets/p911img/white/cabrio/roof-closed/911 Carrera Cabriolet (3).jpg",
+          "assets/p911img/white/cabrio/roof-closed/911 Carrera Cabriolet (4).jpg",
+          "assets/p911img/white/cabrio/roof-closed/911 Carrera Cabriolet (5).jpg",
+          "assets/p911img/white/cabrio/roof-closed/911 Carrera Cabriolet (6).jpg"
+        ],
+        "roofOpen": [
+          "assets/p911img/white/cabrio/roof-open/911 Carrera Cabriolet (1).jpg",
+          "assets/p911img/white/cabrio/roof-open/911 Carrera Cabriolet (2).jpg",
+          "assets/p911img/white/cabrio/roof-open/911 Carrera Cabriolet (3).jpg",
+          "assets/p911img/white/cabrio/roof-open/911 Carrera Cabriolet (4).jpg",
+          "assets/p911img/white/cabrio/roof-open/911 Carrera Cabriolet (5).jpg",
+          "assets/p911img/white/cabrio/roof-open/911 Carrera Cabriolet (6).jpg"
+        ]
+      },
+      "20/21-inch Carrera classic wheels": {
+        "roofClosed": [
+          "assets/p911img/white/cabrio/roof-closed/911 Cabrio 20 Classic (1).jpg",
+          "assets/p911img/white/cabrio/roof-closed/911 Cabrio 20 Classic (2).jpg",
+          "assets/p911img/white/cabrio/roof-closed/911 Cabrio 20 Classic (3).jpg",
+          "assets/p911img/white/cabrio/roof-closed/911 Cabrio 20 Classic (4).jpg",
+          "assets/p911img/white/cabrio/roof-closed/911 Carrera Cabriolet (5).jpg",
+          "assets/p911img/white/cabrio/roof-closed/911 Carrera Cabriolet (6).jpg"
+        ],
+        "roofOpen": [
+          "assets/p911img/white/cabrio/roof-open/911 Cabrio 20 Classic (1).jpg",
+          "assets/p911img/white/cabrio/roof-open/911 Cabrio 20 Classic (2).jpg",
+          "assets/p911img/white/cabrio/roof-open/911 Cabrio 20 Classic (3).jpg",
+          "assets/p911img/white/cabrio/roof-open/911 Cabrio 20 Classic (4).jpg",
+          "assets/p911img/white/cabrio/roof-open/911 Carrera Cabriolet (5).jpg",
+          "assets/p911img/white/cabrio/roof-open/911 Carrera Cabriolet (6).jpg"
+        ]
+      },
+      "20/21-inch Carrera Exclusive Design Wheels with Carbon Blades": {
+        "roofClosed": [
+          "assets/p911img/white/cabrio/roof-closed/911 Cabrio 20 ex dark (1).jpg",
+          "assets/p911img/white/cabrio/roof-closed/911 Cabrio 20 ex dark (2).jpg",
+          "assets/p911img/white/cabrio/roof-closed/911 Cabrio 20 ex dark (3).jpg",
+          "assets/p911img/white/cabrio/roof-closed/911 Cabrio 20 ex dark (4).jpg",
+          "assets/p911img/white/cabrio/roof-closed/911 Carrera Cabriolet (5).jpg",
+          "assets/p911img/white/cabrio/roof-closed/911 Carrera Cabriolet (6).jpg"
+        ],
+        "roofOpen": [
+          "assets/p911img/white/cabrio/roof-open/911 Cabrio 20 ex dark (1).jpg",
+          "assets/p911img/white/cabrio/roof-open/911 Cabrio 20 ex dark (2).jpg",
+          "assets/p911img/white/cabrio/roof-open/911 Cabrio 20 ex dark (3).jpg",
+          "assets/p911img/white/cabrio/roof-open/911 Cabrio 20 ex dark (4).jpg",
+          "assets/p911img/white/cabrio/roof-open/911 Carrera Cabriolet (5).jpg",
+          "assets/p911img/white/cabrio/roof-open/911 Carrera Cabriolet (6).jpg"
+        ]
+      }
+    },
+
+    "Black Contrast": {
+      "Standard 19\" Wheels": {
+        "roofClosed": [
+          "assets/p911img/black/cabrio/roof-closed/911 Carrera Cabriolet (1).jpg",
+          "assets/p911img/black/cabrio/roof-closed/911 Carrera Cabriolet (2).jpg",
+          "assets/p911img/black/cabrio/roof-closed/911 Carrera Cabriolet (3).jpg",
+          "assets/p911img/black/cabrio/roof-closed/911 Carrera Cabriolet (4).jpg",
+          "assets/p911img/black/cabrio/roof-closed/911 Carrera Cabriolet (5).jpg",
+          "assets/p911img/black/cabrio/roof-closed/911 Carrera Cabriolet (6).jpg"
+        ],
+        "roofOpen": [
+          "assets/p911img/black/cabrio/roof-open/911 Carrera Cabriolet (1).jpg",
+          "assets/p911img/black/cabrio/roof-open/911 Carrera Cabriolet (2).jpg",
+          "assets/p911img/black/cabrio/roof-open/911 Carrera Cabriolet (3).jpg",
+          "assets/p911img/black/cabrio/roof-open/911 Carrera Cabriolet (4).jpg",
+          "assets/p911img/black/cabrio/roof-open/911 Carrera Cabriolet (5).jpg",
+          "assets/p911img/black/cabrio/roof-open/911 Carrera Cabriolet (6).jpg"
+        ]
+      },
+      "20/21-inch Carrera classic wheels": {
+        "roofClosed": [
+          "assets/p911img/black/cabrio/roof-closed/911 Cabrio Black 20 Classic (1).jpg",
+          "assets/p911img/black/cabrio/roof-closed/911 Cabrio Black 20 Classic (2).jpg",
+          "assets/p911img/black/cabrio/roof-closed/911 Cabrio Black 20 Classic (3).jpg",
+          "assets/p911img/black/cabrio/roof-closed/911 Cabrio Black 20 Classic (4).jpg",
+          "assets/p911img/black/cabrio/roof-closed/911 Carrera Cabriolet (5).jpg",
+          "assets/p911img/black/cabrio/roof-closed/911 Carrera Cabriolet (6).jpg"
+        ],
+        "roofOpen": [
+          "assets/p911img/black/cabrio/roof-open/911 Cabrio Black 20 Classic (1).jpg",
+          "assets/p911img/black/cabrio/roof-open/911 Cabrio Black 20 Classic (2).jpg",
+          "assets/p911img/black/cabrio/roof-open/911 Cabrio Black 20 Classic (3).jpg",
+          "assets/p911img/black/cabrio/roof-open/911 Cabrio Black 20 Classic (4).jpg",
+          "assets/p911img/black/cabrio/roof-open/911 Carrera Cabriolet (5).jpg",
+          "assets/p911img/black/cabrio/roof-open/911 Carrera Cabriolet (6).jpg"
+        ]
+      },
+      "20/21-inch Carrera Exclusive Design Wheels with Carbon Blades": {
+        "roofClosed": [
+          "assets/p911img/black/cabrio/roof-closed/911 Cabrio Black 20 ex dark (1).jpg",
+          "assets/p911img/black/cabrio/roof-closed/911 Cabrio Black 20 ex dark (2).jpg",
+          "assets/p911img/black/cabrio/roof-closed/911 Cabrio Black 20 ex dark (3).jpg",
+          "assets/p911img/black/cabrio/roof-closed/911 Cabrio Black 20 ex dark (4).jpg",
+          "assets/p911img/black/cabrio/roof-closed/911 Carrera Cabriolet (5).jpg",
+          "assets/p911img/black/cabrio/roof-closed/911 Carrera Cabriolet (6).jpg"
+        ],
+        "roofOpen": [
+          "assets/p911img/black/cabrio/roof-open/911 Cabrio Black 20 ex dark (1).jpg",
+          "assets/p911img/black/cabrio/roof-open/911 Cabrio Black 20 ex dark (2).jpg",
+          "assets/p911img/black/cabrio/roof-open/911 Cabrio Black 20 ex dark (3).jpg",
+          "assets/p911img/black/cabrio/roof-open/911 Cabrio Black 20 ex dark (4).jpg",
+          "assets/p911img/black/cabrio/roof-open/911 Carrera Cabriolet (5).jpg",
+          "assets/p911img/black/cabrio/roof-open/911 Carrera Cabriolet (6).jpg"
+        ]
+      }
+    },
+
+    "Vanadium Grey Metallic": {
+      "Standard 19\" Wheels": {
+        "roofClosed": [
+          "assets/p911img/vanadium-grey-metallic/cabrio/roof-closed/911 Cabrio vg (1).jpg",
+          "assets/p911img/vanadium-grey-metallic/cabrio/roof-closed/911 Cabrio vg (2).jpg",
+          "assets/p911img/vanadium-grey-metallic/cabrio/roof-closed/911 Cabrio vg (3).jpg",
+          "assets/p911img/vanadium-grey-metallic/cabrio/roof-closed/911 Cabrio vg (4).jpg",
+          "assets/p911img/vanadium-grey-metallic/cabrio/roof-closed/911 Cabrio vg (5).jpg",
+          "assets/p911img/vanadium-grey-metallic/cabrio/roof-closed/911 Cabrio vg (6).jpg"
+        ],
+        "roofOpen": [
+          "assets/p911img/vanadium-grey-metallic/cabrio/roof-open/911 Cabrio vg (1).jpg",
+          "assets/p911img/vanadium-grey-metallic/cabrio/roof-open/911 Cabrio vg (2).jpg",
+          "assets/p911img/vanadium-grey-metallic/cabrio/roof-open/911 Cabrio vg (3).jpg",
+          "assets/p911img/vanadium-grey-metallic/cabrio/roof-open/911 Cabrio vg (4).jpg",
+          "assets/p911img/vanadium-grey-metallic/cabrio/roof-open/911 Cabrio vg (5).jpg",
+          "assets/p911img/vanadium-grey-metallic/cabrio/roof-open/911 Cabrio vg (6).jpg"
+        ]
+      },
+      "20/21-inch Carrera classic wheels": {
+        "roofClosed": [
+          "assets/p911img/vanadium-grey-metallic/cabrio/roof-closed/911 Cabrio vg 20 Classic (1).jpg",
+          "assets/p911img/vanadium-grey-metallic/cabrio/roof-closed/911 Cabrio vg 20 Classic (2).jpg",
+          "assets/p911img/vanadium-grey-metallic/cabrio/roof-closed/911 Cabrio vg 20 Classic (3).jpg",
+          "assets/p911img/vanadium-grey-metallic/cabrio/roof-closed/911 Cabrio vg 20 Classic (4).jpg",
+          "assets/p911img/vanadium-grey-metallic/cabrio/roof-closed/911 Cabrio vg (5).jpg",
+          "assets/p911img/vanadium-grey-metallic/cabrio/roof-closed/911 Cabrio vg (6).jpg"
+        ],
+        "roofOpen": [
+          "assets/p911img/vanadium-grey-metallic/cabrio/roof-open/911 Cabrio vg 20 Classic (1).jpg",
+          "assets/p911img/vanadium-grey-metallic/cabrio/roof-open/911 Cabrio vg 20 Classic (2).jpg",
+          "assets/p911img/vanadium-grey-metallic/cabrio/roof-open/911 Cabrio vg 20 Classic (3).jpg",
+          "assets/p911img/vanadium-grey-metallic/cabrio/roof-open/911 Cabrio vg 20 Classic (4).jpg",
+          "assets/p911img/vanadium-grey-metallic/cabrio/roof-open/911 Cabrio vg (5).jpg",
+          "assets/p911img/vanadium-grey-metallic/cabrio/roof-open/911 Cabrio vg (6).jpg"
+        ]
+      },
+      "20/21-inch Carrera Exclusive Design Wheels with Carbon Blades": {
+        "roofClosed": [
+          "assets/p911img/vanadium-grey-metallic/cabrio/roof-closed/911 Cabrio vg 20 ex dark (1).jpg",
+          "assets/p911img/vanadium-grey-metallic/cabrio/roof-closed/911 Cabrio vg 20 ex dark (2).jpg",
+          "assets/p911img/vanadium-grey-metallic/cabrio/roof-closed/911 Cabrio vg 20 ex dark (3).jpg",
+          "assets/p911img/vanadium-grey-metallic/cabrio/roof-closed/911 Cabrio vg 20 ex dark (4).jpg",
+          "assets/p911img/vanadium-grey-metallic/cabrio/roof-closed/911 Cabrio vg (5).jpg",
+          "assets/p911img/vanadium-grey-metallic/cabrio/roof-closed/911 Cabrio vg (6).jpg"
+        ],
+        "roofOpen": [
+          "assets/p911img/vanadium-grey-metallic/cabrio/roof-open/911 Cabrio vg 20 ex dark (1).jpg",
+          "assets/p911img/vanadium-grey-metallic/cabrio/roof-open/911 Cabrio vg 20 ex dark (2).jpg",
+          "assets/p911img/vanadium-grey-metallic/cabrio/roof-open/911 Cabrio vg 20 ex dark (3).jpg",
+          "assets/p911img/vanadium-grey-metallic/cabrio/roof-open/911 Cabrio vg 20 ex dark (4).jpg",
+          "assets/p911img/vanadium-grey-metallic/cabrio/roof-open/911 Cabrio vg (5).jpg",
+          "assets/p911img/vanadium-grey-metallic/cabrio/roof-open/911 Cabrio vg (6).jpg"
+        ]
+      }
+    },
+
+    "Cartagena Yellow Metallic": {
+      "Standard 19\" Wheels": {
+        "roofClosed": [
+          "assets/p911img/c-yellow-metallic/cabrio/roof-closed/911 Cabrio cy (1).jpg",
+          "assets/p911img/c-yellow-metallic/cabrio/roof-closed/911 Cabrio cy (2).jpg",
+          "assets/p911img/c-yellow-metallic/cabrio/roof-closed/911 Cabrio cy (3).jpg",
+          "assets/p911img/c-yellow-metallic/cabrio/roof-closed/911 Cabrio cy (4).jpg",
+          "assets/p911img/c-yellow-metallic/cabrio/roof-closed/911 Cabrio cy (5).jpg",
+          "assets/p911img/c-yellow-metallic/cabrio/roof-closed/911 Cabrio cy (6).jpg"
+        ],
+        "roofOpen": [
+          "assets/p911img/c-yellow-metallic/cabrio/roof-open/911 Cabrio cy (1).jpg",
+          "assets/p911img/c-yellow-metallic/cabrio/roof-open/911 Cabrio cy (2).jpg",
+          "assets/p911img/c-yellow-metallic/cabrio/roof-open/911 Cabrio cy (3).jpg",
+          "assets/p911img/c-yellow-metallic/cabrio/roof-open/911 Cabrio cy (4).jpg",
+          "assets/p911img/c-yellow-metallic/cabrio/roof-open/911 Cabrio cy (5).jpg",
+          "assets/p911img/c-yellow-metallic/cabrio/roof-open/911 Cabrio cy (6).jpg"
+        ]
+      },
+      "20/21-inch Carrera classic wheels": {
+        "roofClosed": [
+          "assets/p911img/c-yellow-metallic/cabrio/roof-closed/911 Cabrio cy 20 Classic (1).jpg",
+          "assets/p911img/c-yellow-metallic/cabrio/roof-closed/911 Cabrio cy 20 Classic (2).jpg",
+          "assets/p911img/c-yellow-metallic/cabrio/roof-closed/911 Cabrio cy 20 Classic (3).jpg",
+          "assets/p911img/c-yellow-metallic/cabrio/roof-closed/911 Cabrio cy 20 Classic (4).jpg",
+          "assets/p911img/c-yellow-metallic/cabrio/roof-closed/911 Cabrio cy (5).jpg",
+          "assets/p911img/c-yellow-metallic/cabrio/roof-closed/911 Cabrio cy (6).jpg"
+        ],
+        "roofOpen": [
+          "assets/p911img/c-yellow-metallic/cabrio/roof-open/911 Cabrio cy 20 Classic (1).jpg",
+          "assets/p911img/c-yellow-metallic/cabrio/roof-open/911 Cabrio cy 20 Classic (2).jpg",
+          "assets/p911img/c-yellow-metallic/cabrio/roof-open/911 Cabrio cy 20 Classic (3).jpg",
+          "assets/p911img/c-yellow-metallic/cabrio/roof-open/911 Cabrio cy 20 Classic (4).jpg",
+          "assets/p911img/c-yellow-metallic/cabrio/roof-open/911 Cabrio cy (5).jpg",
+          "assets/p911img/c-yellow-metallic/cabrio/roof-open/911 Cabrio cy (6).jpg"
+        ]
+      },
+      "20/21-inch Carrera Exclusive Design Wheels with Carbon Blades": {
+        "roofClosed": [
+          "assets/p911img/c-yellow-metallic/cabrio/roof-closed/911 Cabrio cy 20 ex dark (1).jpg",
+          "assets/p911img/c-yellow-metallic/cabrio/roof-closed/911 Cabrio cy 20 ex dark (2).jpg",
+          "assets/p911img/c-yellow-metallic/cabrio/roof-closed/911 Cabrio cy 20 ex dark (3).jpg",
+          "assets/p911img/c-yellow-metallic/cabrio/roof-closed/911 Cabrio cy 20 ex dark (4).jpg",
+          "assets/p911img/c-yellow-metallic/cabrio/roof-closed/911 Cabrio cy (5).jpg",
+          "assets/p911img/c-yellow-metallic/cabrio/roof-closed/911 Cabrio cy (6).jpg"
+        ],
+        "roofOpen": [
+          "assets/p911img/c-yellow-metallic/cabrio/roof-open/911 Cabrio cy 20 ex dark (1).jpg",
+          "assets/p911img/c-yellow-metallic/cabrio/roof-open/911 Cabrio cy 20 ex dark (2).jpg",
+          "assets/p911img/c-yellow-metallic/cabrio/roof-open/911 Cabrio cy 20 ex dark (3).jpg",
+          "assets/p911img/c-yellow-metallic/cabrio/roof-open/911 Cabrio cy 20 ex dark (4).jpg",
+          "assets/p911img/c-yellow-metallic/cabrio/roof-open/911 Cabrio cy (5).jpg",
+          "assets/p911img/c-yellow-metallic/cabrio/roof-open/911 Cabrio cy (6).jpg"
+        ]
+      }
+    },
+
+     "Rubystar": {
+      "Standard 19\" Wheels": {
+        "roofClosed": [
+          "assets/p911img/rubystar/cabrio/roof-closed/911 Cabrio rs (1).jpg",
+          "assets/p911img/rubystar/cabrio/roof-closed/911 Cabrio rs (2).jpg",
+          "assets/p911img/rubystar/cabrio/roof-closed/911 Cabrio rs (3).jpg",
+          "assets/p911img/rubystar/cabrio/roof-closed/911 Cabrio rs (4).jpg",
+          "assets/p911img/rubystar/cabrio/roof-closed/911 Cabrio rs (5).jpg",
+          "assets/p911img/rubystar/cabrio/roof-closed/911 Cabrio rs (6).jpg"
+        ],
+        "roofOpen": [
+          "assets/p911img/rubystar/cabrio/roof-open/911 Cabrio rs (1).jpg",
+          "assets/p911img/rubystar/cabrio/roof-open/911 Cabrio rs (2).jpg",
+          "assets/p911img/rubystar/cabrio/roof-open/911 Cabrio rs (3).jpg",
+          "assets/p911img/rubystar/cabrio/roof-open/911 Cabrio rs (4).jpg",
+          "assets/p911img/rubystar/cabrio/roof-open/911 Cabrio rs (5).jpg",
+          "assets/p911img/rubystar/cabrio/roof-open/911 Cabrio rs (6).jpg"
+        ]
+      },
+      "20/21-inch Carrera classic wheels": {
+        "roofClosed": [
+          "assets/p911img/rubystar/cabrio/roof-closed/911 Cabrio rs 20 Classic (1).jpg",
+          "assets/p911img/rubystar/cabrio/roof-closed/911 Cabrio rs 20 Classic (2).jpg",
+          "assets/p911img/rubystar/cabrio/roof-closed/911 Cabrio rs 20 Classic (3).jpg",
+          "assets/p911img/rubystar/cabrio/roof-closed/911 Cabrio rs 20 Classic (4).jpg",
+          "assets/p911img/rubystar/cabrio/roof-closed/911 Cabrio rs (5).jpg",
+          "assets/p911img/rubystar/cabrio/roof-closed/911 Cabrio rs (6).jpg"
+        ],
+        "roofOpen": [
+          "assets/p911img/rubystar/cabrio/roof-open/911 Cabrio rs 20 Classic (1).jpg",
+          "assets/p911img/rubystar/cabrio/roof-open/911 Cabrio rs 20 Classic (2).jpg",
+          "assets/p911img/rubystar/cabrio/roof-open/911 Cabrio rs 20 Classic (3).jpg",
+          "assets/p911img/rubystar/cabrio/roof-open/911 Cabrio rs 20 Classic (4).jpg",
+          "assets/p911img/rubystar/cabrio/roof-open/911 Cabrio rs (5).jpg",
+          "assets/p911img/rubystar/cabrio/roof-open/911 Cabrio rs (6).jpg"
+        ]
+      },
+      "20/21-inch Carrera Exclusive Design Wheels with Carbon Blades": {
+        "roofClosed": [
+          "assets/p911img/rubystar/cabrio/roof-closed/911 Cabrio rs 20 ex dark (1).jpg",
+          "assets/p911img/rubystar/cabrio/roof-closed/911 Cabrio rs 20 ex dark (2).jpg",
+          "assets/p911img/rubystar/cabrio/roof-closed/911 Cabrio rs 20 ex dark (3).jpg",
+          "assets/p911img/rubystar/cabrio/roof-closed/911 Cabrio rs 20 ex dark (4).jpg",
+          "assets/p911img/rubystar/cabrio/roof-closed/911 Cabrio rs (5).jpg",
+          "assets/p911img/rubystar/cabrio/roof-closed/911 Cabrio rs (6).jpg"
+        ],
+        "roofOpen": [
+          "assets/p911img/rubystar/cabrio/roof-open/911 Cabrio rs 20 ex dark (1).jpg",
+          "assets/p911img/rubystar/cabrio/roof-open/911 Cabrio rs 20 ex dark (2).jpg",
+          "assets/p911img/rubystar/cabrio/roof-open/911 Cabrio rs 20 ex dark (3).jpg",
+          "assets/p911img/rubystar/cabrio/roof-open/911 Cabrio rs 20 ex dark (4).jpg",
+          "assets/p911img/rubystar/cabrio/roof-open/911 Cabrio rs (5).jpg",
+          "assets/p911img/rubystar/cabrio/roof-open/911 Cabrio rs (6).jpg"
+        ]
+      }
+    }
+  },
+  "interiorGroups": [
+    {
+      "title": "Leather",
+      "displayPrice": "+ EUR varies",
+      "interiors": [
+        { "name": "Black", "img": "assets/p911img/interior/black.jpg", "displayPrice": "+ 0,00 EUR varies", "price": 0 },
+        
+        { "name": "Black/Chalk Beige", "img": "assets/p911img/interior/b-c-beige.jpg", "price": 3390 },
+        { "name": "Black/Bordeaux Red", "img": "assets/p911img/interior/b-b-red.jpg", "price": 3390 }
+      ]
+    },
+    {
+      "title": "Club Leather Interior",
+      "displayPrice": "+ EUR varies",
+      "interiors": [
+        { "name": "Basalt Black/Classic Cognac", "img": "assets/p911img/interior/b-c-cognac.jpg", "price": 6701 }
+      ]
+    }
+  ],
+  "seatGroups": [
+    {
+      "title": "Sport Seats",
+      "displayPrice": "+ EUR varies",
+      "seats": [
+        { "name": "Sport Seats", "img": "assets/p911img/interior/sport-seats.jpg", "displayPrice": "Standard equipment", "price": 0 },
+        { "name": "Sport Seats with memory package", "img": "assets/p911img/interior/sport-seats.jpg", "price": 2309 }
+      ]
+    },
+    {
+      "title": "Sport Seats Plus",
+      "displayPrice": "+ EUR varies",
+      "seats": [
+        { "name": "Sport Seats Plus", "img": "assets/p911img/interior/sport-seats-plus.jpg", "price": 468 },
+        { "name": "Sport Seats Plus with memory package", "img": "assets/p911img/interior/sport-seats-plus.jpg", "price": 3342 }
+      ]
+    }
+  ],
+    "interiorSeatImageMap": {
+    "Black": {
+      "Sport Seats": {
+        "roofClosed": [
+          "assets/p911img/p911-carrera-configure/911 Carrera (7).jpg",
+          "assets/p911img/cabrio-configure/interior/roof-closed/911 Carrera Cabriolet (8).jpg"
+        ],
+        "roofOpen": [
+          "assets/p911img/cabrio-configure/interior/roof-open/911 Carrera Cabriolet (7).jpg",
+          "assets/p911img/cabrio-configure/interior/roof-open/911 Carrera Cabriolet (8).jpg"
+        ]
+      },
+      "Sport Seats with memory package": {
+        "roofClosed": [
+          "assets/p911img/p911-carrera-configure/911 Carrera (7).jpg",
+          "assets/p911img/cabrio-configure/interior/roof-closed/911 Carrera Cabriolet (8).jpg"
+        ],
+        "roofOpen": [
+          "assets/p911img/cabrio-configure/interior/roof-open/911 Carrera Cabriolet (7).jpg",
+          "assets/p911img/cabrio-configure/interior/roof-open/911 Carrera Cabriolet (8).jpg"
+        ]
+      },
+      "Sport Seats Plus": {
+        "roofClosed": [
+          "assets/p911img/p911-carrera-configure/911 Carrera (7).jpg",
+          "assets/p911img/cabrio-configure/interior/roof-closed/sp black 8.jpg"
+        ],
+        "roofOpen": [
+          "assets/p911img/cabrio-configure/interior/roof-open/sp black 7.jpg",
+          "assets/p911img/cabrio-configure/interior/roof-open/sp black 8.jpg"
+        ]
+      },
+      "Sport Seats Plus with memory package": {
+        "roofClosed": [
+          "assets/p911img/p911-carrera-configure/911 Carrera (7).jpg",
+          "assets/p911img/cabrio-configure/interior/roof-closed/sp black 8.jpg"
+        ],
+        "roofOpen": [
+          "assets/p911img/cabrio-configure/interior/roof-open/sp black 7.jpg",
+          "assets/p911img/cabrio-configure/interior/roof-open/sp black 8.jpg"
+        ]
+      }
+    },
+    "Black/Chalk Beige": {
+      "Sport Seats": {
+        "roofClosed": [
+          "assets/p911img/interior/sport/bc 7.jpg",
+          "assets/p911img/cabrio-configure/interior/roof-closed/bc 8.jpg"
+        ],
+        "roofOpen": [
+          "assets/p911img/cabrio-configure/interior/roof-open/bc 7.jpg",
+          "assets/p911img/cabrio-configure/interior/roof-open/bc 8.jpg"
+        ]
+      },
+      "Sport Seats with memory package": {
+        "roofClosed": [
+          "assets/p911img/interior/sport/bc 7.jpg",
+          "assets/p911img/cabrio-configure/interior/roof-closed/bc 8.jpg"
+        ],
+        "roofOpen": [
+          "assets/p911img/cabrio-configure/interior/roof-open/bc 7.jpg",
+          "assets/p911img/cabrio-configure/interior/roof-open/bc 8.jpg"
+        ]
+      },
+      "Sport Seats Plus": {
+        "roofClosed": [
+          "assets/p911img/interior/sport/bc 7.jpg",
+          "assets/p911img/cabrio-configure/interior/roof-closed/sp bc 8.jpg"
+        ],
+        "roofOpen": [
+          "assets/p911img/cabrio-configure/interior/roof-open/sp bc 7.jpg",
+          "assets/p911img/cabrio-configure/interior/roof-open/sp bc 8.jpg"
+        ]
+      },
+      "Sport Seats Plus with memory package": {
+        "roofClosed": [
+          "assets/p911img/interior/sport/bc 7.jpg",
+          "assets/p911img/cabrio-configure/interior/roof-closed/sp bc 8.jpg"
+        ],
+        "roofOpen": [
+          "assets/p911img/cabrio-configure/interior/roof-open/sp bc 7.jpg",
+          "assets/p911img/cabrio-configure/interior/roof-open/sp bc 8.jpg"
+        ]
+      }
+    },
+    "Black/Bordeaux Red": {
+      "Sport Seats": {
+        "roofClosed": [
+          "assets/p911img/interior/sport/bb red 7.jpg",
+          "assets/p911img/cabrio-configure/interior/roof-closed/bb 8.jpg"
+        ],
+        "roofOpen": [
+          "assets/p911img/cabrio-configure/interior/roof-open/bb 7.jpg",
+          "assets/p911img/cabrio-configure/interior/roof-open/bb 8.jpg"
+        ]
+      },
+      "Sport Seats with memory package": {
+        "roofClosed": [
+          "assets/p911img/interior/sport/bb red 7.jpg",
+          "assets/p911img/cabrio-configure/interior/roof-closed/bb 8.jpg"
+        ],
+        "roofOpen": [
+          "assets/p911img/cabrio-configure/interior/roof-open/bb 7.jpg",
+          "assets/p911img/cabrio-configure/interior/roof-open/bb 8.jpg"
+        ]
+      },
+      "Sport Seats Plus": {
+        "roofClosed": [
+          "assets/p911img/cabrio-configure/interior/roof-closed/sp bb 7.jpg",
+          "assets/p911img/cabrio-configure/interior/roof-closed/sp bb 8.jpg"
+        ],
+        "roofOpen": [
+          "assets/p911img/cabrio-configure/interior/roof-open/sp bb 7.jpg",
+          "assets/p911img/cabrio-configure/interior/roof-open/sp bb 8.jpg"
+        ]
+      },
+      "Sport Seats Plus with memory package": {
+        "roofClosed": [
+          "assets/p911img/cabrio-configure/interior/roof-closed/sp bb 7.jpg",
+          "assets/p911img/cabrio-configure/interior/roof-closed/sp bb 8.jpg"
+        ],
+        "roofOpen": [
+          "assets/p911img/cabrio-configure/interior/roof-open/sp bb 7.jpg",
+          "assets/p911img/cabrio-configure/interior/roof-open/sp bb 8.jpg"
+        ]
+      }
+    },
+    
+    "Basalt Black/Classic Cognac": {
+      "Sport Seats": {
+        "roofClosed": [
+          "assets/p911img/interior/sport/bcc 7.jpg",
+          "assets/p911img/cabrio-configure/interior/roof-closed/bbc 8.jpg"
+        ],
+        "roofOpen": [
+          "assets/p911img/cabrio-configure/interior/roof-open/bbc 7.jpg",
+          "assets/p911img/cabrio-configure/interior/roof-open/bbc 8.jpg"
+        ]
+      },
+      "Sport Seats with memory package": {
+        "roofClosed": [
+          "assets/p911img/interior/sport/bcc 7.jpg",
+          "assets/p911img/cabrio-configure/interior/roof-closed/bbc 8.jpg"
+        ],
+        "roofOpen": [
+          "assets/p911img/cabrio-configure/interior/roof-open/bbc 7.jpg",
+          "assets/p911img/cabrio-configure/interior/roof-open/bbc 8.jpg"
+        ]
+      },
+      "Sport Seats Plus": {
+        "roofClosed": [
+          "assets/p911img/cabrio-configure/interior/roof-closed/sp bbc 7.jpg",
+          "assets/p911img/cabrio-configure/interior/roof-closed/sp bbc 8.jpg"
+        ],
+        "roofOpen": [
+          "assets/p911img/cabrio-configure/interior/roof-open/sp bbc 7.jpg",
+          "assets/p911img/cabrio-configure/interior/roof-open/sp bbc 8.jpg"
+        ]
+      },
+      "Sport Seats Plus with memory package": {
+        "roofClosed": [
+          "assets/p911img/cabrio-configure/interior/roof-closed/sp bbc 7.jpg",
+          "assets/p911img/cabrio-configure/interior/roof-closed/sp bbc 8.jpg"
+        ],
+        "roofOpen": [
+          "assets/p911img/cabrio-configure/interior/roof-open/sp bbc 7.jpg",
+          "assets/p911img/cabrio-configure/interior/roof-open/sp bbc 8.jpg"
+        ]
+      }
+    }
+  },
+  "technologyGroups": [
+    {
+      "seats": [
+        { "name": "Lane Change Assist", "price": 875, "img": "assets/p911img/p911-carrera-configure/lane change assist.jpg", "videoUrl": "assets/p911img/p911-carrera-configure/lane-change-assist.mp4", "description": "Alerts the driver to vehicles rapidly approaching from behind or vehicles travelling at the same speed in potential blind spots..." },
+        { "name": "Adaptive cruise control", "price": 1737, "img": "assets/p911img/p911-carrera-configure/adaptive c control.jpg", "videoUrl": "assets/p911img/p911-carrera-configure/adaptive-c-control.mp4", "description": "Radar-based technology that automatically maintains a specified distance from the vehicle in front..." }
+      ]
+    }
+  ],
+  "accessories": [
+
+    { "name": "Car Cover", "img": "assets/p911img/p911-carrera-configure/car-cover.jpg", "price": 190 }
+  ]
+}

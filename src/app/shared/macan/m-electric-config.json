@@ -1,0 +1,354 @@
+{
+  
+    "model": "Macan Electric",
+    "basePrice": 85385,
+    "exteriorColorGroups": [
+    {
+      
+      "title": "Contrasts",
+      "price": 0,
+      "colors": [
+        { "name": "White Contrast", "img": "assets/p911img/p911-carrera-configure/white color.jpg" },
+        { "name": "Black Contrast", "img": "assets/p911img/p911-carrera-configure/black color.jpg" }
+      ]
+    },
+    {
+      "title": "Shades",
+      "price": 1263,
+      "colors": [
+        { "name": "Dolomite Silver Metallic", "img": "assets/p911img/p911-carrera-configure/gt silver metallic.jpg" }
+      ]
+    },
+    {
+      "title": "Dreams",
+      "price": 2018,
+      "colors": [
+        { "name": "Carmine Red", "img": "assets/p911img/p911-carrera-configure/guards red.jpg" },
+        { "name": "Gentian Blue", "img": "assets/p911img/p911-carrera-configure/g blue metallic.jpg" },
+        { "name": "Frozen Blue Metallic", "img": "assets/panamera-img/fb-metallic/fb-metallic.jpg" }
+        
+        
+      ]
+    }
+  ],
+  "wheelGroups": [
+    {
+      "title": "20-inch",
+      "displayPrice": "Standard equipment",
+      "wheels": [
+        { "name": "20-inch Macan Wheels", "img": "assets/macan-img/macan-electric-configure/20-macan.jpg", "price": 0 }
+      ]
+    },
+    {
+      "title": "21-inch",
+      "displayPrice": "+ EUR varies",
+      "wheels": [
+        { "name": "21-inch Macan Design Wheels", "img": "assets/macan-img/macan-electric-configure/21-md.jpg", "price": 2504 }
+     
+      ]
+    },
+     {
+      "title": "22-inch",
+      "displayPrice": "+ EUR varies",
+      "wheels": [
+        { "name": "22-inch RS Spyder Wheels", "img": "assets/macan-img/macan-configure/21-rs.jpg", "price": 4569 },
+        { "name": "22-inch Exclusive Design wheels", "img": "assets/macan-img/macan-electric-configure/22-ex.jpg", "price": 8013 }
+      ]
+    }
+  ],
+  "combinedImageMap": {
+    "White Contrast": {
+      "20-inch Macan Wheels": [
+        "assets/macan-img/white/macan-electric/Macan Electric (1).jpg",
+        "assets/macan-img/white/macan-electric/Macan Electric (2).jpg",
+        "assets/macan-img/white/macan-electric/Macan Electric (3).jpg",
+        "assets/macan-img/white/macan-electric/Macan Electric (4).jpg",
+        "assets/macan-img/white/macan-electric/Macan Electric (5).jpg",
+        "assets/macan-img/white/macan-electric/Macan Electric (6).jpg"
+       
+      ],
+      "21-inch Macan Design Wheels": [
+        "assets/macan-img/white/macan-electric/Macan 21 md (1).jpg",
+        "assets/macan-img/white/macan-electric/Macan 21 md (2).jpg",
+        "assets/macan-img/white/macan-electric/Macan 21 md (3).jpg",
+        "assets/macan-img/white/macan-electric/Macan 21 md (4).jpg",
+        "assets/macan-img/white/macan-electric/Macan Electric (5).jpg",
+        "assets/macan-img/white/macan-electric/Macan Electric (6).jpg"
+      ],
+      "22-inch RS Spyder Wheels": [
+        "assets/macan-img/white/macan-electric/Macan 22rs (1).jpg",
+        "assets/macan-img/white/macan-electric/Macan 22rs (2).jpg",
+        "assets/macan-img/white/macan-electric/Macan 22rs (3).jpg",
+        "assets/macan-img/white/macan-electric/Macan 22rs (4).jpg",
+        "assets/macan-img/white/macan-electric/Macan Electric (5).jpg",
+        "assets/macan-img/white/macan-electric/Macan Electric (6).jpg"
+      ],
+      "22-inch Exclusive Design wheels": [
+        "assets/macan-img/white/macan-electric/Macan 22ex (1).jpg",
+        "assets/macan-img/white/macan-electric/Macan 22ex (2).jpg",
+        "assets/macan-img/white/macan-electric/Macan 22ex (3).jpg",
+        "assets/macan-img/white/macan-electric/Macan 22ex (4).jpg",
+        "assets/macan-img/white/macan-electric/Macan Electric (5).jpg",
+        "assets/macan-img/white/macan-electric/Macan Electric (6).jpg"
+      ]
+      
+    },
+    "Black Contrast": {
+      "20-inch Macan Wheels": [
+        "assets/macan-img/black/macan-electric/Macan Electric (1).jpg",
+        "assets/macan-img/black/macan-electric/Macan Electric (2).jpg",
+        "assets/macan-img/black/macan-electric/Macan Electric (3).jpg",
+        "assets/macan-img/black/macan-electric/Macan Electric (4).jpg",
+        "assets/macan-img/black/macan-electric/Macan Electric (5).jpg",
+        "assets/macan-img/black/macan-electric/Macan Electric (6).jpg"
+       
+      ],
+      "21-inch Macan Design Wheels": [
+        "assets/macan-img/black/macan-electric/Macan 21 md (1).jpg",
+        "assets/macan-img/black/macan-electric/Macan 21 md (2).jpg",
+        "assets/macan-img/black/macan-electric/Macan 21 md (3).jpg",
+        "assets/macan-img/black/macan-electric/Macan 21 md (4).jpg",
+        "assets/macan-img/black/macan-electric/Macan Electric (5).jpg",
+        "assets/macan-img/black/macan-electric/Macan Electric (6).jpg"
+      ],
+      "22-inch RS Spyder Wheels": [
+        "assets/macan-img/black/macan-electric/Macan 22rs (1).jpg",
+        "assets/macan-img/black/macan-electric/Macan 22rs (2).jpg",
+        "assets/macan-img/black/macan-electric/Macan 22rs (3).jpg",
+        "assets/macan-img/black/macan-electric/Macan 22rs (4).jpg",
+        "assets/macan-img/black/macan-electric/Macan Electric (5).jpg",
+        "assets/macan-img/black/macan-electric/Macan Electric (6).jpg"
+      ],
+      "22-inch Exclusive Design wheels": [
+        "assets/macan-img/black/macan-electric/Macan 22ex (1).jpg",
+        "assets/macan-img/black/macan-electric/Macan 22ex (2).jpg",
+        "assets/macan-img/black/macan-electric/Macan 22ex (3).jpg",
+        "assets/macan-img/black/macan-electric/Macan 22ex (4).jpg",
+        "assets/macan-img/black/macan-electric/Macan Electric (5).jpg",
+        "assets/macan-img/black/macan-electric/Macan Electric (6).jpg"
+      ]
+  
+},
+  "Dolomite Silver Metallic": {
+      "20-inch Macan Wheels": [
+        "assets/macan-img/ds-metallic/macan-electric/Macan Electric (1).jpg",
+        "assets/macan-img/ds-metallic/macan-electric/Macan Electric (2).jpg",
+        "assets/macan-img/ds-metallic/macan-electric/Macan Electric (3).jpg",
+        "assets/macan-img/ds-metallic/macan-electric/Macan Electric (4).jpg",
+        "assets/macan-img/ds-metallic/macan-electric/Macan Electric (5).jpg",
+        "assets/macan-img/ds-metallic/macan-electric/Macan Electric (6).jpg"
+       
+      ],
+      "21-inch Macan Design Wheels": [
+        "assets/macan-img/ds-metallic/macan-electric/Macan 21 md (1).jpg",
+        "assets/macan-img/ds-metallic/macan-electric/Macan 21 md (2).jpg",
+        "assets/macan-img/ds-metallic/macan-electric/Macan 21 md (3).jpg",
+        "assets/macan-img/ds-metallic/macan-electric/Macan 21 md (4).jpg",
+        "assets/macan-img/ds-metallic/macan-electric/Macan Electric (5).jpg",
+        "assets/macan-img/ds-metallic/macan-electric/Macan Electric (6).jpg"
+      ],
+      "22-inch RS Spyder Wheels": [
+        "assets/macan-img/ds-metallic/macan-electric/Macan 22rs (1).jpg",
+        "assets/macan-img/ds-metallic/macan-electric/Macan 22rs (2).jpg",
+        "assets/macan-img/ds-metallic/macan-electric/Macan 22rs (3).jpg",
+        "assets/macan-img/ds-metallic/macan-electric/Macan 22rs (4).jpg",
+        "assets/macan-img/ds-metallic/macan-electric/Macan Electric (5).jpg",
+        "assets/macan-img/ds-metallic/macan-electric/Macan Electric (6).jpg"
+      ],
+      "22-inch Exclusive Design wheels": [
+        "assets/macan-img/ds-metallic/macan-electric/Macan 22ex (1).jpg",
+        "assets/macan-img/ds-metallic/macan-electric/Macan 22ex (2).jpg",
+        "assets/macan-img/ds-metallic/macan-electric/Macan 22ex (3).jpg",
+        "assets/macan-img/ds-metallic/macan-electric/Macan 22ex (4).jpg",
+        "assets/macan-img/ds-metallic/macan-electric/Macan Electric (5).jpg",
+        "assets/macan-img/ds-metallic/macan-electric/Macan Electric (6).jpg"
+      ]
+},
+  
+  "Carmine Red": {
+      "20-inch Macan Wheels": [
+        "assets/macan-img/c-red/macan-electric/Macan Electric (1).jpg",
+        "assets/macan-img/c-red/macan-electric/Macan Electric (2).jpg",
+        "assets/macan-img/c-red/macan-electric/Macan Electric (3).jpg",
+        "assets/macan-img/c-red/macan-electric/Macan Electric (4).jpg",
+        "assets/macan-img/c-red/macan-electric/Macan Electric (5).jpg",
+        "assets/macan-img/c-red/macan-electric/Macan Electric (6).jpg"
+       
+      ],
+      "21-inch Macan Design Wheels": [
+        "assets/macan-img/c-red/macan-electric/Macan 21 md (1).jpg",
+        "assets/macan-img/c-red/macan-electric/Macan 21 md (2).jpg",
+        "assets/macan-img/c-red/macan-electric/Macan 21 md (3).jpg",
+        "assets/macan-img/c-red/macan-electric/Macan 21 md (4).jpg",
+        "assets/macan-img/c-red/macan-electric/Macan Electric (5).jpg",
+        "assets/macan-img/c-red/macan-electric/Macan Electric (6).jpg"
+      ],
+      "22-inch RS Spyder Wheels": [
+        "assets/macan-img/c-red/macan-electric/Macan 22rs (1).jpg",
+        "assets/macan-img/c-red/macan-electric/Macan 22rs (2).jpg",
+        "assets/macan-img/c-red/macan-electric/Macan 22rs (3).jpg",
+        "assets/macan-img/c-red/macan-electric/Macan 22rs (4).jpg",
+        "assets/macan-img/c-red/macan-electric/Macan Electric (5).jpg",
+        "assets/macan-img/c-red/macan-electric/Macan Electric (6).jpg"
+      ],
+      "22-inch Exclusive Design wheels": [
+        "assets/macan-img/c-red/macan-electric/Macan 22ex (1).jpg",
+        "assets/macan-img/c-red/macan-electric/Macan 22ex (2).jpg",
+        "assets/macan-img/c-red/macan-electric/Macan 22ex (3).jpg",
+        "assets/macan-img/c-red/macan-electric/Macan 22ex (4).jpg",
+        "assets/macan-img/c-red/macan-electric/Macan Electric (5).jpg",
+        "assets/macan-img/c-red/macan-electric/Macan Electric (6).jpg"
+      ]
+},
+
+  "Gentian Blue": {
+      "20-inch Macan Wheels": [
+        "assets/macan-img/g-blue/macan-electric/Macan Electric (1).jpg",
+        "assets/macan-img/g-blue/macan-electric/Macan Electric (2).jpg",
+        "assets/macan-img/g-blue/macan-electric/Macan Electric (3).jpg",
+        "assets/macan-img/g-blue/macan-electric/Macan Electric (4).jpg",
+        "assets/macan-img/g-blue/macan-electric/Macan Electric (5).jpg",
+        "assets/macan-img/g-blue/macan-electric/Macan Electric (6).jpg"
+       
+      ],
+      "21-inch Macan Design Wheels": [
+        "assets/macan-img/g-blue/macan-electric/Macan 21 md (1).jpg",
+        "assets/macan-img/g-blue/macan-electric/Macan 21 md (2).jpg",
+        "assets/macan-img/g-blue/macan-electric/Macan 21 md (3).jpg",
+        "assets/macan-img/g-blue/macan-electric/Macan 21 md (4).jpg",
+        "assets/macan-img/g-blue/macan-electric/Macan Electric (5).jpg",
+        "assets/macan-img/g-blue/macan-electric/Macan Electric (6).jpg"
+      ],
+      "22-inch RS Spyder Wheels": [
+        "assets/macan-img/g-blue/macan-electric/Macan 22rs (1).jpg",
+        "assets/macan-img/g-blue/macan-electric/Macan 22rs (2).jpg",
+        "assets/macan-img/g-blue/macan-electric/Macan 22rs (3).jpg",
+        "assets/macan-img/g-blue/macan-electric/Macan 22rs (4).jpg",
+        "assets/macan-img/g-blue/macan-electric/Macan Electric (5).jpg",
+        "assets/macan-img/g-blue/macan-electric/Macan Electric (6).jpg"
+      ],
+      "22-inch Exclusive Design wheels": [
+        "assets/macan-img/g-blue/macan-electric/Macan 22ex (1).jpg",
+        "assets/macan-img/g-blue/macan-electric/Macan 22ex (2).jpg",
+        "assets/macan-img/g-blue/macan-electric/Macan 22ex (3).jpg",
+        "assets/macan-img/g-blue/macan-electric/Macan 22ex (4).jpg",
+        "assets/macan-img/g-blue/macan-electric/Macan Electric (5).jpg",
+        "assets/macan-img/g-blue/macan-electric/Macan Electric (6).jpg"
+      ]
+},
+ "Frozen Blue Metallic": {
+      "20-inch Macan Wheels": [
+        "assets/macan-img/fb-metallic/macan-electric/Macan Electric (1).jpg",
+        "assets/macan-img/fb-metallic/macan-electric/Macan Electric (2).jpg",
+        "assets/macan-img/fb-metallic/macan-electric/Macan Electric (3).jpg",
+        "assets/macan-img/fb-metallic/macan-electric/Macan Electric (4).jpg",
+        "assets/macan-img/fb-metallic/macan-electric/Macan Electric (5).jpg",
+        "assets/macan-img/fb-metallic/macan-electric/Macan Electric (6).jpg"
+       
+      ],
+      "21-inch Macan Design Wheels": [
+        "assets/macan-img/fb-metallic/macan-electric/Macan 21 md (1).jpg",
+        "assets/macan-img/fb-metallic/macan-electric/Macan 21 md (2).jpg",
+        "assets/macan-img/fb-metallic/macan-electric/Macan 21 md (3).jpg",
+        "assets/macan-img/fb-metallic/macan-electric/Macan 21 md (4).jpg",
+        "assets/macan-img/fb-metallic/macan-electric/Macan Electric (5).jpg",
+        "assets/macan-img/fb-metallic/macan-electric/Macan Electric (6).jpg"
+      ],
+      "22-inch RS Spyder Wheels": [
+        "assets/macan-img/fb-metallic/macan-electric/Macan 22rs (1).jpg",
+        "assets/macan-img/fb-metallic/macan-electric/Macan 22rs (2).jpg",
+        "assets/macan-img/fb-metallic/macan-electric/Macan 22rs (3).jpg",
+        "assets/macan-img/fb-metallic/macan-electric/Macan 22rs (4).jpg",
+        "assets/macan-img/fb-metallic/macan-electric/Macan Electric (5).jpg",
+        "assets/macan-img/fb-metallic/macan-electric/Macan Electric (6).jpg"
+      ],
+      "22-inch Exclusive Design wheels": [
+        "assets/macan-img/fb-metallic/macan-electric/Macan 22ex (1).jpg",
+        "assets/macan-img/fb-metallic/macan-electric/Macan 22ex (2).jpg",
+        "assets/macan-img/fb-metallic/macan-electric/Macan 22ex (3).jpg",
+        "assets/macan-img/fb-metallic/macan-electric/Macan 22ex (4).jpg",
+        "assets/macan-img/fb-metallic/macan-electric/Macan Electric (5).jpg",
+        "assets/macan-img/fb-metallic/macan-electric/Macan Electric (6).jpg"
+      ]
+}
+
+
+  
+
+
+
+
+    
+  },
+  "interiorGroups": [
+    {
+      "title": "Standard",
+      "interiors": [
+        { "name": "Black", "img": "assets/p911img/interior/black.jpg", "displayPrice": "+ 0,00 EUR varies", "price": 0 }
+        
+        
+      ]
+    },
+    {
+      "title": "Leather",
+      "interiors": [
+        { "name": "Black/Bordeaux Red", "img": "assets/p911img/interior/b-b-red.jpg", "price": 4368 },
+        { "name": "Black/Kalahari", "img": "assets/panamera-img/panamera-configure/interior/bk.jpg", "price": 4368 }
+      ]
+    }
+  ],
+  "seatGroups": [
+    {
+      "title": "Comfort Seats",
+      "displayPrice": "+ EUR varies",
+      "seats": [
+        { "name": "Comfort Seats", "img": "assets/macan-img/macan-configure/c-seats.jpg", "displayPrice": "Standard equipment", "price": 0 }
+      ]
+    },
+    {
+      "title": "Sport Seats",
+      "displayPrice": "+ EUR varies",
+      "seats": [
+        { "name": "Adaptive sports seats", "img": "assets/macan-img/macan-configure/s-seats.jpg", "price": 1494 }
+      ]
+    }
+  ],
+  "interiorSeatImageMap": {
+    "Black": {
+      "Comfort Seats": ["assets/macan-img/macan-electric-configure/interior/c-seats/Macan Electric (7).jpg",
+                        "assets/macan-img/macan-electric-configure/interior/c-seats/Macan Electric (8).jpg"],
+      "Adaptive sports seats": ["assets/macan-img/macan-electric-configure/interior/s-seats/black 7.jpg",
+                                "assets/macan-img/macan-electric-configure/interior/s-seats/black 8.jpg"]
+    },
+    "Black/Bordeaux Red": {
+      "Comfort Seats": ["assets/macan-img/macan-electric-configure/interior/c-seats/bb red 7.jpg",
+                        "assets/macan-img/macan-electric-configure/interior/c-seats/bb red 8.jpg"],
+      "Adaptive sports seats": ["assets/macan-img/macan-electric-configure/interior/s-seats/bb red 7.jpg",
+                                "assets/macan-img/macan-electric-configure/interior/s-seats/bb red 8.jpg"]
+    },
+   
+    "Black/Kalahari": {
+      "Comfort Seats": ["assets/macan-img/macan-electric-configure/interior/c-seats/bk 7.jpg",
+                        "assets/macan-img/macan-electric-configure/interior/c-seats/bk 8.jpg"],
+      "Adaptive sports seats": ["assets/macan-img/macan-electric-configure/interior/s-seats/bk 7.jpg",
+                                "assets/macan-img/macan-electric-configure/interior/s-seats/bk 8.jpg"]
+    }
+
+  },
+  "technologyGroups": [
+    {
+      "seats": [
+        { "name": "Surround view camera system", "price": 615, "img": "assets/macan-img/macan-configure/surround-view.jpg", "imageUrl": "assets/macan-img/macan-configure/surround-view.jpg", "description": "As reversing camera, but also featuring a 360-degree surround view generated from the images of four high-resolution cameras enabling even greater comfort when manoeuvring. A junction view (from front and rear of vehicle) provides assistance at more complex exits." },
+        { "name": "Self-Steering Park Assist", "price": 282, "img": "assets/macan-img/macan-configure/self-steering-1.jpg", "imageUrl": "assets/macan-img/macan-configure/self-steering-2.jpg", "description": "When activated and at the correct speed, the vehicle is able to detect suitable parking spaces by measuring the space while driving past and then automatically taking control of the steering in parallel and perpendicular parking spaces. The driver remains in the vehicle and is responsible for the parking manoeuvre as well as for acceleration, braking and changing gears." },
+        { "name": "Side airbags in rear compartment", "price": 391, "img": "assets/macan-img/macan-configure/side-airbags.jpg", "imageUrl": "assets/macan-img/macan-configure/side-airbags.jpg", "description": "Side airbags in the rear outer seat backrests" },
+        { "name": "Passenger Display", "price": 1315, "img": "assets/macan-img/macan-electric-configure/p-display.jpg", "imageUrl": "assets/macan-img/macan-electric-configure/p-display.jpg", "description": "10.9-inch touchscreen display on the front passenger side which enables access to navigation and infotainment functions, as well as streaming functions." }
+      ]
+    }
+  ],
+  "accessories": [
+    { "name": "Roof transport system main support", "img": "assets/macan-img/macan-configure/roof-transport.jpg", "price": 320 },
+    { "name": "Porsche Performance roof box", "img": "assets/macan-img/macan-configure/roof-box.jpg", "price": 980 },
+    { "name": "Ski-/Snowboard holder", "img": "assets/macan-img/macan-configure/skii-holder.jpg", "price": 290 },
+    { "name": "Car Cover", "img": "assets/macan-img/macan-configure/car-cover.jpg", "price": 190 }
+  ]
+}

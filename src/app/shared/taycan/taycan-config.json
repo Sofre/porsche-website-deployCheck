@@ -1,0 +1,361 @@
+{
+  
+    "model": "Taycan",
+    "basePrice": 107371,
+    "exteriorColorGroups": [
+    {
+      
+      "title": "Contrasts",
+      "price": 0,
+      "colors": [
+        { "name": "White Contrast", "img": "assets/p911img/p911-carrera-configure/white color.jpg" },
+        { "name": "Black Contrast", "img": "assets/p911img/p911-carrera-configure/black color.jpg" }
+      ]
+    },
+    {
+      "title": "Shades",
+      "price": 1179,
+      "colors": [
+        { "name": "Dolomite Silver Metallic", "img": "assets/p911img/p911-carrera-configure/gt silver metallic.jpg" }
+      ]
+    },
+    {
+      "title": "Dreams",
+      "price": 1884,
+      "colors": [
+        { "name": "Carmine Red", "img": "assets/p911img/p911-carrera-configure/guards red.jpg" },
+        { "name": "Purple Sky Metallic", "img": "assets/taycan-img/ps-metallic/ps-metallic.jpg" },
+        { "name": "Frozen Blue Metallic", "img": "assets/panamera-img/fb-metallic/fb-metallic.jpg" }
+        
+        
+      ]
+    }
+  ],
+  "wheelGroups": [
+    {
+      "title": "19/20-inch",
+      "displayPrice": "+ EUR 0,00",
+      "wheels": [
+        { "name": "Standard 19\" Wheels", "img": "assets/taycan-img/taycan-configure/19-standard.jpg", "price": 0 }
+      ]
+    },
+    {
+      "title": "20-inch",
+      "displayPrice": "+ EUR varies",
+      "wheels": [
+        { "name": "20-inch Turbo Sport Aero Wheels", "img": "assets/taycan-img/taycan-configure/20-sa.jpg", "price": 2564 },
+        { "name": "20-inch Taycan Turbo Aero Wheels", "img": "assets/taycan-img/taycan-configure/20-ta.jpg", "price": 2199 }
+      ]
+    },
+     {
+      "title": "21-inch",
+      "displayPrice": "+ EUR varies",
+      "wheels": [
+        { "name": "21-inch Mission E Design Wheels", "img": "assets/taycan-img/taycan-configure/21-me.jpg", "price": 4326 }
+      ]
+    }
+  ],
+  "combinedImageMap": {
+    "White Contrast": {
+      "Standard 19\" Wheels": [
+        "assets/taycan-img/white/taycan/Taycan (1).jpg",
+        "assets/taycan-img/white/taycan/Taycan (2).jpg",
+        "assets/taycan-img/white/taycan/Taycan (3).jpg",
+        "assets/taycan-img/white/taycan/Taycan (4).jpg",
+        "assets/taycan-img/white/taycan/Taycan (5).jpg",
+        "assets/taycan-img/white/taycan/Taycan (6).jpg"
+       
+      ],
+      "20-inch Turbo Sport Aero Wheels": [
+        "assets/taycan-img/white/taycan/Taycan 20sa (1).jpg",
+        "assets/taycan-img/white/taycan/Taycan 20sa (2).jpg",
+        "assets/taycan-img/white/taycan/Taycan 20sa (3).jpg",
+        "assets/taycan-img/white/taycan/Taycan 20sa (4).jpg",
+        "assets/taycan-img/white/taycan/Taycan (5).jpg",
+        "assets/taycan-img/white/taycan/Taycan (6).jpg"
+      ],
+      "20-inch Taycan Turbo Aero Wheels": [
+        "assets/taycan-img/white/taycan/Taycan 20ta (1).jpg",
+        "assets/taycan-img/white/taycan/Taycan 20ta (2).jpg",
+        "assets/taycan-img/white/taycan/Taycan 20ta (3).jpg",
+        "assets/taycan-img/white/taycan/Taycan 20ta (4).jpg",
+        "assets/taycan-img/white/taycan/Taycan (5).jpg",
+        "assets/taycan-img/white/taycan/Taycan (6).jpg"
+      ],
+      "21-inch Mission E Design Wheels": [
+        "assets/taycan-img/white/taycan/Taycan 21me (1).jpg",
+        "assets/taycan-img/white/taycan/Taycan 21me (2).jpg",
+        "assets/taycan-img/white/taycan/Taycan 21me (3).jpg",
+        "assets/taycan-img/white/taycan/Taycan 21me (4).jpg",
+        "assets/taycan-img/white/taycan/Taycan (5).jpg",
+        "assets/taycan-img/white/taycan/Taycan (6).jpg"
+      ]
+      
+    },
+    "Black Contrast": {
+      "Standard 19\" Wheels": [
+        "assets/taycan-img/black/taycan/Taycan (1).jpg",
+        "assets/taycan-img/black/taycan/Taycan (2).jpg",
+        "assets/taycan-img/black/taycan/Taycan (3).jpg",
+        "assets/taycan-img/black/taycan/Taycan (4).jpg",
+        "assets/taycan-img/black/taycan/Taycan (5).jpg",
+        "assets/taycan-img/black/taycan/Taycan (6).jpg"
+       
+      ],
+      "20-inch Turbo Sport Aero Wheels": [
+        "assets/taycan-img/black/taycan/Taycan 20sa (1).jpg",
+        "assets/taycan-img/black/taycan/Taycan 20sa (2).jpg",
+        "assets/taycan-img/black/taycan/Taycan 20sa (3).jpg",
+        "assets/taycan-img/black/taycan/Taycan 20sa (4).jpg",
+        "assets/taycan-img/black/taycan/Taycan (5).jpg",
+        "assets/taycan-img/black/taycan/Taycan (6).jpg"
+      ],
+      "20-inch Taycan Turbo Aero Wheels": [
+        "assets/taycan-img/black/taycan/Taycan 20ta (1).jpg",
+        "assets/taycan-img/black/taycan/Taycan 20ta (2).jpg",
+        "assets/taycan-img/black/taycan/Taycan 20ta (3).jpg",
+        "assets/taycan-img/black/taycan/Taycan 20ta (4).jpg",
+        "assets/taycan-img/black/taycan/Taycan (5).jpg",
+        "assets/taycan-img/black/taycan/Taycan (6).jpg"
+      ],
+      "21-inch Mission E Design Wheels": [
+        "assets/taycan-img/black/taycan/Taycan 21me (1).jpg",
+        "assets/taycan-img/black/taycan/Taycan 21me (2).jpg",
+        "assets/taycan-img/black/taycan/Taycan 21me (3).jpg",
+        "assets/taycan-img/black/taycan/Taycan 21me (4).jpg",
+        "assets/taycan-img/black/taycan/Taycan (5).jpg",
+        "assets/taycan-img/black/taycan/Taycan (6).jpg"
+      ]
+  
+},
+  "Dolomite Silver Metallic": {
+      "Standard 19\" Wheels": [
+        "assets/taycan-img/ds-metallic/taycan/Taycan (1).jpg",
+        "assets/taycan-img/ds-metallic/taycan/Taycan (2).jpg",
+        "assets/taycan-img/ds-metallic/taycan/Taycan (3).jpg",
+        "assets/taycan-img/ds-metallic/taycan/Taycan (4).jpg",
+        "assets/taycan-img/ds-metallic/taycan/Taycan (5).jpg",
+        "assets/taycan-img/ds-metallic/taycan/Taycan (6).jpg"
+       
+      ],
+      "20-inch Turbo Sport Aero Wheels": [
+        "assets/taycan-img/ds-metallic/taycan/Taycan 20sa (1).jpg",
+        "assets/taycan-img/ds-metallic/taycan/Taycan 20sa (2).jpg",
+        "assets/taycan-img/ds-metallic/taycan/Taycan 20sa (3).jpg",
+        "assets/taycan-img/ds-metallic/taycan/Taycan 20sa (4).jpg",
+        "assets/taycan-img/ds-metallic/taycan/Taycan (5).jpg",
+        "assets/taycan-img/ds-metallic/taycan/Taycan (6).jpg"
+      ],
+      "20-inch Taycan Turbo Aero Wheels": [
+        "assets/taycan-img/ds-metallic/taycan/Taycan 20ta (1).jpg",
+        "assets/taycan-img/ds-metallic/taycan/Taycan 20ta (2).jpg",
+        "assets/taycan-img/ds-metallic/taycan/Taycan 20ta (3).jpg",
+        "assets/taycan-img/ds-metallic/taycan/Taycan 20ta (4).jpg",
+        "assets/taycan-img/ds-metallic/taycan/Taycan (5).jpg",
+        "assets/taycan-img/ds-metallic/taycan/Taycan (6).jpg"
+      ],
+      "21-inch Mission E Design Wheels": [
+        "assets/taycan-img/ds-metallic/taycan/Taycan 21me (1).jpg",
+        "assets/taycan-img/ds-metallic/taycan/Taycan 21me (2).jpg",
+        "assets/taycan-img/ds-metallic/taycan/Taycan 21me (3).jpg",
+        "assets/taycan-img/ds-metallic/taycan/Taycan 21me (4).jpg",
+        "assets/taycan-img/ds-metallic/taycan/Taycan (5).jpg",
+        "assets/taycan-img/ds-metallic/taycan/Taycan (6).jpg"
+      ]
+},
+  
+  "Carmine Red": {
+      "Standard 19\" Wheels": [
+        "assets/taycan-img/c-red/taycan/Taycan (1).jpg",
+        "assets/taycan-img/c-red/taycan/Taycan (2).jpg",
+        "assets/taycan-img/c-red/taycan/Taycan (3).jpg",
+        "assets/taycan-img/c-red/taycan/Taycan (4).jpg",
+        "assets/taycan-img/c-red/taycan/Taycan (5).jpg",
+        "assets/taycan-img/c-red/taycan/Taycan (6).jpg"
+       
+      ],
+      "20-inch Turbo Sport Aero Wheels": [
+        "assets/taycan-img/c-red/taycan/Taycan 20sa (1).jpg",
+        "assets/taycan-img/c-red/taycan/Taycan 20sa (2).jpg",
+        "assets/taycan-img/c-red/taycan/Taycan 20sa (3).jpg",
+        "assets/taycan-img/c-red/taycan/Taycan 20sa (4).jpg",
+        "assets/taycan-img/c-red/taycan/Taycan (5).jpg",
+        "assets/taycan-img/c-red/taycan/Taycan (6).jpg"
+      ],
+      "20-inch Taycan Turbo Aero Wheels": [
+        "assets/taycan-img/c-red/taycan/Taycan 20ta (1).jpg",
+        "assets/taycan-img/c-red/taycan/Taycan 20ta (2).jpg",
+        "assets/taycan-img/c-red/taycan/Taycan 20ta (3).jpg",
+        "assets/taycan-img/c-red/taycan/Taycan 20ta (4).jpg",
+        "assets/taycan-img/c-red/taycan/Taycan (5).jpg",
+        "assets/taycan-img/c-red/taycan/Taycan (6).jpg"
+      ],
+      "21-inch Mission E Design Wheels": [
+        "assets/taycan-img/c-red/taycan/Taycan 21me (1).jpg",
+        "assets/taycan-img/c-red/taycan/Taycan 21me (2).jpg",
+        "assets/taycan-img/c-red/taycan/Taycan 21me (3).jpg",
+        "assets/taycan-img/c-red/taycan/Taycan 21me (4).jpg",
+        "assets/taycan-img/c-red/taycan/Taycan (5).jpg",
+        "assets/taycan-img/c-red/taycan/Taycan (6).jpg"
+      ]
+},
+
+  "Purple Sky Metallic": {
+      "Standard 19\" Wheels": [
+        "assets/taycan-img/ps-metallic/taycan/Taycan (1).jpg",
+        "assets/taycan-img/ps-metallic/taycan/Taycan (2).jpg",
+        "assets/taycan-img/ps-metallic/taycan/Taycan (3).jpg",
+        "assets/taycan-img/ps-metallic/taycan/Taycan (4).jpg",
+        "assets/taycan-img/ps-metallic/taycan/Taycan (5).jpg",
+        "assets/taycan-img/ps-metallic/taycan/Taycan (6).jpg"
+       
+      ],
+      "20-inch Turbo Sport Aero Wheels": [
+        "assets/taycan-img/ps-metallic/taycan/Taycan 20sa (1).jpg",
+        "assets/taycan-img/ps-metallic/taycan/Taycan 20sa (2).jpg",
+        "assets/taycan-img/ps-metallic/taycan/Taycan 20sa (3).jpg",
+        "assets/taycan-img/ps-metallic/taycan/Taycan 20sa (4).jpg",
+        "assets/taycan-img/ps-metallic/taycan/Taycan (5).jpg",
+        "assets/taycan-img/ps-metallic/taycan/Taycan (6).jpg"
+      ],
+      "20-inch Taycan Turbo Aero Wheels": [
+        "assets/taycan-img/ps-metallic/taycan/Taycan 20ta (1).jpg",
+        "assets/taycan-img/ps-metallic/taycan/Taycan 20ta (2).jpg",
+        "assets/taycan-img/ps-metallic/taycan/Taycan 20ta (3).jpg",
+        "assets/taycan-img/ps-metallic/taycan/Taycan 20ta (4).jpg",
+        "assets/taycan-img/ps-metallic/taycan/Taycan (5).jpg",
+        "assets/taycan-img/ps-metallic/taycan/Taycan (6).jpg"
+      ],
+      "21-inch Mission E Design Wheels": [
+        "assets/taycan-img/ps-metallic/taycan/Taycan 21me (1).jpg",
+        "assets/taycan-img/ps-metallic/taycan/Taycan 21me (2).jpg",
+        "assets/taycan-img/ps-metallic/taycan/Taycan 21me (3).jpg",
+        "assets/taycan-img/ps-metallic/taycan/Taycan 21me (4).jpg",
+        "assets/taycan-img/ps-metallic/taycan/Taycan (5).jpg",
+        "assets/taycan-img/ps-metallic/taycan/Taycan (6).jpg"
+      ]
+},
+ "Frozen Blue Metallic": {
+      "Standard 19\" Wheels": [
+        "assets/taycan-img/fb-metallic/taycan/Taycan (1).jpg",
+        "assets/taycan-img/fb-metallic/taycan/Taycan (2).jpg",
+        "assets/taycan-img/fb-metallic/taycan/Taycan (3).jpg",
+        "assets/taycan-img/fb-metallic/taycan/Taycan (4).jpg",
+        "assets/taycan-img/fb-metallic/taycan/Taycan (5).jpg",
+        "assets/taycan-img/fb-metallic/taycan/Taycan (6).jpg"
+       
+      ],
+      "20-inch Turbo Sport Aero Wheels": [
+        "assets/taycan-img/fb-metallic/taycan/Taycan 20sa (1).jpg",
+        "assets/taycan-img/fb-metallic/taycan/Taycan 20sa (2).jpg",
+        "assets/taycan-img/fb-metallic/taycan/Taycan 20sa (3).jpg",
+        "assets/taycan-img/fb-metallic/taycan/Taycan 20sa (4).jpg",
+        "assets/taycan-img/fb-metallic/taycan/Taycan (5).jpg",
+        "assets/taycan-img/fb-metallic/taycan/Taycan (6).jpg"
+      ],
+      "20-inch Taycan Turbo Aero Wheels": [
+        "assets/taycan-img/fb-metallic/taycan/Taycan 20ta (1).jpg",
+        "assets/taycan-img/fb-metallic/taycan/Taycan 20ta (2).jpg",
+        "assets/taycan-img/fb-metallic/taycan/Taycan 20ta (3).jpg",
+        "assets/taycan-img/fb-metallic/taycan/Taycan 20ta (4).jpg",
+        "assets/taycan-img/fb-metallic/taycan/Taycan (5).jpg",
+        "assets/taycan-img/fb-metallic/taycan/Taycan (6).jpg"
+      ],
+      "21-inch Mission E Design Wheels": [
+        "assets/taycan-img/fb-metallic/taycan/Taycan 21me (1).jpg",
+        "assets/taycan-img/fb-metallic/taycan/Taycan 21me (2).jpg",
+        "assets/taycan-img/fb-metallic/taycan/Taycan 21me (3).jpg",
+        "assets/taycan-img/fb-metallic/taycan/Taycan 21me (4).jpg",
+        "assets/taycan-img/fb-metallic/taycan/Taycan (5).jpg",
+        "assets/taycan-img/fb-metallic/taycan/Taycan (6).jpg"
+      ]
+}
+
+
+  
+
+
+
+
+    
+  },
+  "interiorGroups": [
+    {
+      "title": "Standard",
+      "displayPrice": "+ EUR varies",
+      "interiors": [
+        { "name": "Black", "img": "assets/p911img/interior/black.jpg", "displayPrice": "+ 0,00 EUR varies", "price": 0 }
+        
+        
+      ]
+    },
+    {
+      "title": "Leather",
+      "displayPrice": "+ EUR varies",
+      "interiors": [
+        { "name": "Black/Bordeaux Red", "img": "assets/p911img/interior/b-b-red.jpg", "price": 4149 },
+        { "name": "Black/Chalk", "img": "assets/panamera-img/panamera-configure/interior/bk.jpg", "price": 4149 }
+      ]
+    }
+  ],
+  "seatGroups": [
+    {
+      "title": "Comfort Seats",
+      "displayPrice": "+ EUR varies",
+      "seats": [
+        { "name": "Comfort Seats in front", "img": "assets/panamera-img/panamera-configure/interior/c-seats.jpg", "displayPrice": "Standard equipment", "price": 0 },
+        { "name": "Comfort Seats in tront with memory package", "img": "assets/panamera-img/panamera-configure/interior/c-seats.jpg", "price": 1331 }
+      ]
+    },
+    {
+      "title": "Sport Seats",
+      "displayPrice": "+ EUR varies",
+      "seats": [
+        { "name": "Sport Seats in front with memory package", "img": "assets/panamera-img/panamera-configure/interior/s-seats.jpg", "price": 2765 }
+      ]
+    }
+  ],
+  "interiorSeatImageMap": {
+    "Black": {
+      "Comfort Seats in front": ["assets/taycan-img/taycan-configure/interior/c-seats/Taycan (7).jpg",
+                                 "assets/taycan-img/taycan-configure/interior/c-seats/Taycan (8).jpg"],
+      "Comfort Seats in front with memory package": ["assets/taycan-img/taycan-configure/interior/c-seats/Taycan (7).jpg",
+                                                     "assets/taycan-img/taycan-configure/interior/c-seats/Taycan (8).jpg"],
+      "Sport Seats in front with memory package": ["assets/taycan-img/taycan-configure/interior/c-seats/Taycan (7).jpg",
+                                          "assets/taycan-img/taycan-configure/interior/s-seats/black 8.jpg"]
+    },
+    "Black/Bordeaux Red": {
+      "Comfort Seats in front": ["assets/taycan-img/taycan-configure/interior/c-seats/bb red 7.jpg",
+                                 "assets/taycan-img/taycan-configure/interior/c-seats/bb red 8.jpg"],
+      "Comfort Seats in front with memory package": ["assets/taycan-img/taycan-configure/interior/c-seats/bb red 7.jpg",
+                                                     "assets/taycan-img/taycan-configure/interior/c-seats/bb red 8.jpg"],
+      "Sport Seats in front with memory package": ["assets/taycan-img/taycan-configure/interior/c-seats/bb red 7.jpg",
+                                                   "assets/taycan-img/taycan-configure/interior/s-seats/bb red 8.jpg"]
+    },
+   
+    "Black/Chalk": {
+      "Comfort Seats in front": ["assets/taycan-img/taycan-configure/interior/c-seats/bc 7.jpg",
+                                 "assets/taycan-img/taycan-configure/interior/c-seats/bc 8.jpg"],
+      "Comfort Seats in front with memory package": ["assets/taycan-img/taycan-configure/interior/c-seats/bc 7.jpg",
+                                                     "assets/taycan-img/taycan-configure/interior/c-seats/bc 8.jpg"],
+      "Sport Seats in front with memory package": ["assets/taycan-img/taycan-configure/interior/c-seats/bc 7.jpg",
+                                                   "assets/taycan-img/taycan-configure/interior/s-seats/bc 8.jpg"]
+    }
+
+  },
+  "technologyGroups": [
+    {
+      "seats": [
+        { "name": "Lane Change Assist", "price": 839, "img": "assets/taycan-img/taycan-configure/lane-change-assist.jpg", "videoUrl": "assets/taycan-img/taycan-configure/lc-assist.mp4", "description": "Alerts the driver to vehicles rapidly approaching from behind or vehicles travelling at the same speed in potential blind spots. " },
+        { "name": "Remote ParkAssist", "price": 1914, "img": "assets/taycan-img/taycan-configure/park-assist.jpg", "imageUrl": "assets/taycan-img/taycan-configure/park-assist.jpg", "description": "Remote-controlled parking allows to enter and leave the parking space via your smartphone. The system automatically detects parking spaces and measures their size. If the parking space is a suitable size, the driver can initiate the parking maneuver and then get out. The parking maneuver is carried out by continuously pressing the button of the smartphone app. At the end of the parking maneuver, the vehicle is automatically switched off and locked." },
+        { "name": "Night Vision Assist", "price": 2297, "img": "assets/taycan-img/taycan-configure/night-vision.jpg", "imageUrl": "assets/taycan-img/taycan-configure/night-vision.jpg", "description": "Infrared thermal image displayed in the instrument cluster. Provides the driver with information beyond the range of the headlights. Detected pedestrians, are highlighted in yellow.Pedestrians within critical range and deer and other large wildlife are highlighted in red and the driver receives a warning (visual and audible). " }
+      ]
+    }
+  ],
+  "accessories": [
+    { "name": "Roof transport system main support", "img": "assets/taycan-img/taycan-configure/roof-transport.jpg", "price": 521 },
+    { "name": "Porsche Performance roof box", "img": "assets/taycan-img/taycan-configure/roof-box.jpg", "price": 1100 },
+    { "name": "Ski-/Snowboard holder", "img": "assets/taycan-img/taycan-configure/skii-holder.jpg", "price": 385 },
+    { "name": "Car Cover", "img": "assets/taycan-img/taycan-configure/car-cover.jpg", "price": 568 }
+  ]
+}

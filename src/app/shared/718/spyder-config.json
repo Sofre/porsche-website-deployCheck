@@ -1,0 +1,264 @@
+{
+  
+    "model": "718 Spyder RS",
+    "basePrice": 170260,
+    "exteriorColorGroups": [
+    {
+      
+      "title": "Contrasts",
+      "price": 0,
+      "colors": [
+        { "name": "White Contrast", "img": "assets/p911img/p911-carrera-configure/white color.jpg" },
+        { "name": "Black Contrast", "img": "assets/p911img/p911-carrera-configure/black color.jpg" }
+      ]
+    },
+    {
+      "title": "Shades",
+      "price": 3281,
+      "colors": [
+        { "name": "Vanadium Grey Metallic", "img": "assets/p911img/p911-carrera-configure/vanadium grey metallic.jpg" }
+        
+        
+      ]
+    },
+    {
+      "title": "Dreams",
+      "price": 3281,
+      "colors": [
+        
+        { "name": "Racing Yellow", "img": "assets/p718img/cayman-configure/racing-yellow.jpg" },
+        { "name": "Guards Red", "img": "assets/p911img/p911-carrera-configure/guards red.jpg" },
+        { "name": "Shark Blue", "img": "assets/p718img/cayman-configure/shark-blue.jpg" } 
+        
+        
+      ]
+    }
+  ],
+  "wheelGroups": [
+    {
+      "title": "20-inch",
+      "displayPrice": "+ EUR varies",
+      "wheels": [
+        { "name": "20-inch 718 Cayman GT4 RS forged aluminum wheels", "img": "assets/p718img/spyder-configure/20 rs al.jpg", "price": 0 }
+        
+      ]
+    }
+  ],
+    "combinedImageMap": {
+    "White Contrast": {
+      "20-inch 718 Cayman GT4 RS forged aluminum wheels\" Wheels": {
+        "roofClosed": [
+          "assets/p718img/white/spyder/roof-closed/718 Spyder RS (1).jpg",
+          "assets/p718img/white/spyder/roof-closed/718 Spyder RS (2).jpg",
+          "assets/p718img/white/spyder/roof-closed/718 Spyder RS (3).jpg",
+          "assets/p718img/white/spyder/roof-closed/718 Spyder RS (4).jpg",
+          "assets/p718img/white/spyder/roof-closed/718 Spyder RS (5).jpg",
+          "assets/p718img/white/spyder/roof-closed/718 Spyder RS (6).jpg"
+        ],
+        "roofOpen": [
+          "assets/p718img/white/spyder/roof-open/718 Spyder RS (1).jpg",
+          "assets/p718img/white/spyder/roof-open/718 Spyder RS (2).jpg",
+          "assets/p718img/white/spyder/roof-open/718 Spyder RS (3).jpg",
+          "assets/p718img/white/spyder/roof-open/718 Spyder RS (4).jpg",
+          "assets/p718img/white/spyder/roof-open/718 Spyder RS (5).jpg",
+          "assets/p718img/white/spyder/roof-open/718 Spyder RS (6).jpg"
+        ]
+      
+      }
+    },
+
+    "Black Contrast": {
+      "20-inch 718 Cayman GT4 RS forged aluminum wheels\" Wheels": {
+        "roofClosed": [
+          "assets/p718img/black/spyder/roof-closed/718 Spyder RS (1).jpg",
+          "assets/p718img/black/spyder/roof-closed/718 Spyder RS (2).jpg",
+          "assets/p718img/black/spyder/roof-closed/718 Spyder RS (3).jpg",
+          "assets/p718img/black/spyder/roof-closed/718 Spyder RS (4).jpg",
+          "assets/p718img/black/spyder/roof-closed/718 Spyder RS (5).jpg",
+          "assets/p718img/black/spyder/roof-closed/718 Spyder RS (6).jpg"
+        ],
+        "roofOpen": [
+          "assets/p718img/black/spyder/roof-open/718 Spyder RS (1).jpg",
+          "assets/p718img/black/spyder/roof-open/718 Spyder RS (2).jpg",
+          "assets/p718img/black/spyder/roof-open/718 Spyder RS (3).jpg",
+          "assets/p718img/black/spyder/roof-open/718 Spyder RS (4).jpg",
+          "assets/p718img/black/spyder/roof-open/718 Spyder RS (5).jpg",
+          "assets/p718img/black/spyder/roof-open/718 Spyder RS (6).jpg"
+        ]
+      }
+    },
+
+    "Vanadium Grey Metallic": {
+      "20-inch 718 Cayman GT4 RS forged aluminum wheels\" Wheels": {
+        "roofClosed": [
+          "assets/p718img/vanadium-grey-metallic/spyder/roof-closed/718 Spyder RS (1).jpg",
+          "assets/p718img/vanadium-grey-metallic/spyder/roof-closed/718 Spyder RS (2).jpg",
+          "assets/p718img/vanadium-grey-metallic/spyder/roof-closed/718 Spyder RS (3).jpg",
+          "assets/p718img/vanadium-grey-metallic/spyder/roof-closed/718 Spyder RS (4).jpg",
+          "assets/p718img/vanadium-grey-metallic/spyder/roof-closed/718 Spyder RS (5).jpg",
+          "assets/p718img/vanadium-grey-metallic/spyder/roof-closed/718 Spyder RS (6).jpg"
+        ],
+        "roofOpen": [
+          "assets/p718img/vanadium-grey-metallic/spyder/roof-open/718 Spyder RS (1).jpg",
+          "assets/p718img/vanadium-grey-metallic/spyder/roof-open/718 Spyder RS (2).jpg",
+          "assets/p718img/vanadium-grey-metallic/spyder/roof-open/718 Spyder RS (3).jpg",
+          "assets/p718img/vanadium-grey-metallic/spyder/roof-open/718 Spyder RS (4).jpg",
+          "assets/p718img/vanadium-grey-metallic/spyder/roof-open/718 Spyder RS (5).jpg",
+          "assets/p718img/vanadium-grey-metallic/spyder/roof-open/718 Spyder RS (6).jpg"
+        ]
+      }
+    },
+
+    "Racing Yellow": {
+      "20-inch 718 Cayman GT4 RS forged aluminum wheels\" Wheels": {
+        "roofClosed": [
+          "assets/p718img/racing-yellow/spyder/roof-closed/718 Spyder RS (1).jpg",
+          "assets/p718img/racing-yellow/spyder/roof-closed/718 Spyder RS (2).jpg",
+          "assets/p718img/racing-yellow/spyder/roof-closed/718 Spyder RS (3).jpg",
+          "assets/p718img/racing-yellow/spyder/roof-closed/718 Spyder RS (4).jpg",
+          "assets/p718img/racing-yellow/spyder/roof-closed/718 Spyder RS (5).jpg",
+          "assets/p718img/racing-yellow/spyder/roof-closed/718 Spyder RS (6).jpg"
+        ],
+        "roofOpen": [
+          "assets/p718img/racing-yellow/spyder/roof-open/718 Spyder RS (1).jpg",
+          "assets/p718img/racing-yellow/spyder/roof-open/718 Spyder RS (2).jpg",
+          "assets/p718img/racing-yellow/spyder/roof-open/718 Spyder RS (3).jpg",
+          "assets/p718img/racing-yellow/spyder/roof-open/718 Spyder RS (4).jpg",
+          "assets/p718img/racing-yellow/spyder/roof-open/718 Spyder RS (5).jpg",
+          "assets/p718img/racing-yellow/spyder/roof-open/718 Spyder RS (6).jpg"
+        ]
+      }
+      
+    },
+     "Guards Red": {
+      "20-inch 718 Cayman GT4 RS forged aluminum wheels\" Wheels": {
+        "roofClosed": [
+          "assets/p718img/guards-red/spyder/roof-closed/718 Spyder RS (1).jpg",
+          "assets/p718img/guards-red/spyder/roof-closed/718 Spyder RS (2).jpg",
+          "assets/p718img/guards-red/spyder/roof-closed/718 Spyder RS (3).jpg",
+          "assets/p718img/guards-red/spyder/roof-closed/718 Spyder RS (4).jpg",
+          "assets/p718img/guards-red/spyder/roof-closed/718 Spyder RS (5).jpg",
+          "assets/p718img/guards-red/spyder/roof-closed/718 Spyder RS (6).jpg"
+        ],
+        "roofOpen": [
+          "assets/p718img/guards-red/spyder/roof-open/718 Spyder RS (1).jpg",
+          "assets/p718img/guards-red/spyder/roof-open/718 Spyder RS (2).jpg",
+          "assets/p718img/guards-red/spyder/roof-open/718 Spyder RS (3).jpg",
+          "assets/p718img/guards-red/spyder/roof-open/718 Spyder RS (4).jpg",
+          "assets/p718img/guards-red/spyder/roof-open/718 Spyder RS (5).jpg",
+          "assets/p718img/guards-red/spyder/roof-open/718 Spyder RS (6).jpg"
+        ]
+      }
+      
+    },
+
+     "Shark Blue": {
+      "20-inch 718 Cayman GT4 RS forged aluminum wheels\" Wheels": {
+        "roofClosed": [
+          "assets/p718img/shark-blue/spyder/roof-closed/718 Spyder RS (1).jpg",
+          "assets/p718img/shark-blue/spyder/roof-closed/718 Spyder RS (2).jpg",
+          "assets/p718img/shark-blue/spyder/roof-closed/718 Spyder RS (3).jpg",
+          "assets/p718img/shark-blue/spyder/roof-closed/718 Spyder RS (4).jpg",
+          "assets/p718img/shark-blue/spyder/roof-closed/718 Spyder RS (5).jpg",
+          "assets/p718img/shark-blue/spyder/roof-closed/718 Spyder RS (6).jpg"
+        ],
+        "roofOpen": [
+          "assets/p718img/shark-blue/spyder/roof-open/718 Spyder RS (1).jpg",
+          "assets/p718img/shark-blue/spyder/roof-open/718 Spyder RS (2).jpg",
+          "assets/p718img/shark-blue/spyder/roof-open/718 Spyder RS (3).jpg",
+          "assets/p718img/shark-blue/spyder/roof-open/718 Spyder RS (4).jpg",
+          "assets/p718img/shark-blue/spyder/roof-open/718 Spyder RS (5).jpg",
+          "assets/p718img/shark-blue/spyder/roof-open/718 Spyder RS (6).jpg"
+        ]
+      }
+    }
+  },
+  "interiorGroups": [
+    {
+      "title": "Leather",
+      "displayPrice": "+ EUR varies",
+      "interiors": [
+        { "name": "Black with white stripes", "img": "assets/p911img/interior/black-white-stripes.jpg", "price": 0 },
+        { "name": "Black with red stripes", "img": "assets/p911img/interior/black-red-stripes.jpg", "price": 1793 }
+      ]
+    }
+  ],
+  "seatGroups": [
+    {
+      "title": "Full Bucket Seats",
+     
+      "seats": [
+        { "name": "Full bucket seats", "img": "assets/p911img/interior/bucket-seats.jpg", "price": 0 }
+      ]
+    },
+    {
+      "title": "Sport Seats Plus",
+    
+      "seats": [
+        { "name": "Sport Seats Plus", "img": "assets/p718img/cayman-configure/interior/sport-plus.jpg", "price": 0 }
+      ]
+    }
+  ],
+    "interiorSeatImageMap": {
+    "Black with white stripes": {
+      "Full bucket seats": {
+        "roofClosed": [
+          "assets/p718img/spyder-configure/interior/718 Spyder RS (1).jpg",
+          "assets/p718img/spyder-configure/interior/roof-closed/black 8.jpg"
+        ],
+        "roofOpen": [
+          "assets/p718img/spyder-configure/interior/718 Spyder RS (1).jpg",
+          "assets/p718img/spyder-configure/interior/roof-open/black 8.jpg"
+        ]
+      },
+      
+      "Sport Seats Plus": {
+        "roofClosed": [
+          "assets/p718img/spyder-configure/interior/sp black 7.jpg",
+          "assets/p718img/spyder-configure/interior/roof-closed/sp black 8.jpg"
+        ],
+        "roofOpen": [
+          "assets/p718img/spyder-configure/interior/sp black 7.jpg",
+          "assets/p718img/spyder-configure/interior/roof-open/sp black 8.jpg"
+        ]
+      }
+     
+    },
+    "Black with red stripes": {
+      "Full bucket seats": {
+        "roofClosed": [
+          "assets/p718img/spyder-configure/interior/718 Spyder RS red (1).jpg",
+         "assets/p718img/spyder-configure/interior/roof-closed/red 8.jpg"
+        ],
+        "roofOpen": [
+          "assets/p718img/spyder-configure/interior/718 Spyder RS red (1).jpg",
+          "assets/p718img/spyder-configure/interior/roof-open/red 8.jpg"
+        ]
+      },
+      
+      "Sport Seats Plus": {
+        "roofClosed": [
+          "assets/p718img/spyder-configure/interior/sp red 7.jpg",
+          "assets/p718img/spyder-configure/interior/roof-closed/sp red 8.jpg"
+        ],
+        "roofOpen": [
+          "assets/p718img/spyder-configure/interior/sp red 7.jpg",
+          "assets/p718img/spyder-configure/interior/roof-open/sp red 8.jpg"
+        ]
+      }
+    }
+    
+  },
+  "technologyGroups": [
+    {
+      "seats": [
+        { "name": "Lift system front axle", "price": 2649, "img": "assets/p718img/spyder-configure/lift-system.jpg", "imageUrl": "assets/p718img/spyder-configure/lift-system.jpg", "description": "Hydraulic function for raising the front chassis by approx. 30 mm at the push of a button. To increase ground clearance at speeds of up to approx. 60 km/h." },
+        { "name": "Light Design Package", "price": 305, "img": "assets/p718img/spyder-configure/light-design-package.jpg", "imageUrl": "assets/p718img/spyder-configure/light-design-package.jpg", "description": "Additional LED dimmable ambient lighting on the overhead console, for the door handles, in the door storage compartments, in the footwells, and illumination of the vanity mirror in the sun visors" }
+      ]
+    }
+  ],
+  "accessories": [
+
+    { "name": "Car Cover", "img": "assets/p911img/p911-carrera-configure/car-cover.jpg", "price": 190 }
+  ]
+}

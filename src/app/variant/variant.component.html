@@ -1,0 +1,148 @@
+<div class="variant-full-page" *ngIf="variant">
+
+  <main class="variant-main">
+
+    <img [src]="variant.mainImage" 
+         [alt]="variant.name"
+         class="variant-img" />
+
+<div class="variant-switcher">
+  <span 
+    *ngFor="let v of modelVariants" 
+    (click)="navigateToVariant(v.name)"
+    [class.active]="variant.name === v.name">
+
+    {{ getVariantDisplayName(v) }}
+
+  </span>
+</div>
+
+    <h2 class="variant-title">{{ variant.name }}</h2>
+
+    <h4 class="variant-gas">{{ variant.fuel }}</h4>
+    <h4 class="variant-price">From EUR {{ variant.price }} incl. VAT</h4>
+
+    <div class="variant-buttons">
+      <button class="btn-change-model" routerLink="/models">
+        Change Model
+      </button>
+
+      <button class="btn-configure" (click)="configureCar()">
+        Configure
+      </button>
+
+      <button class="btn-test-drive" (click)="compareModel()">
+        Compare Model
+      </button>
+    </div>
+  </main>
+
+ 
+
+  <section class="performance-section" #performanceSection>
+
+    <div class="performance-text">
+
+      <div class="performance-stat">
+        <h1>{{ acceleration }} <span>sec</span></h1>
+        <p>Acceleration 0-100 km/h</p>
+      </div>
+
+      <div class="performance-stat">
+        <h1>
+          {{ padWithZeros(powerKw) }} kW /
+          {{ padWithZeros(powerPs) }} HP
+        </h1>
+        <p>Power</p>
+      </div>
+
+      <div class="performance-stat">
+        <h1>{{ padWithZeros(topSpeed) }} km/h</h1>
+        <p>Top Speed</p>
+      </div>
+
+    </div>
+
+    <div class="performance-image">
+      <img [src]="variant.frontBackImage"
+           [alt]="variant.name" />
+    </div>
+
+  </section>
+
+  
+
+<!-- ✅ ADD THIS -->
+<div class="tech-details-button">
+  <button (click)="viewTechnicalDetails()">
+    View All Technical Details
+  </button>
+</div>
+
+</div>
+
+<!-- Blurred Background -->
+<div class="blur-background"
+     *ngIf="showDetailsPanel"
+     (click)="closeDetailsPanel()">
+</div>
+
+<!-- Slide Panel -->
+<div class="details-panel"
+     *ngIf="showDetailsPanel"
+     @slideIn>
+
+  <div class="details-header">
+    <h2>{{ variant.name }}</h2>
+    <p>Technical details</p>
+    <button class="close-btn"
+            (click)="closeDetailsPanel()">×</button>
+  </div>
+
+  <div class="details-content">
+
+    <div class="details-image">
+      <img [src]="variant.technicalImage"
+           [alt]="variant.name">
+    </div>
+
+    <div class="details-text">
+      <div class="details-group">
+        <div><strong>Height</strong><br>{{ height }}</div>
+        <div><strong>Length</strong><br>{{ length }}</div>
+      </div>
+
+      <div class="details-group">
+        <div><strong>Wheelbase</strong><br>{{ wheelbase }}</div>
+        <div><strong>Width (mirrors folded)</strong><br>{{ widthMirrorsFolded }}</div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Accordion -->
+  <div *ngFor="let section of sections"
+       class="accordion-item"
+       (click)="toggleSection(section.key)">
+
+    <div class="accordion-title">
+      {{ section.title }}
+      <span>
+        {{ expandedSection === section.key ? '−' : '+' }}
+      </span>
+    </div>
+
+    <div class="accordion-content"
+         *ngIf="expandedSection === section.key">
+
+      <div class="spec-row"
+           *ngFor="let spec of section.specs">
+
+        <span class="spec-label">{{ spec.label }}</span>
+        <span class="spec-value">{{ spec.value }}</span>
+
+      </div>
+    </div>
+  </div>
+
+</div>

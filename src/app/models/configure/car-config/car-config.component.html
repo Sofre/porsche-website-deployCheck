@@ -1,0 +1,512 @@
+<div 
+  [class.blur-background]="showTechModal || showQuoteModal"
+  [class.modal-open]="showTechModal || showQuoteModal">
+
+  <div class="conf-container">
+    <div class="config-top-header">
+      <div class="config-title">
+        <button class="change-model-btn" (click)="ChangeModel()" type="button">
+          Change Model
+        </button>
+      </div>
+
+      <!-- Right side: price + summary button -->
+      <div class="price-summary-wrapper" style="display: flex; align-items: center; gap: 12px;">
+        <div class="config-price" [@pricePop]="pricePopState">
+          €{{ displayedPrice | number:'1.2-2' }}
+        </div>
+        <button class="summary-btn" (click)="scrollToSummary()">
+          Summary
+        </button>
+      </div>
+    </div>
+
+    <div class="conf-content">
+      <!-- LEFT SIDE -->
+      <div class="conf-left">
+<div
+  class="main-image"
+  (mousedown)="onDragStart($event)"
+  (mousemove)="onDragging($event)"
+  (mouseup)="onDragEnd($event)"
+  (mouseleave)="onDragEnd($event)"
+  (touchstart)="onDragStart($event)"
+  (touchmove)="onDragging($event)"
+  (touchend)="onDragEnd($event)"
+  (dragstart)="preventDrag($event)"
+>
+  <!-- SLIDES -->
+  <img *ngIf="prevImage"
+       [src]="prevImage"
+       class="slide-image prev"
+       [style.transform]="getSlideTransform(-1)"
+       [style.transition]="getSlideTransition()"
+       draggable="false" />
+
+  <img [src]="selectedImage"
+       class="slide-image current"
+       [style.transform]="getSlideTransform(0)"
+       [style.transition]="getSlideTransition()"
+       draggable="false" />
+
+  <img *ngIf="nextImage"
+       [src]="nextImage"
+       class="slide-image next"
+       [style.transform]="getSlideTransform(1)"
+       [style.transition]="getSlideTransition()"
+       draggable="false" />
+
+  <!-- ✅ ROOF TOGGLE OVERLAY -->
+  <div class="roof-toggle" *ngIf="isCabriolet" (mousedown)="$event.stopPropagation()">
+    <button class="roof-btn" (click)="toggleRoof()">
+  <span *ngIf="roofState === 'roofClosed'">Open roof</span>
+  <span *ngIf="roofState === 'roofOpen'">Close roof</span>
+</button>
+
+  </div>
+</div>
+
+        <!-- Thumbnails below main image -->
+        <div class="thumbnail-row">
+          <img *ngFor="let img of images; let i = index" [src]="img" (click)="selectImage(img)" [class.selected]="selectedImage === img" alt="Thumbnail {{ i + 1 }}" draggable="false" />
+        </div>
+      </div>
+          
+    
+      <!-- RIGHT SIDE -->
+      <div class="conf-right">
+        <div class="config-header">
+          <div class="config-title">
+            <strong class="model-name">{{ variantJson.model }}</strong>
+            <span class="model-year">2026</span>
+          </div>
+        </div>
+
+        <!-- SEARCH BAR -->
+        <div class="search-bar-whole">
+          <div class="search-bar">
+            <input type="text" [(ngModel)]="searchTerm" placeholder="Search equipment options" />
+            <button *ngIf="searchTerm" class="clear-btn" (click)="searchTerm = ''">✕</button>
+          </div>
+
+          <div class="search-results">
+            <div *ngFor="let item of searchResults" class="search-item" [class.selected]="isSelected(item)" (click)="selectSearchItem(item)">
+              <img *ngIf="item.img" [src]="item.img" [alt]="item.name" draggable="false" />
+              <div class="search-item-info">
+                <strong>{{ item.name }}</strong>
+                <span *ngIf="item.price">{{ item.price }}</span>
+                <em>{{ item.type }}</em>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sections -->
+        <!-- Exterior Colors -->
+        <div class="section" #exteriorColorsSection>
+          <h2 (click)="toggleSection('exteriorColors')" class="section-title">
+            Exterior Colors
+            <span class="toggle-icon">{{ sectionStates['exteriorColors'] ? '▲' : '▼' }}</span>
+          </h2>
+          <div [@expandCollapse]="sectionStates['exteriorColors'] ? 'expanded' : 'collapsed'" class="section-content">
+            <div *ngFor="let group of variantJson.exteriorColorGroups" class="color-group">
+              <h3>{{ group.title }} <small>+ {{ group.price }} EUR</small></h3>
+              <div class="colors-row">
+                <div *ngFor="let color of group.colors" class="color-option" [class.selected]="selectedColor?.name === color.name" (click)="selectColor(color)" [title]="color.name">
+                  <img [src]="color.img" [alt]="color.name" draggable="false" />
+                  <span>{{ color.name }}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Wheels -->
+        <div class="section" #wheelsSection>
+          <h2 (click)="toggleSection('wheels')" class="section-title">
+            Wheels
+            <span class="toggle-icon">{{ sectionStates['wheels'] ? '▲' : '▼' }}</span>
+          </h2>
+          <div [@expandCollapse]="sectionStates['wheels'] ? 'expanded' : 'collapsed'" class="section-content">
+            <div *ngFor="let group of variantJson.wheelGroups" class="color-group">
+              <h3>{{ group.title }} <small *ngIf="group.displayPrice">{{ group.displayPrice }}</small></h3>
+              <div class="wheels-row">
+                <div *ngFor="let wheel of group.wheels" class="wheel-option" [class.selected]="selectedWheel?.name === wheel.name" (click)="selectWheels(wheel)" [title]="wheel.name + ' ' + wheel.price">
+                  <img [src]="wheel.img" [alt]="wheel.name" draggable="false" />
+                  <span>{{ wheel.name }}</span>
+                  <small>+ {{ wheel.price }} EUR</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Interior -->
+        <div class="section" #interiorColorsSection>
+          <h2 (click)="toggleSection('interior')" class="section-title">
+            Interior
+            <span class="toggle-icon">{{ sectionStates['interior'] ? '▲' : '▼' }}</span>
+          </h2>
+          <div [@expandCollapse]="sectionStates['interior'] ? 'expanded' : 'collapsed'" class="section-content">
+            <div *ngFor="let group of variantJson.interiorGroups" class="color-group">
+              <h3>{{ group.title }} <small *ngIf="group.displayPrice">{{ group.displayPrice }}</small></h3>
+              <div class="interiors-row">
+                <div *ngFor="let interior of group.interiors" class="interior-option" [class.selected]="selectedInterior?.name === interior.name" (click)="selectInterior(interior)" [title]="interior.name">
+                  <img [src]="interior.img" [alt]="interior.name" draggable="false" />
+                  <span>{{ interior.name }}</span>
+                  <small>+ {{ interior.price }} EUR</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Seats -->
+        <div class="section" #seatsSection>
+          <h2 (click)="toggleSection('seats')" class="section-title">
+            Seats
+            <span class="toggle-icon">{{ sectionStates['seats'] ? '▲' : '▼' }}</span>
+          </h2>
+          <div [@expandCollapse]="sectionStates['seats'] ? 'expanded' : 'collapsed'" class="section-content">
+            <div *ngFor="let group of variantJson.seatGroups" class="color-group">
+              <h3>{{ group.title }} <small *ngIf="group.displayPrice">{{ group.displayPrice }}</small></h3>
+              <div class="wheels-row">
+                <div *ngFor="let seat of group.seats" class="wheel-option" [class.selected]="selectedSeat?.name === seat.name" (click)="selectSeats(seat)" [title]="seat.name + ' +' + (seat.displayPrice ?? seat.price)">
+                  <img [src]="seat.img" [alt]="seat.name" draggable="false" />
+                  <span>{{ seat.name }}</span>
+                  <small>{{ seat.price === 0 && seat.displayPrice ? seat.displayPrice : ('+ ' + (seat.price | number:'1.0-0') + ' EUR') }}</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Technology -->
+        <div class="section">
+          <h2 (click)="toggleSection('technology')" class="section-title">
+            Technology
+            <span class="toggle-icon">{{ sectionStates['technology'] ? '▲' : '▼' }}</span>
+          </h2>
+          <div [@expandCollapse]="sectionStates['technology'] ? 'expanded' : 'collapsed'" class="section-content">
+            <div *ngFor="let group of variantJson.technologyGroups" class="color-group">
+              <div class="wheels-row">
+                <div *ngFor="let tech of group.seats" class="wheel-option" [class.selected]="selectedTechnology.has(tech.name)" (click)="selectTechnology(tech); openTechModal(tech)" [title]="tech.name">
+                  <img [src]="tech.img" [alt]="tech.name" draggable="false" />
+                  <span>{{ tech.name }}</span>
+                  <small>+ {{ tech.price | number:'1.0-0' }} EUR</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Accessories -->
+        <div class="section" #accessoriesSection>
+          <h2 (click)="toggleSection('accessories')" class="section-title">
+            Vehicle Accessories
+            <span class="toggle-icon">{{ sectionStates['accessories'] ? '▲' : '▼' }}</span>
+          </h2>
+          <div [@expandCollapse]="sectionStates['accessories'] ? 'expanded' : 'collapsed'" class="section-content">
+            <div class="wheels-row">
+              <div *ngFor="let accessory of variantJson.accessories" class="wheel-option" [class.selected]="selectedAccessories.has(accessory.name)" (click)="selectAccessory(accessory)" [title]="accessory.name + ' +' + accessory.price + ' EUR'">
+                <img [src]="accessory.img" [alt]="accessory.name" draggable="false" />
+                <span>{{ accessory.name }}</span>
+                <small>+ {{ accessory.price | number:'1.0-0' }} EUR</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="summary-button-container">
+          <button class="summary-btn" (click)="scrollToSummary()">Summary</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ✅ Keep the summary, modals, and PDF sections exactly the same, just replace model name with {{ variantJson.modelName }} and year with 2026 -->
+  <!-- ... rest of your HTML remains identical ... -->
+<!-- ✅ SUMMARY SECTION -->
+<section id="summary-section" class="summary-section">
+  <div class="summary-container">
+    
+    <!-- LEFT: Car Images -->
+    <div class="summary-left">
+      <img [src]="images[0]" alt="Car view 1" class="large-image" draggable="false" />
+      <img [src]="images[6]" alt="Car view 2" class="large-image" draggable="false" />
+      <div class="bottom-row">
+        <img [src]="images[7]" alt="Car view 3" class="large-image" draggable="false" />
+        <div class="zoom-wrap">
+          <img [src]="images[1]" alt="Car view 4" class="large-image zoom-inside" draggable="false" />
+        </div>
+      </div>
+
+      <!-- Selected Equipment -->
+      <div class="selected-equipment">
+        <h3>Your Selected Equipment</h3>
+
+        <!-- Exterior Colours & Wheels -->
+        <div class="equipment-group" *ngIf="selectedColor || selectedWheel">
+          <h4>Exterior Colours & Wheels</h4>
+          <ul class="equipment-list">
+            <li *ngIf="selectedColor">
+              <img [src]="selectedColor.img" alt="{{ selectedColor.name }}" class="equipment-img" />
+              {{ selectedColor.name }} – {{ selectedColor.price | number:'1.2-2' }} EUR
+            </li>
+            <li *ngIf="selectedWheel">
+              <img [src]="selectedWheel.img" alt="{{ selectedWheel.name }}" class="equipment-img" />
+              {{ selectedWheel.name }} – {{ selectedWheel.price | number:'1.2-2' }} EUR
+            </li>
+          </ul>
+        </div>
+
+        <!-- Interior & Seats -->
+        <div class="equipment-group" *ngIf="selectedInterior || selectedSeat">
+          <h4>Interior Colours & Seats</h4>
+          <ul class="equipment-list">
+            <li *ngIf="selectedInterior">
+              <img [src]="selectedInterior.img" alt="{{ selectedInterior.name }}" class="equipment-img" />
+              {{ selectedInterior.name }} – {{ selectedInterior.price | number:'1.2-2' }} EUR
+            </li>
+            <li *ngIf="selectedSeat">
+              <img [src]="selectedSeat.img" alt="{{ selectedSeat.name }}" class="equipment-img" />
+              {{ selectedSeat.name }} – {{ selectedSeat.price | number:'1.2-2' }} EUR
+            </li>
+          </ul>
+        </div>
+
+        <!-- Technology -->
+        <div class="equipment-group" *ngIf="selectedTechnology.size">
+          <h4>Technology</h4>
+          <ul class="equipment-list">
+            <li *ngFor="let techName of selectedTechnology">
+              <ng-container *ngIf="getTechnologyByName(techName) as tech">
+                <img [src]="tech.img" alt="{{ tech.name }}" class="equipment-img" />
+                {{ tech.name }} – {{ tech.price | number:'1.2-2' }} EUR
+                <button class="remove-btn" (click)="toggleTechnology(tech)">Remove</button>
+              </ng-container>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Accessories -->
+        <div class="equipment-group" *ngIf="selectedAccessories.size">
+          <h4>Accessories</h4>
+          <ul class="equipment-list">
+            <li *ngFor="let accName of selectedAccessories">
+              <ng-container *ngIf="getAccessoryByName(accName) as acc">
+                <img [src]="acc.img" alt="{{ acc.name }}" class="equipment-img" />
+                {{ acc.name }} – {{ acc.price | number:'1.2-2' }} EUR
+                <button class="remove-btn" (click)="selectAccessory(acc)">Remove</button>
+              </ng-container>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- RIGHT: Model Info -->
+    <div class="summary-right">
+      <!-- Model Header -->
+      <div class="summary-header">
+        <span class="model-year">Your 2026</span>
+        <h1 class="model-name">{{ variantJson.model }}</h1>
+      </div>
+
+      <!-- Total Price -->
+      <div class="price-card">
+        <span class="price-label">Total price</span>
+        <div class="total-price">€{{ displayedPrice | number:'1.2-2' }}</div>
+      </div>
+
+     
+
+      <!-- Price Breakdown -->
+      <div class="price-breakdown">
+        <div class="price-row">
+          <span>Base price</span>
+          <span>€{{ variantJson.basePrice | number:'1.2-2' }}</span>
+        </div>
+        <div class="price-row">
+          <span>Options</span>
+          <span>€{{ (displayedPrice - variantJson.basePrice) | number:'1.2-2' }}</span>
+        </div>
+      </div>
+
+      <!-- Quote & PDF -->
+      <div class="quote-button-container" style="margin-top: 20px;">
+        <button class="btn-black" (click)="openQuoteModal()">Request a Quote</button>
+      </div>
+      <button class="download-btn" (click)="downloadSummaryPdf()">Download PDF</button>
+    </div>
+
+  </div>
+</section>
+
+</div>
+
+
+
+
+<!-- TECHNOLOGY MODAL BACKDROP -->
+<div class="modal-backdrop" *ngIf="showTechModal" (click)="closeTechModal()"></div>
+
+<!-- TECHNOLOGY MODAL -->
+<div class="modal" 
+     *ngIf="showTechModal" 
+     #modalContent 
+     (click)="$event.stopPropagation()" 
+     [@modalSlide]>
+  <!-- Media (image or video) -->
+ <div class="modal-media">
+  <!-- VIDEO -->
+  <video
+    *ngIf="activeTech?.videoUrl && !activeTech?.imageUrl"
+    [src]="activeTech.videoUrl"
+    controls
+  ></video>
+
+  <!-- IMAGE -->
+  <img
+    *ngIf="activeTech?.imageUrl"
+    [src]="activeTech.imageUrl"
+    [alt]="activeTech?.name"
+  />
+</div>
+
+
+  <!-- Content -->
+  <div class="modal-body">
+    <p class="modal-price">{{ activeTech?.price }} EUR</p>
+    <h2 class="modal-title">{{ activeTech?.name }}</h2>
+    <p class="modal-description">{{ activeTech?.description }}</p>
+
+    <!-- Footer Buttons -->
+    <div class="modal-footer">
+      <button class="btn-black" (click)="toggleTechnology(activeTech)">
+        {{ selectedTechnology.has(activeTech?.name) ? 'Remove from selection' : 'Add to selection' }}
+      </button>
+      <button class="btn-white" (click)="closeTechModal()">Close</button>
+    </div>
+  </div>
+</div>
+
+<!-- QUOTE MODAL BACKDROP -->
+<div class="quote-backdrop" *ngIf="showQuoteModal" (click)="closeQuoteModal()"></div>
+
+<!-- QUOTE MODAL -->
+<div class="quote-modal" *ngIf="showQuoteModal" (click)="$event.stopPropagation()">
+
+  <img src="assets/porsche-black-text.png" class="quote-modal-image" />
+  <h2>Request a Quote</h2>
+
+  <input type="text" placeholder="First Name*" [(ngModel)]="quoteForm.name">
+  <input type="text" placeholder="Last Name*" [(ngModel)]="quoteForm.surname">
+ <input type="text" placeholder="Phone*" [(ngModel)]="quoteForm.mobile">
+
+
+  <input type="email" placeholder="Email" [(ngModel)]="quoteForm.email">
+  <input type="text" placeholder="City" [(ngModel)]="quoteForm.city">
+
+  <div class="modal-buttons">
+    <button 
+      class="btn-black" 
+      (click)="submitQuote()" 
+      [disabled]="sending">
+      {{ sending ? 'Sending...' : 'Submit' }}
+    </button>
+    <button class="btn-white" (click)="closeQuoteModal()">Cancel</button>
+  </div>
+</div>
+
+<!-- PDF Template -->
+<div id="pdf-template" style="display:none;">
+  <div class="pdf-page single-page">
+
+    <!-- Car Image -->
+    <div class="pdf-car-image-wrap">
+      <img [src]="images[0]" class="pdf-car-image" />
+    </div>
+
+    <!-- Car Model -->
+    <h1 class="pdf-title">{{ variantJson.model }}</h1>
+    <span class="model-year">2026</span>
+
+    <!-- Summary Heading -->
+    <h2 class="pdf-summary-title">Summary</h2>
+
+    <!-- Price Table -->
+    <div class="pdf-price-table-wrap">
+      <div class="price-row">
+        <span class="price-label">Base Price</span>
+        <span class="price-value">€{{ variantJson.basePrice | number:'1.2-2' }}</span>
+      </div>
+      <div class="price-row">
+        <span class="price-label">Sum of Selected Options</span>
+        <span class="price-value">€{{ (displayedPrice - variantJson.basePrice) | number:'1.2-2' }}</span>
+      </div>
+      <div class="price-row total-row">
+        <span class="price-label">TOTAL PRICE</span>
+        <span class="price-value">€{{ displayedPrice | number:'1.2-2' }}</span>
+      </div>
+    </div>
+
+    <!-- Selected Options -->
+    <div *ngIf="selectedColor || selectedWheel || selectedInterior || selectedSeat || selectedTechnology.size || selectedAccessories.size" class="pdf-options-wrap">
+
+      <!-- Exterior Colours & Wheels -->
+      <div *ngIf="selectedColor || selectedWheel" class="pdf-option-group">
+        <h2>Exterior Colours & Wheels</h2>
+        <hr />
+        <div *ngIf="selectedColor">
+          <img [src]="selectedColor.img" alt="{{ selectedColor.name }}" class="equipment-img" />
+          {{ selectedColor.name }} – {{ selectedColor.price | number:'1.2-2' }} EUR
+        </div>
+        <div *ngIf="selectedWheel">
+          <img [src]="selectedWheel.img" alt="{{ selectedWheel.name }}" class="equipment-img" />
+          {{ selectedWheel.name }} – {{ selectedWheel.price | number:'1.2-2' }} EUR
+        </div>
+      </div>
+
+      <!-- Interior Colours & Seats -->
+      <div *ngIf="selectedInterior || selectedSeat" class="pdf-option-group">
+        <h2>Interior Colours & Seats</h2>
+        <hr />
+        <div *ngIf="selectedInterior">
+          <img [src]="selectedInterior.img" alt="{{ selectedInterior.name }}" class="equipment-img" />
+          {{ selectedInterior.name }} – {{ selectedInterior.price | number:'1.2-2' }} EUR
+        </div>
+        <div *ngIf="selectedSeat">
+          <img [src]="selectedSeat.img" alt="{{ selectedSeat.name }}" class="equipment-img" />
+          {{ selectedSeat.name }} – {{ selectedSeat.price | number:'1.2-2' }} EUR
+        </div>
+      </div>
+
+      <!-- Technology -->
+      <div *ngIf="selectedTechnology.size" class="pdf-option-group">
+        <h2>Technology</h2>
+        <hr />
+        <div *ngFor="let techName of selectedTechnology">
+          <ng-container *ngIf="getTechnologyByName(techName) as tech">
+            <img [src]="tech.img" alt="{{ tech.name }}" class="equipment-img" />
+            {{ tech.name }} – {{ tech.price | number:'1.2-2' }} EUR
+          </ng-container>
+        </div>
+      </div>
+
+      <!-- Accessories -->
+      <div *ngIf="selectedAccessories.size" class="pdf-option-group">
+        <h2>Accessories</h2>
+        <hr />
+        <div *ngFor="let accName of selectedAccessories">
+          <ng-container *ngIf="getAccessoryByName(accName) as acc">
+            <img [src]="acc.img" alt="{{ acc.name }}" class="equipment-img" />
+            {{ acc.name + ' – ' + (acc.price | number:'1.2-2') + ' EUR' }}
+          </ng-container>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

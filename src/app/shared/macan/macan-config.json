@@ -1,0 +1,325 @@
+{
+  
+    "model": "Macan",
+    "basePrice": 80400,
+    "exteriorColorGroups": [
+    {
+      
+      "title": "Contrasts",
+      "price": 0,
+      "colors": [
+        { "name": "White Contrast", "img": "assets/p911img/p911-carrera-configure/white color.jpg" },
+        { "name": "Black Contrast", "img": "assets/p911img/p911-carrera-configure/black color.jpg" }
+      ]
+    },
+    {
+      "title": "Shades",
+      "price": 1263,
+      "colors": [
+        { "name": "Dolomite Silver Metallic", "img": "assets/p911img/p911-carrera-configure/gt silver metallic.jpg" }
+      ]
+    },
+    {
+      "title": "Dreams",
+      "price": 2018,
+      "colors": [
+        { "name": "Carmine Red", "img": "assets/p911img/p911-carrera-configure/guards red.jpg" },
+        { "name": "Gentian Blue", "img": "assets/p911img/p911-carrera-configure/g blue metallic.jpg" }
+        
+        
+      ]
+    }
+  ],
+  "wheelGroups": [
+    {
+      "title": "19-inch",
+      "displayPrice": "Standard equipment",
+      "wheels": [
+        { "name": "19-inch Macan Wheels", "img": "assets/macan-img/macan-configure/19-macan.jpg", "price": 0 }
+      ]
+    },
+    {
+      "title": "20-inch",
+      "displayPrice": "+ EUR varies",
+      "wheels": [
+        { "name": "20-inch Sport Wheels painted in Platinum", "img": "assets/macan-img/macan-configure/20-sport.jpg", "price": 2747 }
+     
+      ]
+    },
+     {
+      "title": "21-inch",
+      "displayPrice": "+ EUR varies",
+      "wheels": [
+        { "name": "21-inch RS Spyder Wheels", "img": "assets/macan-img/macan-configure/21-rs.jpg", "price": 4569 },
+        { "name": "21-inch Exclusive Design Sport wheels", "img": "assets/macan-img/macan-configure/21-ex.jpg", "price": 4205 }
+      ]
+    }
+  ],
+  "combinedImageMap": {
+    "White Contrast": {
+      "19-inch Macan Wheels": [
+        "assets/macan-img/white/macan/Macan (1).jpg",
+        "assets/macan-img/white/macan/Macan (2).jpg",
+        "assets/macan-img/white/macan/Macan (3).jpg",
+        "assets/macan-img/white/macan/Macan (4).jpg",
+        "assets/macan-img/white/macan/Macan (5).jpg",
+        "assets/macan-img/white/macan/Macan (6).jpg"
+       
+      ],
+      "20-inch Sport Wheels painted in Platinum": [
+        "assets/macan-img/white/macan/Macan 20s (1).jpg",
+        "assets/macan-img/white/macan/Macan 20s (2).jpg",
+        "assets/macan-img/white/macan/Macan 20s (3).jpg",
+        "assets/macan-img/white/macan/Macan 20s (4).jpg",
+        "assets/macan-img/white/macan/Macan (5).jpg",
+        "assets/macan-img/white/macan/Macan (6).jpg"
+      ],
+      "21-inch RS Spyder Wheels": [
+        "assets/macan-img/white/macan/Macan 21rs (1).jpg",
+        "assets/macan-img/white/macan/Macan 21rs (2).jpg",
+        "assets/macan-img/white/macan/Macan 21rs (3).jpg",
+        "assets/macan-img/white/macan/Macan 21rs (4).jpg",
+        "assets/macan-img/white/macan/Macan (5).jpg",
+        "assets/macan-img/white/macan/Macan (6).jpg"
+      ],
+      "21-inch Exclusive Design Sport wheels": [
+        "assets/macan-img/white/macan/Macan 21ex (1).jpg",
+        "assets/macan-img/white/macan/Macan 21ex (2).jpg",
+        "assets/macan-img/white/macan/Macan 21ex (3).jpg",
+        "assets/macan-img/white/macan/Macan 21ex (4).jpg",
+        "assets/macan-img/white/macan/Macan (5).jpg",
+        "assets/macan-img/white/macan/Macan (6).jpg"
+      ]
+      
+    },
+    "Black Contrast": {
+      "19-inch Macan Wheels": [
+        "assets/macan-img/black/macan/Macan (1).jpg",
+        "assets/macan-img/black/macan/Macan (2).jpg",
+        "assets/macan-img/black/macan/Macan (3).jpg",
+        "assets/macan-img/black/macan/Macan (4).jpg",
+        "assets/macan-img/black/macan/Macan (5).jpg",
+        "assets/macan-img/black/macan/Macan (6).jpg"
+       
+      ],
+      "20-inch Sport Wheels painted in Platinum": [
+        "assets/macan-img/black/macan/Macan 20s (1).jpg",
+        "assets/macan-img/black/macan/Macan 20s (2).jpg",
+        "assets/macan-img/black/macan/Macan 20s (3).jpg",
+        "assets/macan-img/black/macan/Macan 20s (4).jpg",
+        "assets/macan-img/black/macan/Macan (5).jpg",
+        "assets/macan-img/black/macan/Macan (6).jpg"
+      ],
+      "21-inch RS Spyder Wheels": [
+        "assets/macan-img/black/macan/Macan 21rs (1).jpg",
+        "assets/macan-img/black/macan/Macan 21rs (2).jpg",
+        "assets/macan-img/black/macan/Macan 21rs (3).jpg",
+        "assets/macan-img/black/macan/Macan 21rs (4).jpg",
+        "assets/macan-img/black/macan/Macan (5).jpg",
+        "assets/macan-img/black/macan/Macan (6).jpg"
+      ],
+      "21-inch Exclusive Design Sport wheels": [
+        "assets/macan-img/black/macan/Macan 21ex (1).jpg",
+        "assets/macan-img/black/macan/Macan 21ex (2).jpg",
+        "assets/macan-img/black/macan/Macan 21ex (3).jpg",
+        "assets/macan-img/black/macan/Macan 21ex (4).jpg",
+        "assets/macan-img/black/macan/Macan (5).jpg",
+        "assets/macan-img/black/macan/Macan (6).jpg"
+      ]
+  
+},
+  "Dolomite Silver Metallic": {
+      "19-inch Macan Wheels": [
+        "assets/macan-img/ds-metallic/macan/Macan (1).jpg",
+        "assets/macan-img/ds-metallic/macan/Macan (2).jpg",
+        "assets/macan-img/ds-metallic/macan/Macan (3).jpg",
+        "assets/macan-img/ds-metallic/macan/Macan (4).jpg",
+        "assets/macan-img/ds-metallic/macan/Macan (5).jpg",
+        "assets/macan-img/ds-metallic/macan/Macan (6).jpg"
+       
+      ],
+      "20-inch Sport Wheels painted in Platinum": [
+        "assets/macan-img/ds-metallic/macan/Macan 20s (1).jpg",
+        "assets/macan-img/ds-metallic/macan/Macan 20s (2).jpg",
+        "assets/macan-img/ds-metallic/macan/Macan 20s (3).jpg",
+        "assets/macan-img/ds-metallic/macan/Macan 20s (4).jpg",
+        "assets/macan-img/ds-metallic/macan/Macan (5).jpg",
+        "assets/macan-img/ds-metallic/macan/Macan (6).jpg"
+      ],
+      "21-inch RS Spyder Wheels": [
+        "assets/macan-img/ds-metallic/macan/Macan 21rs (1).jpg",
+        "assets/macan-img/ds-metallic/macan/Macan 21rs (2).jpg",
+        "assets/macan-img/ds-metallic/macan/Macan 21rs (3).jpg",
+        "assets/macan-img/ds-metallic/macan/Macan 21rs (4).jpg",
+        "assets/macan-img/ds-metallic/macan/Macan (5).jpg",
+        "assets/macan-img/ds-metallic/macan/Macan (6).jpg"
+      ],
+      "21-inch Exclusive Design Sport wheels": [
+        "assets/macan-img/ds-metallic/macan/Macan 21ex (1).jpg",
+        "assets/macan-img/ds-metallic/macan/Macan 21ex (2).jpg",
+        "assets/macan-img/ds-metallic/macan/Macan 21ex (3).jpg",
+        "assets/macan-img/ds-metallic/macan/Macan 21ex (4).jpg",
+        "assets/macan-img/ds-metallic/macan/Macan (5).jpg",
+        "assets/macan-img/ds-metallic/macan/Macan (6).jpg"
+      ]
+},
+  
+  "Carmine Red": {
+      "19-inch Macan Wheels": [
+        "assets/macan-img/c-red/macan/Macan (1).jpg",
+        "assets/macan-img/c-red/macan/Macan (2).jpg",
+        "assets/macan-img/c-red/macan/Macan (3).jpg",
+        "assets/macan-img/c-red/macan/Macan (4).jpg",
+        "assets/macan-img/c-red/macan/Macan (5).jpg",
+        "assets/macan-img/c-red/macan/Macan (6).jpg"
+       
+      ],
+      "20-inch Sport Wheels painted in Platinum": [
+        "assets/macan-img/c-red/macan/Macan 20s (1).jpg",
+        "assets/macan-img/c-red/macan/Macan 20s (2).jpg",
+        "assets/macan-img/c-red/macan/Macan 20s (3).jpg",
+        "assets/macan-img/c-red/macan/Macan 20s (4).jpg",
+        "assets/macan-img/c-red/macan/Macan (5).jpg",
+        "assets/macan-img/c-red/macan/Macan (6).jpg"
+      ],
+      "21-inch RS Spyder Wheels": [
+        "assets/macan-img/c-red/macan/Macan 21rs (1).jpg",
+        "assets/macan-img/c-red/macan/Macan 21rs (2).jpg",
+        "assets/macan-img/c-red/macan/Macan 21rs (3).jpg",
+        "assets/macan-img/c-red/macan/Macan 21rs (4).jpg",
+        "assets/macan-img/c-red/macan/Macan (5).jpg",
+        "assets/macan-img/c-red/macan/Macan (6).jpg"
+      ],
+      "21-inch Exclusive Design Sport wheels": [
+        "assets/macan-img/c-red/macan/Macan 21ex (1).jpg",
+        "assets/macan-img/c-red/macan/Macan 21ex (2).jpg",
+        "assets/macan-img/c-red/macan/Macan 21ex (3).jpg",
+        "assets/macan-img/c-red/macan/Macan 21ex (4).jpg",
+        "assets/macan-img/c-red/macan/Macan (5).jpg",
+        "assets/macan-img/c-red/macan/Macan (6).jpg"
+      ]
+},
+
+  "Gentian Blue": {
+      "19-inch Macan Wheels": [
+        "assets/macan-img/g-blue/macan/Macan (1).jpg",
+        "assets/macan-img/g-blue/macan/Macan (2).jpg",
+        "assets/macan-img/g-blue/macan/Macan (3).jpg",
+        "assets/macan-img/g-blue/macan/Macan (4).jpg",
+        "assets/macan-img/g-blue/macan/Macan (5).jpg",
+        "assets/macan-img/g-blue/macan/Macan (6).jpg"
+       
+      ],
+      "20-inch Sport Wheels painted in Platinum": [
+        "assets/macan-img/g-blue/macan/Macan 20s (1).jpg",
+        "assets/macan-img/g-blue/macan/Macan 20s (2).jpg",
+        "assets/macan-img/g-blue/macan/Macan 20s (3).jpg",
+        "assets/macan-img/g-blue/macan/Macan 20s (4).jpg",
+        "assets/macan-img/g-blue/macan/Macan (5).jpg",
+        "assets/macan-img/g-blue/macan/Macan (6).jpg"
+      ],
+      "21-inch RS Spyder Wheels": [
+        "assets/macan-img/g-blue/macan/Macan 21rs (1).jpg",
+        "assets/macan-img/g-blue/macan/Macan 21rs (2).jpg",
+        "assets/macan-img/g-blue/macan/Macan 21rs (3).jpg",
+        "assets/macan-img/g-blue/macan/Macan 21rs (4).jpg",
+        "assets/macan-img/g-blue/macan/Macan (5).jpg",
+        "assets/macan-img/g-blue/macan/Macan (6).jpg"
+      ],
+      "21-inch Exclusive Design Sport wheels": [
+        "assets/macan-img/g-blue/macan/Macan 21ex (1).jpg",
+        "assets/macan-img/g-blue/macan/Macan 21ex (2).jpg",
+        "assets/macan-img/g-blue/macan/Macan 21ex (3).jpg",
+        "assets/macan-img/g-blue/macan/Macan 21ex (4).jpg",
+        "assets/macan-img/g-blue/macan/Macan (5).jpg",
+        "assets/macan-img/g-blue/macan/Macan (6).jpg"
+      ]
+}
+
+
+  
+
+
+
+
+    
+  },
+  "interiorGroups": [
+    {
+      "title": "Standard",
+      "interiors": [
+        { "name": "Black", "img": "assets/p911img/interior/black.jpg", "displayPrice": "+ 0,00 EUR varies", "price": 0 }
+        
+        
+      ]
+    },
+    {
+      "title": "Leather",
+      "interiors": [
+        { "name": "Black/Bordeaux Red", "img": "assets/p911img/interior/b-b-red.jpg", "price": 4368 },
+        { "name": "Black/Kalahari", "img": "assets/panamera-img/panamera-configure/interior/bk.jpg", "price": 4368 },
+        { "name": "Black/Mojave Beige", "img": "assets/macan-img/macan-configure/bm.jpg", "price": 4368 }
+      ]
+    }
+  ],
+  "seatGroups": [
+    {
+      "title": "Comfort Seats",
+      "displayPrice": "+ EUR varies",
+      "seats": [
+        { "name": "Comfort Seats", "img": "assets/macan-img/macan-configure/c-seats.jpg", "displayPrice": "Standard equipment", "price": 0 }
+      ]
+    },
+    {
+      "title": "Sport Seats",
+      "displayPrice": "+ EUR varies",
+      "seats": [
+        { "name": "Adaptive sports seats", "img": "assets/macan-img/macan-configure/s-seats.jpg", "price": 1494 }
+      ]
+    }
+  ],
+  "interiorSeatImageMap": {
+    "Black": {
+      "Comfort Seats": ["assets/macan-img/macan-configure/interior/c-seats/Macan (7).jpg",
+                        "assets/macan-img/macan-configure/interior/c-seats/Macan (8).jpg"],
+      "Adaptive sports seats": ["assets/macan-img/macan-configure/interior/s-seats/black 7.jpg",
+                                "assets/macan-img/macan-configure/interior/s-seats/black 8.jpg"]
+    },
+    "Black/Bordeaux Red": {
+      "Comfort Seats": ["assets/macan-img/macan-configure/interior/c-seats/bb red 7.jpg",
+                        "assets/macan-img/macan-configure/interior/c-seats/bb red 8.jpg"],
+      "Adaptive sports seats": ["assets/macan-img/macan-configure/interior/s-seats/bb red 7.jpg",
+                                "assets/macan-img/macan-configure/interior/s-seats/bb red 8.jpg"]
+    },
+   
+    "Black/Kalahari": {
+      "Comfort Seats": ["assets/macan-img/macan-configure/interior/c-seats/bk 7.jpg",
+                        "assets/macan-img/macan-configure/interior/c-seats/bk 8.jpg"],
+      "Adaptive sports seats": ["assets/macan-img/macan-configure/interior/s-seats/bk 7.jpg",
+                                "assets/macan-img/macan-configure/interior/s-seats/bk 8.jpg"]
+    },
+
+    "Black/Mojave Beige": {
+      "Comfort Seats": ["assets/macan-img/macan-configure/interior/c-seats/bm 7.jpg",
+                        "assets/macan-img/macan-configure/interior/c-seats/bm 8.jpg"],
+      "Adaptive sports seats": ["assets/macan-img/macan-configure/interior/s-seats/bm 7.jpg",
+                                "assets/macan-img/macan-configure/interior/s-seats/bm 8.jpg"]
+    }
+
+  },
+  "technologyGroups": [
+    {
+      "seats": [
+        { "name": "Surround view camera system", "price": 615, "img": "assets/macan-img/macan-configure/surround-view.jpg", "imageUrl": "assets/macan-img/macan-configure/surround-view.jpg", "description": "As reversing camera, but also featuring a 360-degree surround view generated from the images of four high-resolution cameras enabling even greater comfort when manoeuvring. A junction view (from front and rear of vehicle) provides assistance at more complex exits." },
+        { "name": "Self-Steering Park Assist", "price": 282, "img": "assets/macan-img/macan-configure/self-steering-1.jpg", "imageUrl": "assets/macan-img/macan-configure/self-steering-2.jpg", "description": "When activated and at the correct speed, the vehicle is able to detect suitable parking spaces by measuring the space while driving past and then automatically taking control of the steering in parallel and perpendicular parking spaces. The driver remains in the vehicle and is responsible for the parking manoeuvre as well as for acceleration, braking and changing gears." },
+        { "name": "Side airbags in rear compartment", "price": 391, "img": "assets/macan-img/macan-configure/side-airbags.jpg", "imageUrl": "assets/macan-img/macan-configure/side-airbags.jpg", "description": "Side airbags in the rear outer seat backrests" }
+      ]
+    }
+  ],
+  "accessories": [
+    { "name": "Roof transport system main support", "img": "assets/macan-img/macan-configure/roof-transport.jpg", "price": 320 },
+    { "name": "Porsche Performance roof box", "img": "assets/macan-img/macan-configure/roof-box.jpg", "price": 980 },
+    { "name": "Ski-/Snowboard holder", "img": "assets/macan-img/macan-configure/skii-holder.jpg", "price": 290 },
+    { "name": "Car Cover", "img": "assets/macan-img/macan-configure/car-cover.jpg", "price": 190 }
+  ]
+}

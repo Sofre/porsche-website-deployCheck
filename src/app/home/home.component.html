@@ -1,0 +1,211 @@
+<div class="everything">
+<div class="main-container">
+  <!-- Static Intro Image -->
+  <img
+    src="assets/porsche-main.jpg"
+    alt="Porsche"
+    class="intro-image"
+    [class.hidden]="showVideo"
+  />
+
+  <!-- Video (hidden initially) -->
+  <video
+    #introVideo
+    class="intro-video"
+    muted
+    loop
+    playsinline
+    preload="auto"
+    [class.show]="showVideo"
+  >
+    <source src="assets/intro.mp4" type="video/mp4" />
+  </video>
+
+  <!-- Overlay content -->
+  <div class="overlay">
+    <div class="hero-text">
+      <h1 class="line1">The new</h1>
+      <h1 class="line2">Carrera</h1>
+      <button class="explore-button" (click)="goCarrera()" type="button">
+        Discover more
+      </button>
+    </div>
+
+    <img src="assets/porsche-logo-text.png" alt="Porsche Logo" class="logo-image slide-up" />
+
+    <p class="subtitle word1">Precision.</p>
+    <p class="subtitle word2">Performance.</p>
+    <p class="subtitle word3">Passion.</p>
+  </div>
+</div>
+
+
+
+
+<!-- Clickable image section -->
+<div class="below-video-section">
+  <h1 class="text-1 fade-up">Discover</h1>
+
+  <div class="image-cards-wrapper">
+  <div class="image-card" (click)="goMacan()">
+    <img src="assets/macan-mainpage.jpg" alt="Carrera Front" />
+    <div class="caption">The new Macan.</div>
+  </div>
+
+  <div class="image-card" (click)="goGt3rs()">
+    <img src="assets/gt3rs-mainpage.jpg" alt="Carrera Back" />
+    <div class="caption">911 GT3 RS.</div>
+  </div>
+  </div>
+  
+
+</div>
+
+<div class="journey">
+  <h1 class="journey-text fade-up">
+    Your Porsche journey starts now.
+  </h1>
+
+  <div class="hover-video-grid">
+
+    <!-- ITEM 1 : 911 -->
+<div class="hv-item"
+     (mouseenter)="playVideo($event)"
+     (mouseleave)="stopVideo($event)"
+     (click)="goToModel('911')">
+
+  <img src="assets/911-journey.jpg" class="hv-img" />
+  <video class="hv-video" muted loop>
+    <source src="assets/911-journey-vid.mp4" type="video/mp4" />
+  </video>
+  
+</div>
+
+
+
+    <!-- ITEM 2 -->
+    <div class="hv-item"
+    (mouseenter)="playVideo($event)"
+    (mouseleave)="stopVideo($event)"
+    (click)="goToModel('718')">
+    
+      <img src="assets/718-journey.jpg" class="hv-img" />
+      <video class="hv-video" muted loop>
+        <source src="assets/718-journey-vid.mp4" type="video/mp4" />
+      </video>
+      
+    </div>
+
+    <!-- ITEM 3 -->
+    <div class="hv-item"
+    (mouseenter)="playVideo($event)"
+    (mouseleave)="stopVideo($event)"
+    (click)="goToModel('Taycan')">
+      <img src="assets/taycan-journey.jpg" class="hv-img" />
+      <video class="hv-video" muted loop>
+        <source src="assets/taycan-journey-vid.mp4" type="video/mp4" />
+      </video>
+      
+    </div>
+
+    <!-- ITEM 4 -->
+    <div class="hv-item"
+    (mouseenter)="playVideo($event)"
+    (mouseleave)="stopVideo($event)"
+    (click)="goToModel('Panamera')">
+      <img src="assets/panamera-journey.jpg" class="hv-img" />
+      <video class="hv-video" muted loop>
+        <source src="assets/panamera-journey-vid.mp4" type="video/mp4" />
+      </video>
+      
+    </div>
+
+    <!-- ITEM 5 -->
+    <div class="hv-item"
+    (mouseenter)="playVideo($event)"
+    (mouseleave)="stopVideo($event)"
+    (click)="goToModel('Macan')">
+      <img src="assets/macan-journey.jpg" class="hv-img" />
+      <video class="hv-video" muted loop>
+        <source src="assets/macan-journey-vid.mp4" type="video/mp4" />
+      </video>
+      
+    </div>
+
+    <!-- ITEM 6 -->
+    <div class="hv-item"
+    (mouseenter)="playVideo($event)"
+    (mouseleave)="stopVideo($event)"
+    (click)="goToModel('Cayenne')">
+      <img src="assets/cayenne-journey.jpg" class="hv-img" />
+      <video class="hv-video" muted loop>
+        <source src="assets/cayenne-journey-vid.mp4" type="video/mp4" />
+      </video>
+      
+    </div>
+
+  </div>
+</div>
+
+<!-- Porsche Center Section -->
+<section class="porsche-center-section">
+  
+  <!-- Google Map -->
+  <!-- Porsche Macedonia Map -->
+<div class="map-container">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2963.86082412703!2d21.43004407662942!3d42.02471797122597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1354151ea92f5463%3A0x7737c6c5a3fc7217!2sPorsche%20Macedonia!5e0!3m2!1sen!2smk!4v1768924818661!5m2!1sen!2smk"
+    width="100%"
+    height="100%"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
+
+
+  <!-- Contact Info & Working Hours -->
+<div class="contact-info">
+  <h3>Porsche Macedonia</h3>
+
+  <div class="info-row">
+    <span class="label">Address</span>
+    <span class="value">Bosnia and Herzegovina 4 Skopje MK,<br>Лазар Трповски 67A, Skopje 1000</span>
+  </div>
+
+  <div class="info-row">
+    <span class="label">Phone</span>
+    <span class="value">+389 70223359</span>
+  </div>
+
+  <div class="info-row">
+    <span class="label">Email</span>
+    <span class="value">porscheproject2026&#64;gmail.com</span>
+  </div>
+
+  <div class="divider"></div>
+
+  <h4>Working Hours</h4>
+
+  <div class="hours-row">
+    <span>Mon – Fri</span>
+    <span>08:00 – 18:00</span>
+  </div>
+  <div class="hours-row">
+    <span>Saturday</span>
+    <span>09:00 – 14:00</span>
+  </div>
+  <div class="hours-row">
+    <span>Sunday</span>
+    <span class="closed">Closed</span>
+  </div>
+</div>
+
+
+</section>
+
+
+
+
+</div>

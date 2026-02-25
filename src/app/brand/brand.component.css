@@ -1,0 +1,261 @@
+:host {
+  display: block;
+  background: white;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ================= GENERAL ================= */
+
+.section {
+  padding: 120px 80px;
+}
+
+.center {
+  max-width: 900px;
+}
+
+/* ================= HERO ================= */
+
+.hero {
+  position: relative;
+  height: 85vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.hero-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  filter: brightness(0.75);
+  transform: scale(1.05);
+  transition: transform 6s ease;
+}
+
+/* Optional slow zoom for cinematic feel */
+.hero:hover .hero-bg img {
+  transform: scale(1.1);
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0,0,0,0.6) 0%,
+    rgba(0,0,0,0.2) 40%,
+    rgba(0,0,0,0.05) 70%,
+    transparent 100%
+  );
+  z-index: 1;
+}
+
+.hero-overlay {
+  position: absolute;
+  bottom: 180px;
+  left: 80px;
+  color: white;
+  z-index: 3;
+  max-width: 600px;
+}
+
+.hero-overlay h1 {
+  font-size: 90px;
+  font-weight: 600;
+  letter-spacing: 4px;
+  margin: 0;
+}
+
+.hero-overlay p {
+  font-size: 22px;
+  opacity: 0.85;
+  margin-top: 12px;
+}
+
+/* ================= ABOUT ================= */
+
+.about h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 20px;
+  color: #bfbfbf;
+  line-height: 1.6;
+}
+
+/* ================= SPLIT SECTION ================= */
+
+.split {
+  display: flex;
+  min-height: 100vh;
+}
+
+.split.reverse {
+  flex-direction: row-reverse;
+}
+
+.split .image,
+.split .text {
+  width: 50%;
+  
+}
+
+.split img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.split .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px;
+  background: white;
+}
+
+.split h2 {
+  font-size: 44px;
+  margin-bottom: 20px;
+}
+
+.split p {
+  font-size: 18px;
+  color: #bfbfbf;
+  line-height: 1.6;
+}
+
+/* ================= PARALLAX ================= */
+
+.parallax {
+  position: relative;
+  height: 100vh;
+  background: url('/assets/brand/parallax.jpg') center/cover fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parallax::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+}
+
+.parallax h2 {
+  position: relative;
+  font-size: 60px;
+  color: white;
+  z-index: 2;
+}
+
+/* ================= CTA ================= */
+
+.cta {
+  text-align: center;
+}
+
+.cta h2 {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.cta button {
+  background: black;
+  color: white;
+  border: none;
+  padding: 16px 40px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cta button:hover {
+  background: #333;
+  transform: translateY(-2px);
+}
+
+/* ================= SCROLL FADE-UP ================= */
+
+.fade-up {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.9s cubic-bezier(.25,.1,.25,1),
+              transform 0.9s cubic-bezier(.25,.1,.25,1);
+}
+
+.fade-up.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 1200px) {
+  .hero-overlay h1 {
+    font-size: 72px;
+  }
+}
+
+@media (max-width: 992px) {
+  .section {
+    padding: 80px 40px;
+  }
+
+  .split {
+    flex-direction: column;
+    min-height: auto;
+  }
+
+  .split .image,
+  .split .text {
+    width: 100%;
+  }
+
+  .split .text {
+    padding: 60px 40px;
+  }
+
+  .hero-overlay {
+    left: 40px;
+    bottom: 120px;
+  }
+
+  .hero-overlay h1 {
+    font-size: 56px;
+  }
+
+  .hero-overlay p {
+    font-size: 18px;
+  }
+
+  .parallax h2 {
+    font-size: 36px;
+    text-align: center;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-overlay h1 {
+    font-size: 42px;
+  }
+
+  .section {
+    padding: 60px 20px;
+  }
+}

@@ -1,0 +1,50 @@
+<div class="models-page">
+  <!-- Left Sidebar -->
+  <div class="models-sidebar">
+     <button class="compare-btn" routerLink="/compare">
+      Compare Models
+    </button>
+    <!-- Model Filter -->
+     <h4 class="model-title">Models</h4>
+    <ul class="categories">
+      <li *ngFor="let model of models" 
+          (click)="setFilter(model)" 
+          [class.active]="selectedModelFilter === model">
+        {{ model }}
+      </li>
+    </ul>
+
+    <!-- Fuel Type Filter -->
+    <h4 class="fuel-title">Fuel Type</h4>
+    <ul class="fuel-types">
+      <li *ngFor="let fuel of fuelTypes" 
+          (click)="setFuelFilter(fuel)"
+          [class.active]="selectedFuelFilter === fuel">
+        {{ fuel }}
+      </li>
+      
+    </ul>
+
+        <!-- Fuel Gear Filter -->
+    <h4 class="fuel-title">Gear Type</h4>
+    <ul class="fuel-types">
+      <li *ngFor="let gear of gearTypes" 
+          (click)="setGearFilter(gear)"
+          [class.active]="selectedGearFilter === gear">
+        {{ gear }}
+      </li>
+      
+    </ul>
+  </div>
+
+  <!-- Right Content -->
+  <div class="models-content">
+    <div class="models-container">
+      <a class="model-card" *ngFor="let variant of filteredVariants()" [routerLink]="variant.route">
+        <img [src]="variant.imageUrl" [alt]="variant.name" />
+        <h3>{{ variant.name }}</h3>
+        <p>{{ variant.description }}</p>
+      </a>
+    </div>
+  </div>
+</div>

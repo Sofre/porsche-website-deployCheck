@@ -1,0 +1,314 @@
+/* Entire page white background */
+.models-page {
+  display: flex;
+  min-height: 100vh;
+  background-color: #fff;
+  color: #000;
+  padding: 2rem;
+  box-sizing: border-box;
+  gap: 2rem;
+  font-family: 'Arial', sans-serif;
+}
+
+.compare-btn {
+  width: 100%;
+  padding: 14px 16px;
+  margin-bottom: 24px;
+  background: #000;
+  color: #fff;
+  border: none;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.compare-btn:hover {
+  background: #1a1a1a;
+  transform: translateY(-1px);
+}
+
+
+/* Sidebar for categories */
+.models-sidebar {
+  width: 220px;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+
+  position: sticky;
+  top: 2rem; /* same as .models-page padding */
+  max-height: calc(100vh - 4rem); /* 2rem top + 2rem bottom */
+  overflow-y: auto;
+}
+
+/* SECTION TITLES */
+.filter-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* LIST STYLES */
+.models-sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.models-sidebar ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 5px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.2s ease;
+}
+
+/* Circle next to each item */
+.models-sidebar ul li::before {
+  content: "";
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px solid #333;
+  display: inline-block;
+  transition: 0.2s ease;
+}
+
+/* Full circle when active */
+.models-sidebar ul li.active::before {
+  background-color: #333;
+  border-color: #333;
+}
+
+/* Slight hover effect */
+.models-sidebar ul li:hover {
+  color: #000;
+}
+.models-sidebar ul li:hover::before {
+  border-color: #000;
+}
+
+
+/* Right section: model cards */
+.models-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.models-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: flex-start;
+}
+
+/* Individual model cards */
+.model-card {
+  width: 250px;
+  background: #f8f8f8;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+  color: inherit;
+}
+
+.model-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0,0,0,0.15);
+}
+
+.model-card img {
+  width: 100%;
+  max-height: 150px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+.model-card h3 {
+  font-size: 1.2rem;
+  margin: 0.8rem 1rem 0.4rem;
+  font-weight: 700;
+}
+
+.model-card p {
+  font-size: 0.95rem;
+  margin: 0 1rem 1rem;
+  color: #555;
+}
+
+
+.model-title,
+.fuel-title {
+  font-size: 26px;
+  font-weight: 400;
+}
+
+/* ===============================
+   TABLET (≤ 1024px)
+================================ */
+@media (max-width: 1024px) {
+
+  .models-page {
+    flex-direction: column;
+    padding: 1.5rem;
+    gap: 2rem;
+  }
+
+  /* Sidebar becomes top panel */
+  .models-sidebar {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 0 0 15px 0;
+    gap: 15px;
+  }
+
+  .compare-btn {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  /* Lists inline for tablet */
+  .models-sidebar ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 0;
+  }
+
+  .models-sidebar ul li {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+
+  /* Model cards wrap nicely */
+  .models-container {
+    justify-content: center;
+    gap: 1.5rem;
+  }
+
+  .model-card {
+    width: 220px;
+  }
+}
+
+/* ===============================
+   MOBILE (≤ 768px)
+================================ */
+@media (max-width: 768px) {
+
+  .models-page {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 2rem;
+  }
+
+  /* Sidebar stacked, full width */
+  .models-sidebar {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .compare-btn {
+    width: 100%;
+    font-size: 0.9rem;
+    padding: 12px 16px;
+    margin-bottom: 12px;
+  }
+
+  /* Lists vertical */
+  .models-sidebar ul {
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .models-sidebar ul li {
+    padding: 6px 0;
+    font-size: 14px;
+  }
+
+  /* Cards full width, centered */
+  .models-container {
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .model-card {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .model-card img {
+    max-height: 150px;
+  }
+
+  .model-card h3 {
+    font-size: 1rem;
+  }
+
+  .model-card p {
+    font-size: 0.85rem;
+  }
+
+  .model-title,
+  .fuel-title {
+    font-size: 20px;
+  }
+}
+
+/* ===============================
+   SMALL PHONES (≤ 480px)
+================================ */
+@media (max-width: 480px) {
+
+  .models-container {
+    gap: 0.8rem;
+  }
+
+  .model-card {
+    width: 100%;
+  }
+
+  .model-card img {
+    max-height: 120px;
+  }
+
+  .model-card h3 {
+    font-size: 0.95rem;
+  }
+
+  .model-card p {
+    font-size: 0.8rem;
+  }
+
+  .models-sidebar ul li {
+    font-size: 13px;
+    padding: 6px 0;
+  }
+
+  .compare-btn {
+    font-size: 0.85rem;
+    padding: 10px 12px;
+  }
+
+  .model-title,
+  .fuel-title {
+    font-size: 18px;
+  }
+}

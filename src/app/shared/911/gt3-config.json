@@ -1,0 +1,244 @@
+{
+  
+    "model": "911 GT3",
+    "basePrice": 220622,
+    "exteriorColorGroups": [
+    {
+      
+      "title": "Contrasts",
+      "price": 0,
+      "colors": [
+        { "name": "White Contrast", "img": "assets/p911img/p911-carrera-configure/white color.jpg" },
+        { "name": "Black Contrast", "img": "assets/p911img/p911-carrera-configure/black color.jpg" }
+      ]
+    },
+    {
+      "title": "Shades",
+      "price": 1263,
+      "colors": [
+        { "name": "GT Silver Metallic", "img": "assets/p911img/p911-carrera-configure/gt silver metallic.jpg" }
+        
+        
+      ]
+    },
+    {
+      "title": "Dreams",
+      "price": 2018,
+      "colors": [
+        { "name": "Guards Red", "img": "assets/p911img/p911-carrera-configure/guards red.jpg" },
+        { "name": "Pastel Orange", "img": "assets/p911img/p911-carrera-configure/pastel orange.jpg" },
+        { "name": "Riviera Blue", "img": "assets/p911img/gt3-configure/riviera-blue.png" }
+        
+        
+      ]
+    }
+  ],
+  "wheelGroups": [
+ 
+    {
+      "title": "20/21-inch",
+      "displayPrice": "+ EUR varies",
+      "wheels": [
+        { "name": "20-/21-inch Forged Aluminum Lightweight Wheels", "img": "assets/p911img/gt3-configure/20 al.jpg", "price": 0 },
+        { "name": "20-/21-Inch Forged Magnesium Lightweight Wheels", "img": "assets/p911img/gt3-configure/20 mg.jpg", "price": 5549 }
+        
+        
+      ]
+    }
+  ],
+  "combinedImageMap": {
+    "White Contrast": {
+      "20-/21-inch Forged Aluminum Lightweight Wheels\" Wheels": [
+        "assets/p911img/white/gt3/911 GT3 (1).jpg",
+        "assets/p911img/white/gt3/911 GT3 (2).jpg",
+        "assets/p911img/white/gt3/911 GT3 (3).jpg",
+        "assets/p911img/white/gt3/911 GT3 (4).jpg",
+        "assets/p911img/white/gt3/911 GT3 (5).jpg",
+        "assets/p911img/white/gt3/911 GT3 (6).jpg"
+       
+      ],
+      "20-/21-Inch Forged Magnesium Lightweight Wheels": [
+        "assets/p911img/white/gt3/911 GT3 mg (1).jpg",
+        "assets/p911img/white/gt3/911 GT3 mg (2).jpg",
+        "assets/p911img/white/gt3/911 GT3 mg (3).jpg",
+        "assets/p911img/white/gt3/911 GT3 mg (4).jpg",
+        "assets/p911img/white/gt3/911 GT3 (5).jpg",
+        "assets/p911img/white/gt3/911 GT3 (6).jpg"
+      ]
+      
+    },
+    "Black Contrast": {
+      "20-/21-inch Forged Aluminum Lightweight Wheels\" Wheels": [
+        "assets/p911img/black/gt3/911 GT3 Black (1).jpg",
+        "assets/p911img/black/gt3/911 GT3 Black (2).jpg",
+        "assets/p911img/black/gt3/911 GT3 Black (3).jpg",
+        "assets/p911img/black/gt3/911 GT3 Black (4).jpg",
+        "assets/p911img/black/gt3/911 GT3 Black (5).jpg",
+        "assets/p911img/black/gt3/911 GT3 Black (6).jpg"
+      ],
+      "20-/21-Inch Forged Magnesium Lightweight Wheels": [
+        "assets/p911img/black/gt3/911 GT3 Black mg (1).jpg",
+        "assets/p911img/black/gt3/911 GT3 Black mg (2).jpg",
+        "assets/p911img/black/gt3/911 GT3 Black mg (3).jpg",
+        "assets/p911img/black/gt3/911 GT3 Black mg (4).jpg",
+        "assets/p911img/black/gt3/911 GT3 Black (5).jpg",
+        "assets/p911img/black/gt3/911 GT3 Black (6).jpg"
+      ]
+  
+},
+  
+  
+  "GT Silver Metallic": {
+  "20-/21-inch Forged Aluminum Lightweight Wheels\" Wheels": [
+    "assets/p911img/silver-metallic/gt3/911 GT3 Silver Metallic (1).jpg",
+    "assets/p911img/silver-metallic/gt3/911 GT3 Silver Metallic (2).jpg",
+    "assets/p911img/silver-metallic/gt3/911 GT3 Silver Metallic (3).jpg",
+    "assets/p911img/silver-metallic/gt3/911 GT3 Silver Metallic (4).jpg",
+    "assets/p911img/silver-metallic/gt3/911 GT3 Silver Metallic (5).jpg",
+    "assets/p911img/silver-metallic/gt3/911 GT3 Silver Metallic (6).jpg"
+  ],
+  "20-/21-Inch Forged Magnesium Lightweight Wheels": [
+    "assets/p911img/silver-metallic/gt3/911 GT3 sm mg (1).jpg",
+    "assets/p911img/silver-metallic/gt3/911 GT3 sm mg (2).jpg",
+    "assets/p911img/silver-metallic/gt3/911 GT3 sm mg (3).jpg",
+    "assets/p911img/silver-metallic/gt3/911 GT3 sm mg (4).jpg",
+    "assets/p911img/silver-metallic/gt3/911 GT3 Silver Metallic (5).jpg",
+    "assets/p911img/silver-metallic/gt3/911 GT3 Silver Metallic (6).jpg"
+  ]
+},
+
+  "Guards Red": {
+  "20-/21-inch Forged Aluminum Lightweight Wheels\" Wheels": [
+    "assets/p911img/guards-red/gt3/911 GT3 Guards Red (1).jpg",
+    "assets/p911img/guards-red/gt3/911 GT3 Guards Red (2).jpg",
+    "assets/p911img/guards-red/gt3/911 GT3 Guards Red (3).jpg",
+    "assets/p911img/guards-red/gt3/911 GT3 Guards Red (4).jpg",
+    "assets/p911img/guards-red/gt3/911 GT3 Guards Red (5).jpg",
+    "assets/p911img/guards-red/gt3/911 GT3 Guards Red (6).jpg"
+  ],
+  "20-/21-Inch Forged Magnesium Lightweight Wheels": [
+    "assets/p911img/guards-red/gt3/911 GT3 gr mg (1).jpg",
+    "assets/p911img/guards-red/gt3/911 GT3 gr mg (2).jpg",
+    "assets/p911img/guards-red/gt3/911 GT3 gr mg (3).jpg",
+    "assets/p911img/guards-red/gt3/911 GT3 gr mg (4).jpg",
+    "assets/p911img/guards-red/gt3/911 GT3 Guards Red (5).jpg",
+    "assets/p911img/guards-red/gt3/911 GT3 Guards Red (6).jpg"
+  ]
+},
+ "Pastel Orange": {
+  "20-/21-inch Forged Aluminum Lightweight Wheels\" Wheels": [
+    "assets/p911img/pastel-orange/gt3/911 GT3 po (1).jpg",
+    "assets/p911img/pastel-orange/gt3/911 GT3 po (2).jpg",
+    "assets/p911img/pastel-orange/gt3/911 GT3 po (3).jpg",
+    "assets/p911img/pastel-orange/gt3/911 GT3 po (4).jpg",
+    "assets/p911img/pastel-orange/gt3/911 GT3 po (5).jpg",
+    "assets/p911img/pastel-orange/gt3/911 GT3 po (6).jpg"
+  ],
+  "20-/21-Inch Forged Magnesium Lightweight Wheels": [
+    "assets/p911img/pastel-orange/gt3/911 GT3 po mg (1).jpg",
+    "assets/p911img/pastel-orange/gt3/911 GT3 po mg (2).jpg",
+    "assets/p911img/pastel-orange/gt3/911 GT3 po mg (3).jpg",
+    "assets/p911img/pastel-orange/gt3/911 GT3 po mg (4).jpg",
+    "assets/p911img/pastel-orange/gt3/911 GT3 po (5).jpg",
+    "assets/p911img/pastel-orange/gt3/911 GT3 po (6).jpg"
+  ]
+},
+ "Riviera Blue": {
+  "20-/21-inch Forged Aluminum Lightweight Wheels\" Wheels": [
+    "assets/p911img/riviera-blue/gt3/911 GT3 rb (1).jpg",
+    "assets/p911img/riviera-blue/gt3/911 GT3 rb (2).jpg",
+    "assets/p911img/riviera-blue/gt3/911 GT3 rb (3).jpg",
+    "assets/p911img/riviera-blue/gt3/911 GT3 rb (4).jpg",
+    "assets/p911img/riviera-blue/gt3/911 GT3 rb (5).jpg",
+    "assets/p911img/riviera-blue/gt3/911 GT3 rb (6).jpg"
+  ],
+  "20-/21-Inch Forged Magnesium Lightweight Wheels": [
+    "assets/p911img/riviera-blue/gt3/911 GT3 rb mg (1).jpg",
+    "assets/p911img/riviera-blue/gt3/911 GT3 rb mg (2).jpg",
+    "assets/p911img/riviera-blue/gt3/911 GT3 rb mg (3).jpg",
+    "assets/p911img/riviera-blue/gt3/911 GT3 rb mg (4).jpg",
+    "assets/p911img/riviera-blue/gt3/911 GT3 rb (5).jpg",
+    "assets/p911img/riviera-blue/gt3/911 GT3 rb (6).jpg"
+  ]
+}
+
+
+  
+
+
+
+
+    
+  },
+  "interiorGroups": [
+    {
+      "title": "Leather",
+      "displayPrice": "+ EUR varies",
+      "interiors": [
+        { "name": "Black with white stripes", "img": "assets/p911img/interior/black-white-stripes.jpg", "displayPrice": "+ 0,00 EUR varies", "price": 0 },
+        { "name": "Black with red stripes", "img": "assets/p911img/interior/black-red-stripes.jpg", "price": 5450 },
+        { "name": "Black with blue stripes", "img": "assets/p911img/interior/black-blue-stripes.jpg", "price": 5450 }
+      ]
+    }
+    
+  ],
+  "seatGroups": [
+    {
+      "title": "Sport Seats Plus",
+      "displayPrice": "+ EUR varies",
+      "seats": [
+        { "name": "Sport Seats Plus", "img": "assets/p911img/interior/sport-seats-plus.jpg", "displayPrice": "Standard equipment", "price": 0 },
+        { "name": "Sport Seats Plus with memory package", "img": "assets/p911img/interior/sport-seats-plus.jpg", "price": 2504 }
+      ]
+    },
+    {
+      "title": "Lightweight Bucket Seats",
+      "displayPrice": "+ EUR varies",
+      "seats": [
+        { "name": "Lightweight sport bucket seats (foldable)", "img": "assets/p911img/interior/bucket-seats.jpg", "price": 6380 }
+        
+      ]
+    }
+  ],
+  "interiorSeatImageMap": {
+    "Black with white stripes": {
+      "Sport Seats Plus": ["assets/p911img/gt3-configure/interior/sport-plus/911 GT3 (7).jpg",
+                           "assets/p911img/gt3-configure/interior/sport-plus/911 GT3 (8).jpg"],
+      "Sport Seats Plus with memory package": ["assets/p911img/gt3-configure/interior/sport-plus/911 GT3 (7).jpg",
+                                               "assets/p911img/gt3-configure/interior/sport-plus/911 GT3 (8).jpg"],
+      "Lightweight sport bucket seats (foldable)": ["assets/p911img/gt3-configure/interior/bucket-seats/black 7.jpg",
+                                                    "assets/p911img/gt3-configure/interior/bucket-seats/black 8.jpg"]
+    },
+    "Black with red stripes": {
+      "Sport Seats Plus": ["assets/p911img/gt3-configure/interior/sport-plus/b red 7.jpg",
+                           "assets/p911img/gt3-configure/interior/sport-plus/b red 8.jpg"],
+      "Sport Seats Plus with memory package": ["assets/p911img/gt3-configure/interior/sport-plus/b red 7.jpg",
+                                          "assets/p911img/gt3-configure/interior/sport-plus/b red 8.jpg"],
+      "Lightweight sport bucket seats (foldable)": ["assets/p911img/gt3-configure/interior/bucket-seats/b red 7.jpg",
+                                                    "assets/p911img/gt3-configure/interior/bucket-seats/b red 8.jpg"]
+          
+    },
+    "Black with blue stripes": {
+      "Sport Seats Plus": ["assets/p911img/gt3-configure/interior/sport-plus/bb 7.jpg",
+                           "assets/p911img/gt3-configure/interior/sport-plus/bb 8.jpg"],
+      "Sport Seats Plus with memory package": ["assets/p911img/gt3-configure/interior/sport-plus/bb 7.jpg",
+                                               "assets/p911img/gt3-configure/interior/sport-plus/bb 8.jpg"],
+      "Lightweight sport bucket seats (foldable)": ["assets/p911img/gt3-configure/interior/bucket-seats/bb 7.jpg",
+                                                    "assets/p911img/gt3-configure/interior/bucket-seats/bb 8.jpg"]
+    }
+  },
+  "technologyGroups": [
+    {
+      "seats": [
+        { "name": "Lane Change Assist", "price": 875, "img": "assets/p911img/p911-carrera-configure/lane change assist.jpg", "videoUrl": "assets/p911img/p911-carrera-configure/lane-change-assist.mp4", "description": "Alerts the driver to vehicles rapidly approaching from behind or vehicles travelling at the same speed in potential blind spots..." },
+        { "name": "Adaptive cruise control", "price": 1737, "img": "assets/p911img/p911-carrera-configure/adaptive c control.jpg", "videoUrl": "assets/p911img/p911-carrera-configure/adaptive-c-control.mp4", "description": "Radar-based technology that automatically maintains a specified distance from the vehicle in front..." }
+      ]
+    }
+  ],
+  "accessories": [
+    { "name": "Roof transport system main support", "img": "assets/p911img/p911-carrera-configure/roof-transport.jpg", "price": 320 },
+    { "name": "Porsche Performance roof box", "img": "assets/p911img/p911-carrera-configure/roof-box.jpg", "price": 980 },
+    { "name": "Ski-/Snowboard holder", "img": "assets/p911img/p911-carrera-configure/skii-holder.jpg", "price": 290 },
+    { "name": "Car Cover", "img": "assets/p911img/p911-carrera-configure/car-cover.jpg", "price": 190 }
+  ]
+}

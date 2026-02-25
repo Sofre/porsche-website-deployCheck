@@ -1,0 +1,360 @@
+{
+  
+    "model": "Panamera",
+    "basePrice": 120664,
+    "exteriorColorGroups": [
+    {
+      
+      "title": "Contrasts",
+      "price": 0,
+      "colors": [
+        { "name": "White Contrast", "img": "assets/p911img/p911-carrera-configure/white color.jpg" },
+        { "name": "Black Contrast", "img": "assets/p911img/p911-carrera-configure/black color.jpg" }
+      ]
+    },
+    {
+      "title": "Shades",
+      "price": 1263,
+      "colors": [
+        { "name": "Dolomite Silver Metallic", "img": "assets/p911img/p911-carrera-configure/gt silver metallic.jpg" }
+      ]
+    },
+    {
+      "title": "Dreams",
+      "price": 2018,
+      "colors": [
+        { "name": "Carmine Red", "img": "assets/p911img/p911-carrera-configure/guards red.jpg" },
+        { "name": "Lugano Blue", "img": "assets/p911img/p911-carrera-configure/lugano blue.jpg" },
+        { "name": "Frozen Blue Metallic", "img": "assets/panamera-img/fb-metallic/fb-metallic.jpg" }
+        
+        
+      ]
+    }
+  ],
+  "wheelGroups": [
+    {
+      "title": "19/20-inch",
+      "displayPrice": "+ EUR 0,00",
+      "wheels": [
+        { "name": "Standard 19\" Wheels", "img": "assets/panamera-img/panamera-configure/19 panamera.jpg", "price": 0 }
+      ]
+    },
+    {
+      "title": "20-inch",
+      "displayPrice": "+ EUR varies",
+      "wheels": [
+        { "name": "20-inch Panamera AeroDesign wheel", "img": "assets/panamera-img/panamera-configure/20 ad.jpg", "price": 2261 },
+        { "name": "20-inch Panamera Design wheels", "img": "assets/panamera-img/panamera-configure/20 pan design.jpg", "price": 2625 }
+      ]
+    },
+     {
+      "title": "21-inch",
+      "displayPrice": "+ EUR varies",
+      "wheels": [
+        { "name": "21-inch 911 Turbo Design wheels", "img": "assets/panamera-img/panamera-configure/21 turbo.jpg", "price": 4448 }
+      ]
+    }
+  ],
+  "combinedImageMap": {
+    "White Contrast": {
+      "Standard 19\" Wheels": [
+        "assets/panamera-img/white/panamera/Panamera (1).jpg",
+        "assets/panamera-img/white/panamera/Panamera (2).jpg",
+        "assets/panamera-img/white/panamera/Panamera (3).jpg",
+        "assets/panamera-img/white/panamera/Panamera (4).jpg",
+        "assets/panamera-img/white/panamera/Panamera (5).jpg",
+        "assets/panamera-img/white/panamera/Panamera (6).jpg"
+       
+      ],
+      "20-inch Panamera AeroDesign wheel": [
+        "assets/panamera-img/white/panamera/Panamera 20 ad (1).jpg",
+        "assets/panamera-img/white/panamera/Panamera 20 ad (2).jpg",
+        "assets/panamera-img/white/panamera/Panamera 20 ad (3).jpg",
+        "assets/panamera-img/white/panamera/Panamera 20 ad (4).jpg",
+        "assets/panamera-img/white/panamera/Panamera (5).jpg",
+        "assets/panamera-img/white/panamera/Panamera (6).jpg"
+      ],
+      "20-inch Panamera Design wheels": [
+        "assets/panamera-img/white/panamera/Panamera 20 (1).jpg",
+        "assets/panamera-img/white/panamera/Panamera 20 (2).jpg",
+        "assets/panamera-img/white/panamera/Panamera 20 (3).jpg",
+        "assets/panamera-img/white/panamera/Panamera 20 (4).jpg",
+        "assets/panamera-img/white/panamera/Panamera (5).jpg",
+        "assets/panamera-img/white/panamera/Panamera (6).jpg"
+      ],
+      "21-inch 911 Turbo Design wheels": [
+        "assets/panamera-img/white/panamera/Panamera 21 turbo (1).jpg",
+        "assets/panamera-img/white/panamera/Panamera 21 turbo (2).jpg",
+        "assets/panamera-img/white/panamera/Panamera 21 turbo (3).jpg",
+        "assets/panamera-img/white/panamera/Panamera 21 turbo (4).jpg",
+        "assets/panamera-img/white/panamera/Panamera (5).jpg",
+        "assets/panamera-img/white/panamera/Panamera (6).jpg"
+      ]
+      
+    },
+    "Black Contrast": {
+            "Standard 19\" Wheels": [
+        "assets/panamera-img/black/panamera/Panamera (1).jpg",
+        "assets/panamera-img/black/panamera/Panamera (2).jpg",
+        "assets/panamera-img/black/panamera/Panamera (3).jpg",
+        "assets/panamera-img/black/panamera/Panamera (4).jpg",
+        "assets/panamera-img/black/panamera/Panamera (5).jpg",
+        "assets/panamera-img/black/panamera/Panamera (6).jpg"
+       
+      ],
+"20-inch Panamera AeroDesign wheel": [
+        "assets/panamera-img/black/panamera/Panamera 20 ad (1).jpg",
+        "assets/panamera-img/black/panamera/Panamera 20 ad (2).jpg",
+        "assets/panamera-img/black/panamera/Panamera 20 ad (3).jpg",
+        "assets/panamera-img/black/panamera/Panamera 20 ad (4).jpg",
+        "assets/panamera-img/black/panamera/Panamera (5).jpg",
+        "assets/panamera-img/black/panamera/Panamera (6).jpg"
+      ],
+      "20-inch Panamera Design wheels": [
+        "assets/panamera-img/black/panamera/Panamera 20 (1).jpg",
+        "assets/panamera-img/black/panamera/Panamera 20 (2).jpg",
+        "assets/panamera-img/black/panamera/Panamera 20 (3).jpg",
+        "assets/panamera-img/black/panamera/Panamera 20 (4).jpg",
+        "assets/panamera-img/black/panamera/Panamera (5).jpg",
+        "assets/panamera-img/black/panamera/Panamera (6).jpg"
+      ],
+      "21-inch 911 Turbo Design wheels": [
+        "assets/panamera-img/black/panamera/Panamera 21 turbo (1).jpg",
+        "assets/panamera-img/black/panamera/Panamera 21 turbo (2).jpg",
+        "assets/panamera-img/black/panamera/Panamera 21 turbo (3).jpg",
+        "assets/panamera-img/black/panamera/Panamera 21 turbo (4).jpg",
+        "assets/panamera-img/black/panamera/Panamera (5).jpg",
+        "assets/panamera-img/black/panamera/Panamera (6).jpg"
+      ]
+  
+},
+  "Dolomite Silver Metallic": {
+            "Standard 19\" Wheels": [
+        "assets/panamera-img/ds-metallic/panamera/Panamera (1).jpg",
+        "assets/panamera-img/ds-metallic/panamera/Panamera (2).jpg",
+        "assets/panamera-img/ds-metallic/panamera/Panamera (3).jpg",
+        "assets/panamera-img/ds-metallic/panamera/Panamera (4).jpg",
+        "assets/panamera-img/ds-metallic/panamera/Panamera (5).jpg",
+        "assets/panamera-img/ds-metallic/panamera/Panamera (6).jpg"
+       
+      ],
+"20-inch Panamera AeroDesign wheel": [
+        "assets/panamera-img/ds-metallic/panamera/Panamera 20 ad (1).jpg",
+        "assets/panamera-img/ds-metallic/panamera/Panamera 20 ad (2).jpg",
+        "assets/panamera-img/ds-metallic/panamera/Panamera 20 ad (3).jpg",
+        "assets/panamera-img/ds-metallic/panamera/Panamera 20 ad (4).jpg",
+        "assets/panamera-img/ds-metallic/panamera/Panamera (5).jpg",
+        "assets/panamera-img/ds-metallic/panamera/Panamera (6).jpg"
+      ],
+      "20-inch Panamera Design wheels": [
+        "assets/panamera-img/ds-metallic/panamera/Panamera 20 (1).jpg",
+        "assets/panamera-img/ds-metallic/panamera/Panamera 20 (2).jpg",
+        "assets/panamera-img/ds-metallic/panamera/Panamera 20 (3).jpg",
+        "assets/panamera-img/ds-metallic/panamera/Panamera 20 (4).jpg",
+        "assets/panamera-img/ds-metallic/panamera/Panamera (5).jpg",
+        "assets/panamera-img/ds-metallic/panamera/Panamera (6).jpg"
+      ],
+      "21-inch 911 Turbo Design wheels": [
+        "assets/panamera-img/ds-metallic/panamera/Panamera 21 turbo (1).jpg",
+        "assets/panamera-img/ds-metallic/panamera/Panamera 21 turbo (2).jpg",
+        "assets/panamera-img/ds-metallic/panamera/Panamera 21 turbo (3).jpg",
+        "assets/panamera-img/ds-metallic/panamera/Panamera 21 turbo (4).jpg",
+        "assets/panamera-img/ds-metallic/panamera/Panamera (5).jpg",
+        "assets/panamera-img/ds-metallic/panamera/Panamera (6).jpg"
+      ]
+},
+  
+  "Carmine Red": {
+            "Standard 19\" Wheels": [
+        "assets/panamera-img/c-red/panamera/Panamera (1).jpg",
+        "assets/panamera-img/c-red/panamera/Panamera (2).jpg",
+        "assets/panamera-img/c-red/panamera/Panamera (3).jpg",
+        "assets/panamera-img/c-red/panamera/Panamera (4).jpg",
+        "assets/panamera-img/c-red/panamera/Panamera (5).jpg",
+        "assets/panamera-img/c-red/panamera/Panamera (6).jpg"
+       
+      ],
+"20-inch Panamera AeroDesign wheel": [
+        "assets/panamera-img/c-red/panamera/Panamera 20 ad (1).jpg",
+        "assets/panamera-img/c-red/panamera/Panamera 20 ad (2).jpg",
+        "assets/panamera-img/c-red/panamera/Panamera 20 ad (3).jpg",
+        "assets/panamera-img/c-red/panamera/Panamera 20 ad (4).jpg",
+        "assets/panamera-img/c-red/panamera/Panamera (5).jpg",
+        "assets/panamera-img/c-red/panamera/Panamera (6).jpg"
+      ],
+      "20-inch Panamera Design wheels": [
+        "assets/panamera-img/c-red/panamera/Panamera 20 (1).jpg",
+        "assets/panamera-img/c-red/panamera/Panamera 20 (2).jpg",
+        "assets/panamera-img/c-red/panamera/Panamera 20 (3).jpg",
+        "assets/panamera-img/c-red/panamera/Panamera 20 (4).jpg",
+        "assets/panamera-img/c-red/panamera/Panamera (5).jpg",
+        "assets/panamera-img/c-red/panamera/Panamera (6).jpg"
+      ],
+      "21-inch 911 Turbo Design wheels": [
+        "assets/panamera-img/c-red/panamera/Panamera 21 turbo (1).jpg",
+        "assets/panamera-img/c-red/panamera/Panamera 21 turbo (2).jpg",
+        "assets/panamera-img/c-red/panamera/Panamera 21 turbo (3).jpg",
+        "assets/panamera-img/c-red/panamera/Panamera 21 turbo (4).jpg",
+        "assets/panamera-img/c-red/panamera/Panamera (5).jpg",
+        "assets/panamera-img/c-red/panamera/Panamera (6).jpg"
+      ]
+},
+
+  "Lugano Blue": {
+            "Standard 19\" Wheels": [
+        "assets/panamera-img/l-blue/panamera/Panamera (1).jpg",
+        "assets/panamera-img/l-blue/panamera/Panamera (2).jpg",
+        "assets/panamera-img/l-blue/panamera/Panamera (3).jpg",
+        "assets/panamera-img/l-blue/panamera/Panamera (4).jpg",
+        "assets/panamera-img/l-blue/panamera/Panamera (5).jpg",
+        "assets/panamera-img/l-blue/panamera/Panamera (6).jpg"
+       
+      ],
+"20-inch Panamera AeroDesign wheel": [
+        "assets/panamera-img/l-blue/panamera/Panamera 20 ad (1).jpg",
+        "assets/panamera-img/l-blue/panamera/Panamera 20 ad (2).jpg",
+        "assets/panamera-img/l-blue/panamera/Panamera 20 ad (3).jpg",
+        "assets/panamera-img/l-blue/panamera/Panamera 20 ad (4).jpg",
+        "assets/panamera-img/l-blue/panamera/Panamera (5).jpg",
+        "assets/panamera-img/l-blue/panamera/Panamera (6).jpg"
+      ],
+      "20-inch Panamera Design wheels": [
+        "assets/panamera-img/l-blue/panamera/Panamera 20 (1).jpg",
+        "assets/panamera-img/l-blue/panamera/Panamera 20 (2).jpg",
+        "assets/panamera-img/l-blue/panamera/Panamera 20 (3).jpg",
+        "assets/panamera-img/l-blue/panamera/Panamera 20 (4).jpg",
+        "assets/panamera-img/l-blue/panamera/Panamera (5).jpg",
+        "assets/panamera-img/l-blue/panamera/Panamera (6).jpg"
+      ],
+      "21-inch 911 Turbo Design wheels": [
+        "assets/panamera-img/l-blue/panamera/Panamera 21 turbo (1).jpg",
+        "assets/panamera-img/l-blue/panamera/Panamera 21 turbo (2).jpg",
+        "assets/panamera-img/l-blue/panamera/Panamera 21 turbo (3).jpg",
+        "assets/panamera-img/l-blue/panamera/Panamera 21 turbo (4).jpg",
+        "assets/panamera-img/l-blue/panamera/Panamera (5).jpg",
+        "assets/panamera-img/l-blue/panamera/Panamera (6).jpg"
+      ]
+},
+ "Frozen Blue Metallic": {
+            "Standard 19\" Wheels": [
+        "assets/panamera-img/fb-metallic/panamera/Panamera (1).jpg",
+        "assets/panamera-img/fb-metallic/panamera/Panamera (2).jpg",
+        "assets/panamera-img/fb-metallic/panamera/Panamera (3).jpg",
+        "assets/panamera-img/fb-metallic/panamera/Panamera (4).jpg",
+        "assets/panamera-img/fb-metallic/panamera/Panamera (5).jpg",
+        "assets/panamera-img/fb-metallic/panamera/Panamera (6).jpg"
+       
+      ],
+"20-inch Panamera AeroDesign wheel": [
+        "assets/panamera-img/fb-metallic/panamera/Panamera 20 ad (1).jpg",
+        "assets/panamera-img/fb-metallic/panamera/Panamera 20 ad (2).jpg",
+        "assets/panamera-img/fb-metallic/panamera/Panamera 20 ad (3).jpg",
+        "assets/panamera-img/fb-metallic/panamera/Panamera 20 ad (4).jpg",
+        "assets/panamera-img/fb-metallic/panamera/Panamera (5).jpg",
+        "assets/panamera-img/fb-metallic/panamera/Panamera (6).jpg"
+      ],
+      "20-inch Panamera Design wheels": [
+        "assets/panamera-img/fb-metallic/panamera/Panamera 20 (1).jpg",
+        "assets/panamera-img/fb-metallic/panamera/Panamera 20 (2).jpg",
+        "assets/panamera-img/fb-metallic/panamera/Panamera 20 (3).jpg",
+        "assets/panamera-img/fb-metallic/panamera/Panamera 20 (4).jpg",
+        "assets/panamera-img/fb-metallic/panamera/Panamera (5).jpg",
+        "assets/panamera-img/fb-metallic/panamera/Panamera (6).jpg"
+      ],
+      "21-inch 911 Turbo Design wheels": [
+        "assets/panamera-img/fb-metallic/panamera/Panamera 21 turbo (1).jpg",
+        "assets/panamera-img/fb-metallic/panamera/Panamera 21 turbo (2).jpg",
+        "assets/panamera-img/fb-metallic/panamera/Panamera 21 turbo (3).jpg",
+        "assets/panamera-img/fb-metallic/panamera/Panamera 21 turbo (4).jpg",
+        "assets/panamera-img/fb-metallic/panamera/Panamera (5).jpg",
+        "assets/panamera-img/fb-metallic/panamera/Panamera (6).jpg"
+      ]
+}
+
+
+  
+
+
+
+
+    
+  },
+  "interiorGroups": [
+    {
+      "title": "Standard",
+      "displayPrice": "+ EUR varies",
+      "interiors": [
+        { "name": "Black", "img": "assets/p911img/interior/black.jpg", "displayPrice": "+ 0,00 EUR varies", "price": 0 }
+        
+        
+      ]
+    },
+    {
+      "title": "Leather",
+      "displayPrice": "+ EUR varies",
+      "interiors": [
+        { "name": "Black/Bordeaux Red", "img": "assets/p911img/interior/b-b-red.jpg", "price": 4368 },
+        { "name": "Black/Kalahari", "img": "assets/panamera-img/panamera-configure/interior/bk.jpg", "price": 4368 }
+      ]
+    }
+  ],
+  "seatGroups": [
+    {
+      "title": "Comfort Seats",
+      "displayPrice": "+ EUR varies",
+      "seats": [
+        { "name": "Comfort Seats", "img": "assets/panamera-img/panamera-configure/interior/c-seats.jpg", "displayPrice": "Standard equipment", "price": 0 },
+        { "name": "Comfort Seats with memory package", "img": "assets/panamera-img/panamera-configure/interior/c-seats.jpg", "price": 1331 }
+      ]
+    },
+    {
+      "title": "Sport Seats",
+      "displayPrice": "+ EUR varies",
+      "seats": [
+        { "name": "Sport Seats with memory package", "img": "assets/panamera-img/panamera-configure/interior/s-seats.jpg", "price": 2765 }
+      ]
+    }
+  ],
+  "interiorSeatImageMap": {
+    "Black": {
+      "Comfort Seats": ["assets/panamera-img/panamera-configure/interior/c-seats/Panamera (7).jpg",
+                        "assets/panamera-img/panamera-configure/interior/c-seats/Panamera (8).jpg"],
+      "Comfort Seats with memory package": ["assets/panamera-img/panamera-configure/interior/c-seats/Panamera (7).jpg",
+                                            "assets/panamera-img/panamera-configure/interior/c-seats/Panamera (8).jpg"],
+      "Sport Seats with memory package": ["assets/panamera-img/panamera-configure/interior/s-seats/black 7.jpg",
+                                          "assets/panamera-img/panamera-configure/interior/s-seats/black 8.jpg"]
+    },
+    "Black/Bordeaux Red": {
+      "Comfort Seats": ["assets/panamera-img/panamera-configure/interior/c-seats/bb red 7.jpg",
+                        "assets/panamera-img/panamera-configure/interior/c-seats/bb red 8.jpg"],
+      "Comfort Seats with memory package": ["assets/panamera-img/panamera-configure/interior/c-seats/bb red 7.jpg",
+                                            "assets/panamera-img/panamera-configure/interior/c-seats/bb red 8.jpg"],
+      "Sport Seats with memory package": ["assets/panamera-img/panamera-configure/interior/s-seats/bb red 7.jpg",
+                                          "assets/panamera-img/panamera-configure/interior/s-seats/bb red 8.jpg"]
+    },
+   
+    "Black/Kalahari": {
+      "Comfort Seats": ["assets/panamera-img/panamera-configure/interior/c-seats/bk 7.jpg",
+                        "assets/panamera-img/panamera-configure/interior/c-seats/bk 8.jpg"],
+      "Comfort Seats with memory package": ["assets/panamera-img/panamera-configure/interior/c-seats/bk 7.jpg",
+                                            "assets/panamera-img/panamera-configure/interior/c-seats/bk 8.jpg"],
+      "Sport Seats with memory package": ["assets/panamera-img/panamera-configure/interior/s-seats/bk 7.jpg",
+                                          "assets/panamera-img/panamera-configure/interior/s-seats/bk 8.jpg"]
+    }
+
+  },
+  "technologyGroups": [
+    {
+      "seats": [
+        { "name": "Remote ParkAssist", "price": 486, "img": "assets/panamera-img/panamera-configure/park-assist.jpg", "imageUrl": "assets/panamera-img/panamera-configure/park-assist.jpg", "description": "Remote-controlled parking allows to enter and leave the parking space via your smartphone. The system automatically detects parking spaces and measures their size. If the parking space is a suitable size, the driver can initiate the parking maneuver and then get out. The parking maneuver is carried out by continuously pressing the button of the smartphone app. At the end of the parking maneuver, the vehicle is automatically switched off and locked." },
+        { "name": "Night Vision Assist", "price": 2613, "img": "assets/panamera-img/white/panamera/Panamera (5).jpg", "imageUrl": "assets/panamera-img/white/panamera/Panamera (5).jpg", "description": "Infrared thermal image displayed in the instrument cluster. Provides the driver with information beyond the range of the headlights. Detected pedestrians, are highlighted in yellow.Pedestrians within critical range and deer and other large wildlife are highlighted in red and the driver receives a warning (visual and audible). " }
+      ]
+    }
+  ],
+  "accessories": [
+    { "name": "Roof transport system main support", "img": "assets/panamera-img/panamera-configure/roof-transport.jpg", "price": 320 },
+    { "name": "Porsche Performance roof box", "img": "assets/panamera-img/panamera-configure/roof-box.jpg", "price": 980 },
+    { "name": "Ski-/Snowboard holder", "img": "assets/panamera-img/panamera-configure/skii-holder.jpg", "price": 290 },
+    { "name": "Car Cover", "img": "assets/panamera-img/panamera-configure/car-cover.jpg", "price": 190 }
+  ]
+}

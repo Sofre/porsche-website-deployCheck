@@ -1,0 +1,205 @@
+{
+  
+    "model": "911 GT3 RS",
+    "basePrice": 263826,
+    "exteriorColorGroups": [
+    {
+      
+      "title": "Standard Colour",
+      "price": 0,
+      "colors": [
+        { "name": "White Contrast", "img": "assets/p911img/p911-carrera-configure/white color.jpg" },
+        { "name": "Black Contrast", "img": "assets/p911img/p911-carrera-configure/black color.jpg" },
+        { "name": "Guards Red", "img": "assets/p911img/p911-carrera-configure/guards red.jpg" }
+      ]
+    },
+    {
+      "title": "Special Colour",
+      "price": 3645,
+      "colors": [
+        { "name": "Artic Grey", "img": "assets/p911img/p911-carrera-configure/artic-grey.jpg" },
+        { "name": "Viper Green", "img": "assets/p911img/gt3rs-configure/viper-green.jpg" }
+        
+        
+      ]
+    }
+  ],
+  "wheelGroups": [
+ 
+    {
+      "title": "20/21-inch",
+      "displayPrice": "+ EUR varies",
+      "wheels": [
+        { "name": "20-/21-Inch forged Aluminum wheels", "img": "assets/p911img/gt3rs-configure/20 al.jpg", "price": 0 },
+        { "name": "20-/21-Inch forged Aluminum lightweight", "img": "assets/p911img/gt3rs-configure/20 al g.jpg", "price": 3645 }
+        
+        
+      ]
+    }
+  ],
+  "combinedImageMap": {
+    "White Contrast": {
+      "20-/21-Inch forged Aluminum wheels\" Wheels": [
+        "assets/p911img/white/gt3rs/911 GT3 RS (1).jpg",
+        "assets/p911img/white/gt3rs/911 GT3 RS (2).jpg",
+        "assets/p911img/white/gt3rs/911 GT3 RS (3).jpg",
+        "assets/p911img/white/gt3rs/911 GT3 RS (4).jpg",
+        "assets/p911img/white/gt3rs/911 GT3 RS (5).jpg",
+        "assets/p911img/white/gt3rs/911 GT3 RS (6).jpg"
+       
+      ],
+      "20-/21-Inch forged Aluminum lightweight": [
+        "assets/p911img/white/gt3rs/911 GT3 RS g (1).jpg",
+        "assets/p911img/white/gt3rs/911 GT3 RS g (2).jpg",
+        "assets/p911img/white/gt3rs/911 GT3 RS g (3).jpg",
+        "assets/p911img/white/gt3rs/911 GT3 RS (4).jpg",
+        "assets/p911img/white/gt3rs/911 GT3 RS (5).jpg",
+        "assets/p911img/white/gt3rs/911 GT3 RS (6).jpg"
+      ]
+      
+    },
+    "Black Contrast": {
+      "20-/21-Inch forged Aluminum wheels\" Wheels": [
+        "assets/p911img/black/gt3rs/911 GT3 RS Black (1).jpg",
+        "assets/p911img/black/gt3rs/911 GT3 RS Black (2).jpg",
+        "assets/p911img/black/gt3rs/911 GT3 RS Black (3).jpg",
+        "assets/p911img/black/gt3rs/911 GT3 RS Black (4).jpg",
+        "assets/p911img/black/gt3rs/911 GT3 RS Black (5).jpg",
+        "assets/p911img/black/gt3rs/911 GT3 RS Black (6).jpg"
+      ],
+      "20-/21-Inch forged Aluminum lightweight": [
+        "assets/p911img/black/gt3rs/911 GT3 RS Black g (1).jpg",
+        "assets/p911img/black/gt3rs/911 GT3 RS Black g (2).jpg",
+        "assets/p911img/black/gt3rs/911 GT3 RS Black g (3).jpg",
+        "assets/p911img/black/gt3rs/911 GT3 RS Black (4).jpg",
+        "assets/p911img/black/gt3rs/911 GT3 RS Black (5).jpg",
+        "assets/p911img/black/gt3rs/911 GT3 RS Black (6).jpg"
+      ]
+  
+},
+   "Guards Red": {
+  "20-/21-Inch forged Aluminum wheels\" Wheels": [
+    "assets/p911img/guards-red/gt3rs/911 GT3 RS Guards Red (1).jpg",
+    "assets/p911img/guards-red/gt3rs/911 GT3 RS Guards Red (2).jpg",
+    "assets/p911img/guards-red/gt3rs/911 GT3 RS Guards Red (3).jpg",
+    "assets/p911img/guards-red/gt3rs/911 GT3 RS Guards Red (4).jpg",
+    "assets/p911img/guards-red/gt3rs/911 GT3 RS Guards Red (5).jpg",
+    "assets/p911img/guards-red/gt3rs/911 GT3 RS Guards Red (6).jpg"
+  ],
+  "20-/21-Inch forged Aluminum lightweight": [
+    "assets/p911img/guards-red/gt3rs/911 GT3 RS gr g (1).jpg",
+    "assets/p911img/guards-red/gt3rs/911 GT3 RS gr g (2).jpg",
+    "assets/p911img/guards-red/gt3rs/911 GT3 RS gr g (3).jpg",
+    "assets/p911img/guards-red/gt3rs/911 GT3 RS Guards Red (4).jpg",
+    "assets/p911img/guards-red/gt3rs/911 GT3 RS Guards Red (5).jpg",
+    "assets/p911img/guards-red/gt3rs/911 GT3 RS Guards Red (6).jpg"
+  ]
+},
+  
+  "Artic Grey": {
+  "20-/21-Inch forged Aluminum wheels\" Wheels": [
+    "assets/p911img/artic-grey/gt3rs/911 GT3 RS ag (1).jpg",
+    "assets/p911img/artic-grey/gt3rs/911 GT3 RS ag (2).jpg",
+    "assets/p911img/artic-grey/gt3rs/911 GT3 RS ag (3).jpg",
+    "assets/p911img/artic-grey/gt3rs/911 GT3 RS ag (4).jpg",
+    "assets/p911img/artic-grey/gt3rs/911 GT3 RS ag (5).jpg",
+    "assets/p911img/artic-grey/gt3rs/911 GT3 RS ag (6).jpg"
+  ],
+  "20-/21-Inch forged Aluminum lightweight": [
+    "assets/p911img/artic-grey/gt3rs/911 GT3 RS ag g (1).jpg",
+    "assets/p911img/artic-grey/gt3rs/911 GT3 RS ag g (2).jpg",
+    "assets/p911img/artic-grey/gt3rs/911 GT3 RS ag g (3).jpg",
+    "assets/p911img/artic-grey/gt3rs/911 GT3 RS ag (4).jpg",
+    "assets/p911img/artic-grey/gt3rs/911 GT3 RS ag (5).jpg",
+    "assets/p911img/artic-grey/gt3rs/911 GT3 RS ag (6).jpg"
+  ]
+},
+
+ "Viper Green": {
+  "20-/21-Inch forged Aluminum wheels\" Wheels": [
+    "assets/p911img/gt3rs-configure/viper-green/911 GT3 RS vg (1).jpg",
+    "assets/p911img/gt3rs-configure/viper-green/911 GT3 RS vg (2).jpg",
+    "assets/p911img/gt3rs-configure/viper-green/911 GT3 RS vg (3).jpg",
+    "assets/p911img/gt3rs-configure/viper-green/911 GT3 RS vg (4).jpg",
+    "assets/p911img/gt3rs-configure/viper-green/911 GT3 RS vg (5).jpg",
+    "assets/p911img/gt3rs-configure/viper-green/911 GT3 RS vg (6).jpg"
+  ],
+  "20-/21-Inch forged Aluminum lightweight": [
+    "assets/p911img/gt3rs-configure/viper-green/911 GT3 RS vg g (1).jpg",
+    "assets/p911img/gt3rs-configure/viper-green/911 GT3 RS vg g (2).jpg",
+    "assets/p911img/gt3rs-configure/viper-green/911 GT3 RS vg g (3).jpg",
+    "assets/p911img/gt3rs-configure/viper-green/911 GT3 RS vg (4).jpg",
+    "assets/p911img/gt3rs-configure/viper-green/911 GT3 RS vg (5).jpg",
+    "assets/p911img/gt3rs-configure/viper-green/911 GT3 RS vg (6).jpg"
+  ]
+}
+
+
+
+  
+
+
+
+
+    
+  },
+  "interiorGroups": [
+    {
+      "title": "Leather",
+      "displayPrice": "+ EUR varies",
+      "interiors": [
+        { "name": "Black with white stripes", "img": "assets/p911img/interior/black-white-stripes.jpg", "displayPrice": "+ 0,00 EUR varies", "price": 0 },
+        { "name": "Black with red stripes", "img": "assets/p911img/interior/black-red-stripes.jpg", "price": 4247 }
+      ]
+    }
+    
+  ],
+  "seatGroups": [
+    {
+      "title": "Full Bucket Seats",
+      "seats": [
+        { "name": "Full bucket seats", "img": "assets/p911img/interior/bucket-seats.jpg","displayPrice": "Standard equipment", "price": 0 }
+        
+      ]
+    },
+    {
+      "title": "Sport Seats Plus",
+      "seats": [
+        { "name": "Sport Seats Plus", "img": "assets/p911img/interior/sport-seats-plus.jpg", "price": 0 }
+        
+      ]
+    }
+    
+  ],
+  "interiorSeatImageMap": {
+    "Black with white stripes": {
+      "Full Bucket Seats": ["assets/p911img/gt3rs-configure/interior/bucket-seats/911 GT3 RS (7).jpg",
+                           "assets/p911img/gt3rs-configure/interior/bucket-seats/911 GT3 RS (8).jpg"],
+      "Sport Seats Plus": ["assets/p911img/gt3rs-configure/interior/sport-plus/black 7.jpg",
+                           "assets/p911img/gt3rs-configure/interior/sport-plus/black 8.jpg"]
+    },
+    "Black with red stripes": {
+      "Full Bucket Seats": ["assets/p911img/gt3rs-configure/interior/bucket-seats/b red 7.jpg",
+                            "assets/p911img/gt3rs-configure/interior/bucket-seats/b red 8.jpg"],
+      
+      "Sport Seats Plus": ["assets/p911img/gt3rs-configure/interior/sport-plus/b red 7.jpg",
+                           "assets/p911img/gt3rs-configure/interior/sport-plus/b red 8.jpg"]
+          
+    }
+  },
+  "technologyGroups": [
+    {
+      "seats": [
+        { "name": "Lane Change Assist", "price": 875, "img": "assets/p911img/p911-carrera-configure/lane change assist.jpg", "videoUrl": "assets/p911img/p911-carrera-configure/lane-change-assist.mp4", "description": "Alerts the driver to vehicles rapidly approaching from behind or vehicles travelling at the same speed in potential blind spots..." },
+        { "name": "Adaptive cruise control", "price": 1737, "img": "assets/p911img/p911-carrera-configure/adaptive c control.jpg", "videoUrl": "assets/p911img/p911-carrera-configure/adaptive-c-control.mp4", "description": "Radar-based technology that automatically maintains a specified distance from the vehicle in front..." },
+        { "name": "HomeLink®", "price": 291, "img": "assets/p911img/gt3rs-configure/homelink.jpg", "videoUrl": "assets/p911img/gt3rs-configure/homelink.mp4", "description": "Integrated and programmable remote control for up to three garage door, gate, lighting and/or property alarm systems" }
+      ]
+    }
+  ],
+  "accessories": [
+    { "name": "Roof transport system main support", "img": "assets/p911img/p911-carrera-configure/roof-transport.jpg", "price": 320 },
+    { "name": "Porsche Performance roof box", "img": "assets/p911img/p911-carrera-configure/roof-box.jpg", "price": 980 },
+    { "name": "Ski-/Snowboard holder", "img": "assets/p911img/p911-carrera-configure/skii-holder.jpg", "price": 290 },
+    { "name": "Car Cover", "img": "assets/p911img/p911-carrera-configure/car-cover.jpg", "price": 190 }
+  ]
+}

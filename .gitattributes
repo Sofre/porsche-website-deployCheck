@@ -1,0 +1,2 @@
+src/assets/p911img/p911-carrera-configure/*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
