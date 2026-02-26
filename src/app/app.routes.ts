@@ -12,18 +12,18 @@ import { CarConfigComponent } from './models/configure/car-config/car-config.com
 
 
 export const AppRoutes: Routes = [
-  { path: '', component: HomeComponent, data: { animation: null } },
+  { path: '', component: HomeComponent, data: { animation: 'HomePage' } },
 
   { path: 'models', component: ModelsComponent, data: { animation: 'ModelsPage' } },
 
-  { path: 'models/:model/:variant', component: VariantComponent },
+  { path: 'models/:model/:variant', component: VariantComponent, data: { animation: 'VariantPage' } },
 
-  { path: 'configure/:variant', component: CarConfigComponent },
+  { path: 'configure/:variant', component: CarConfigComponent, data: { animation: 'ConfigPage' } },
 
-  { path: 'compare', component: CompareComponent },
+  { path: 'compare', component: CompareComponent, data: { animation: 'ComparePage' } },
 
-  { path: 'brand', component: BrandComponent },
+  { path: 'brand', component: BrandComponent, data: { animation: 'BrandPage' } },
 
-  { path: '**', redirectTo: '' }
+  { path: '**', redirectTo: '', data: { animation: 'NotFoundPage' } }
 ];
 

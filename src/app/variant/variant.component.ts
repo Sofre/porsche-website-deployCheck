@@ -93,13 +93,15 @@ ngOnInit() {
     this.variant = foundVariant;
 
     // 🔹 FIXED: Exact match on model, only include variants with a name
-this.modelVariants = VARIANTS.filter(v =>
-  v.route?.toLowerCase().startsWith(`/models/${this.currentModel.toLowerCase()}/`)
-);
+    this.modelVariants = VARIANTS.filter(v =>
+      v.route?.toLowerCase().startsWith(`/models/${this.currentModel.toLowerCase()}/`)
+    );
 
-    console.log('modelVariants:', this.modelVariants); // Should now be correct
+    console.log('VariantComponent: variant loaded', this.variant);
+    console.log('VariantComponent: modelVariants loaded', this.modelVariants);
 
     this.sections = this.variant.technical?.sections || [];
+    console.log('VariantComponent: technical details loaded', this.variant.technical);
     this.resetStats();
   });
 }
@@ -116,8 +118,10 @@ navigateToVariant(variantName: string) {
   if (this.variant?.name === variantName) return;
 
   const selected = this.modelVariants.find(v => v.name === variantName);
+  console.log('navigateToVariant: selected variant', selected);
 
   if (selected?.route) {
+    console.log('navigateToVariant: navigating to', selected.route);
     this.router.navigate([selected.route]);
   }
 }
